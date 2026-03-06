@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Паспорт района</title>
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<!-- Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:        #f0f4f8;
+  --surface:   #ffffff;
+  --surface2:  #e8eef5;
+  --border:    #d1dce8;
+  --accent:    #1a6fdb;
+  --accent2:   #e8500a;
+  --accent3:   #7c3aed;
+  --green:     #0e9e74;
+  --yellow:    #d97706;
+  --red:       #dc2626;
+  --text:      #1a2535;
+  --muted:     #6b7a8d;
+  --font-head: 'Bebas Neue', sans-serif;
+  --font-body: 'Geologica', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── HEADER ── */
+.header {
+  position: relative;
+  z-index: 10;
+  padding: 20px 32px 16px;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: var(--surface);
+  box-shadow: 0 1px 6px rgba(0,0,0,.07);
+}
+.header-left { display: flex; flex-direction: column; gap: 3px; }
+.header-tag {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+.header h1 {
+  font-family: var(--font-head);
+  font-size: clamp(28px, 3vw, 42px);
+  letter-spacing: 2px;
+  line-height: 1;
+  color: var(--text);
+}
+.header-meta { display: flex; gap: 20px; flex-wrap: wrap; }
+.meta-item { text-align: center; }
+.meta-item .val {
+  font-family: var(--font-head);
+  font-size: 30px;
+  color: var(--accent);
+  line-height: 1;
+}
+.meta-item .lbl {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+/* ── FILTER BAR ── */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+.filter-label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.time-slider-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 200px;
+}
+#timeSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  flex: 1;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+#timeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 1px var(--accent), 0 2px 6px rgba(26,111,219,.4);
+  cursor: pointer;
+  transition: transform .15s;
+}
+#timeSlider::-webkit-slider-thumb:hover { transform: scale(1.2); }
+#timeVal {
+  font-family: var(--font-head);
+  font-size: 24px;
+  color: var(--accent);
+  min-width: 72px;
+}
+.cat-filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.cat-btn {
+  padding: 5px 13px;
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .18s;
+  display: flex; align-items: center; gap: 6px;
+}
+.cat-btn.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(26,111,219,.07);
+}
+.cat-btn:hover { border-color: var(--accent); }
+.cat-btn .cat-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+}
+
+/* ── MAIN LAYOUT ── */
+.map-sidebar-row {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  height: calc(100vh - 170px);
+  min-height: 500px;
+}
+
+/* ── MAP ── */
+.map-section {
+  position: relative;
+  overflow: hidden;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* ── SIDEBAR ── */
+.sidebar {
+  border-left: 1px solid var(--border);
+  background: var(--bg);
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.sidebar::-webkit-scrollbar { width: 5px; }
+.sidebar::-webkit-scrollbar-track { background: transparent; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+/* ── SECTIONS ── */
+.section {
+  padding: 20px 22px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  margin-bottom: 6px;
+}
+.section:last-child { margin-bottom: 0; }
+.section-title {
+  font-family: var(--font-head);
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: var(--text);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-title .count-badge {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 10px;
+  background: rgba(26,111,219,.1);
+  color: var(--accent);
+  border: 1px solid rgba(26,111,219,.2);
+}
+
+/* ── SCORECARD ── */
+.scorecard-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  overflow: hidden;
+}
+.score-row {
+  display: grid;
+  grid-template-columns: 1fr 100px 44px;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 11px;
+  border-radius: 9px;
+  background: var(--bg);
+  border: 1.5px solid transparent;
+  transition: border-color .18s, background .18s;
+  min-width: 0;
+}
+.score-row:hover { border-color: var(--accent); background: rgba(26,111,219,.04); }
+.score-row.highlight { border-color: rgba(14,158,116,.35); background: rgba(14,158,116,.04); }
+.score-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: normal;
+  word-break: break-word;
+  overflow: hidden;
+  min-width: 0;
+}
+.score-sub { font-size: 11px; color: var(--muted); margin-top: 3px; }
+.score-bar-wrap {
+  height: 7px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.score-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width .6s ease;
+}
+.score-num {
+  font-family: var(--font-head);
+  font-size: 22px;
+  text-align: right;
+  line-height: 1;
+}
+
+/* ── ZONE BREAKDOWN ── */
+.zone-rings {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.zone-row {
+  display: grid;
+  grid-template-columns: 78px 1fr 38px;
+  align-items: center;
+  gap: 9px;
+}
+.zone-label { font-size: 12px; font-weight: 500; color: var(--muted); }
+.zone-bar-wrap {
+  height: 22px;
+  background: var(--bg);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.zone-bar {
+  height: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 9px;
+  font-size: 11px;
+  font-weight: 700;
+  transition: width .7s ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.zone-count { font-family: var(--font-head); font-size: 18px; color: var(--text); }
+
+/* ── POI LIST ── */
+.poi-list { display: flex; flex-direction: column; gap: 5px; }
+.poi-item {
+  padding: 10px 12px;
+  border-radius: 9px;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  transition: all .18s;
+  display: grid;
+  grid-template-columns: 30px 1fr auto;
+  gap: 9px;
+  align-items: center;
+}
+.poi-item:hover {
+  border-color: var(--accent);
+  background: rgba(26,111,219,.05);
+  transform: translateX(2px);
+}
+.poi-icon { font-size: 18px; text-align: center; }
+.poi-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.poi-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+.poi-right { text-align: right; }
+.poi-time { font-family: var(--font-head); font-size: 18px; color: var(--accent); }
+.poi-rating {
+  font-size: 11px;
+  color: var(--yellow);
+  margin-top: 2px;
+}
+.hidden { display: none !important; }
+
+/* ── CHART SECTION ── */
+.charts-area {
+  border-top: 1px solid var(--border);
+  padding: 36px 32px;
+  background: var(--bg);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 22px 24px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.chart-card-title {
+  font-family: var(--font-head);
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  margin-bottom: 18px;
+  color: var(--text);
+}
+.chart-wrap { position: relative; height: 240px; }
+
+/* ── POPUP ── */
+.leaflet-popup-content-wrapper {
+  background: var(--surface) !important;
+  border: 1.5px solid var(--border) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,.15) !important;
+}
+.leaflet-popup-tip { background: var(--surface) !important; }
+.leaflet-popup-content { color: var(--text); font-family: var(--font-body); }
+.popup-title { font-size: 15px; font-weight: 700; margin-bottom: 5px; color: var(--text); }
+.popup-meta { font-size: 12px; color: var(--muted); display: flex; flex-direction: column; gap: 3px; }
+.popup-rating { color: var(--yellow); font-size: 13px; font-weight: 600; }
+.popup-time { color: var(--accent); font-family: var(--font-head); font-size: 20px; }
+.popup-link {
+  display: inline-block;
+  margin-top: 9px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: .5px;
+  border-bottom: 1.5px solid rgba(26,111,219,.3);
+  transition: border-color .15s;
+}
+.popup-link:hover { border-color: var(--accent); }
+
+/* ── STAT PILLS ── */
+.stat-pills { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+.stat-pill {
+  flex: 1;
+  min-width: 80px;
+  padding: 12px 10px;
+  border-radius: 10px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+.stat-pill .pv {
+  font-family: var(--font-head);
+  font-size: 24px;
+  line-height: 1;
+  color: var(--accent);
+}
+.stat-pill .pl { font-size: 11px; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .5px; }
+
+/* ── LOADING ── */
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: var(--surface);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: opacity .5s;
+}
+.loading-title { font-family: var(--font-head); font-size: 40px; letter-spacing: 3px; color: var(--text); }
+.loading-sub { font-size: 13px; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; }
+.loader {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-screen.done { opacity: 0; pointer-events: none; }
+
+/* ── TABS ── */
+.tab-nav {
+  display: flex;
+  gap: 0;
+  background: var(--surface);
+  border-bottom: 2px solid var(--border);
+  padding: 0 32px;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+}
+.tab-btn {
+  padding: 12px 24px;
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: all .2s;
+  letter-spacing: .3px;
+}
+.tab-btn.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.tab-btn:hover { color: var(--text); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── ARTICLE ── */
+.article-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 32px 80px;
+}
+.article-hero {
+  text-align: center;
+  margin-bottom: 56px;
+  padding: 48px 40px;
+  background: linear-gradient(135deg, #e8f0fe 0%, #f0faf6 100%);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+}
+.article-hero-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+.article-hero-title {
+  font-family: var(--font-head);
+  font-size: clamp(36px, 5vw, 60px);
+  letter-spacing: 2px;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+.article-hero-sub {
+  font-size: 16px;
+  color: var(--muted);
+  max-width: 560px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.article-stats-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 52px;
+}
+.ast {
+  flex: 1;
+  min-width: 130px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 16px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,.05);
+}
+.ast-val {
+  font-family: var(--font-head);
+  font-size: 32px;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.ast-lbl { font-size: 12px; color: var(--muted); line-height: 1.3; }
+
+.article-section {
+  margin-bottom: 52px;
+}
+.article-section-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border);
+}
+.article-section-icon {
+  width: 42px; height: 42px;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+.article-section-title {
+  font-family: var(--font-head);
+  font-size: 26px;
+  letter-spacing: 1px;
+  color: var(--text);
+  line-height: 1;
+}
+.article-lead {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #374151;
+  margin-bottom: 20px;
+}
+.article-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+/* Insight cards */
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin: 20px 0;
+}
+.insight-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 18px 14px;
+  position: relative;
+  overflow: hidden;
+}
+.insight-card::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  border-radius: 12px 0 0 12px;
+}
+.insight-card.green::before  { background: var(--green); }
+.insight-card.blue::before   { background: var(--accent); }
+.insight-card.yellow::before { background: var(--yellow); }
+.insight-card.purple::before { background: var(--accent3); }
+.insight-card.red::before    { background: var(--red); }
+.insight-icon { font-size: 22px; margin-bottom: 8px; }
+.insight-title { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+.insight-text { font-size: 16px; line-height: 1.6; color: #4b5563; }
+
+/* Quote block */
+.quote-block {
+  border-left: 4px solid var(--accent);
+  background: rgba(26,111,219,.05);
+  border-radius: 0 12px 12px 0;
+  padding: 16px 20px;
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #374151;
+  font-style: italic;
+}
+.quote-source {
+  font-size: 11px;
+  color: var(--muted);
+  font-style: normal;
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+/* Pro/Con list */
+.pro-con-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 20px 0;
+}
+.pro-block, .con-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+}
+.pro-block { border-top: 3px solid var(--green); }
+.con-block { border-top: 3px solid #fb923c; }
+.pro-block-title, .con-block-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  display: flex; align-items: center; gap: 6px;
+}
+.pro-block-title { color: var(--green); }
+.con-block-title { color: #ea580c; }
+.pc-item {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4b5563;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex; gap: 8px;
+}
+.pc-item:last-child { border-bottom: none; }
+.pc-icon { flex-shrink: 0; }
+
+/* Summary banner */
+.summary-banner {
+  background: linear-gradient(135deg, #1a6fdb 0%, #0e9e74 100%);
+  border-radius: 20px;
+  padding: 36px 40px;
+  color: #fff;
+  margin-top: 52px;
+  text-align: center;
+}
+.summary-banner-title {
+  font-family: var(--font-head);
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+.summary-banner-text {
+  font-size: 15px;
+  line-height: 1.7;
+  opacity: .92;
+  max-width: 620px;
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .map-sidebar-row { grid-template-columns: 1fr; height: auto; }
+  .map-section { min-height: 400px; }
+  #map { height: 400px; }
+  .sidebar { height: auto; max-height: 80vh; }
+  .charts-area { padding: 20px 16px; grid-template-columns: 1fr; }
+  .header { padding: 16px 20px; }
+  .filter-bar { padding: 10px 16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="loading-screen" id="loadingScreen">
+  <div class="loader"></div>
+  <div class="loading-title">ПАСПОРТ РАЙОНА</div>
+  <div class="loading-sub">Загружаем данные…</div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-left">
+    <div class="header-tag">Urban Analytics · Москва</div>
+    <h1>ПАСПОРТ РАЙОНА</h1>
+  </div>
+  <div class="header-meta" id="headerMeta"></div>
+</header>
+
+<!-- TAB NAV -->
+<nav class="tab-nav">
+  <button class="tab-btn active" id="btnMap" onclick="switchTab('map')">🗺 Карта и аналитика</button>
+  <button class="tab-btn" id="btnArticle" onclick="switchTab('article')">📖 О районе</button>
+</nav>
+
+<!-- ══════════════ TAB: MAP ══════════════ -->
+<div class="tab-panel active" id="tab-map">
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <span class="filter-label">Радиус</span>
+  <div class="time-slider-wrap">
+    <input type="range" id="timeSlider" min="5" max="30" step="5" value="30">
+    <div id="timeVal">30 мин</div>
+  </div>
+  <div class="cat-filters" id="catFilters"></div>
+</div>
+
+<!-- MAP + SIDEBAR ROW -->
+<div class="map-sidebar-row">
+  <div class="map-section"><div id="map"></div></div>
+  <aside class="sidebar">
+    <div class="section">
+      <div class="section-title">🎯 Семейная карточка</div>
+      <div class="scorecard-grid" id="scorecardGrid"></div>
+    </div>
+    <div class="section">
+      <div class="section-title">⏱ По зонам доступности</div>
+      <div class="zone-rings" id="zoneRings"></div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        📍 Объекты
+        <span class="count-badge" id="poiCountBadge">0</span>
+      </div>
+      <div class="poi-list" id="poiList"></div>
+    </div>
+  </aside>
+</div>
+
+<!-- CHARTS ROW -->
+<div class="charts-area">
+  <div class="chart-card">
+    <div class="chart-card-title">🗂 ОБЪЕКТЫ ПО КАТЕГОРИЯМ</div>
+    <div class="chart-wrap"><canvas id="chartCategories"></canvas></div>
+  </div>
+  <div class="chart-card">
+    <div class="chart-card-title">⭐ РЕЙТИНГ ПО ТИПАМ</div>
+    <div class="chart-wrap"><canvas id="chartRatings"></canvas></div>
+  </div>
+  <div class="chart-card">
+    <div class="chart-card-title">🔵 ЗОНЫ ДОСТУПНОСТИ</div>
+    <div class="chart-wrap"><canvas id="chartZones"></canvas></div>
+  </div>
+  <div class="chart-card">
+    <div class="chart-card-title">📊 КОЛИЧЕСТВО ОТЗЫВОВ</div>
+    <div class="chart-wrap"><canvas id="chartReviews"></canvas></div>
+  </div>
+</div>
+
+</div><!-- /tab-map -->
+
+<!-- ══════════════ TAB: ARTICLE ══════════════ -->
+<div class="tab-panel" id="tab-article">
+<div class="article-wrap">
+
+  <!-- HERO -->
+  <div class="article-hero">
+    <div class="article-hero-label">Паспорт района · Москва · Богородское / Преображенское</div>
+    <div class="article-hero-title">Твой новый дом:<br>Богородское и Преображенское</div>
+    <div class="article-hero-sub">Всё, что ты хотел знать о районе — собрано из 45 000+ отзывов реальных жителей. Честно, с любовью и без прикрас.</div>
+  </div>
+
+  <!-- STATS -->
+  <div class="article-stats-row">
+    <div class="ast"><div class="ast-val">252</div><div class="ast-lbl">объекта в шаговой доступности</div></div>
+    <div class="ast"><div class="ast-val">4.33★</div><div class="ast-lbl">средний рейтинг всех объектов</div></div>
+    <div class="ast"><div class="ast-val">41</div><div class="ast-lbl">детский сад в 30 мин ходьбы</div></div>
+    <div class="ast"><div class="ast-val">45к+</div><div class="ast-lbl">отзывов изучено для статьи</div></div>
+  </div>
+
+  <!-- ── 1. ВВЕДЕНИЕ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#e8f0fe">🏘️</div>
+      <div class="article-section-title">Добро пожаловать домой</div>
+    </div>
+    <p class="article-lead">Богородское и Преображенское — один из тех уголков Москвы, где сохранился настоящий московский дух. Не стеклянные башни и торговые моллы, а живые улицы, Преображенский рынок с 90-летней историей, скверы с вековыми деревьями и соседская атмосфера. При этом — вся инфраструктура большого города в шаговой доступности.</p>
+    <p class="article-text">Читая тысячи отзывов жителей, складывается образ района, где всё необходимое семье с маленькими детьми — рядом. 82 магазина (ближайший в 2 минутах!), 41 детский сад, 26 школ, парки с сотнями площадок. Это не случайность: район формировался как полноценная жилая среда десятилетиями, и это ощущается буквально в каждом дворе.</p>
+    <div class="quote-block">«Переехала 3 года назад из другого региона. Помню с детства ходила на уличные рынки — там самые вкусные фрукты и овощи по низким ценам. Переехав в Москву, удивилась, что тут из рынков почти ничего. И вот — ЧУДО — Преображенский рынок! Это просто рынок из моего детства.»<div class="quote-source">— Жительница о Преображенском рынке</div></div>
+  </div>
+
+  <!-- ── 2. МАГАЗИНЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#f0faf6">🛒</div>
+      <div class="article-section-title">Магазины: выбор на любой вкус</div>
+    </div>
+    <p class="article-lead">82 торговые точки в шаговой доступности — одна из лучших концентраций в Москве. Самый ближний магазин — в 2 минутах ходьбы. Жители давно изучили сильные стороны каждого и готовы делиться секретами.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🥩</div>
+        <div class="insight-title">МясновЪ — за качественным мясом</div>
+        <div class="insight-text">Хорошие пельмени, советские сосиски, фарш из индейки, мягкий лаваш. <strong>Пирожки после 19:00 со скидкой 40%.</strong> Система талонов неудобная, но ради ассортимента терпят. Продолговатые колбасы нарезают — круглые нет.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🌿</div>
+        <div class="insight-title">ВкусВилл — для качества жизни</div>
+        <div class="insight-text"><strong>Полка «−40%»</strong> за 2 дня до срока. Молоко ровно 1 литр, не 800 мл жижи. Кофе-угол, доставка на дом. Осторожно: парковка у входа — штрафы от ГИБДД. Лучший ВкусВилл — на бульваре Рокоссовского.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🍕</div>
+        <div class="insight-title">EuroSpar — неожиданная находка</div>
+        <div class="insight-text">Огромный выбор готовой еды: салаты, мясо, пицца, суши, шашлык, плов. <strong>Подписка на кофе.</strong> Кафетерий с туалетом, небольшая парковка. Добраться: 2 остановки на трамвае от Преображенской или автобус 265 от Сокольников.</div>
+      </div>
+      <div class="insight-card purple">
+        <div class="insight-icon">🏪</div>
+        <div class="insight-title">Дружба — прямо над метро</div>
+        <div class="insight-text">ТЦ над станцией Черкизовская. Фудкорт с кухнями мира: узбекская, самаркандские ланчи, кафе «Му-му» на двух этажах. <strong>Бесплатная парковка</strong> на ~20 мест (всегда занята). Лифты есть, но навигация к ним неочевидна.</div>
+      </div>
+      <div class="insight-card green">
+        <div class="insight-icon">☀️</div>
+        <div class="insight-title">Ярче! и Дикси — для будних дней</div>
+        <div class="insight-text">«Ярче» открывается с 8:00 — удобно утром. <strong>Дикси работает 24/7</strong> — выручит поздно ночью. У «Ярче» кассиры сами складывают покупки в пакеты — приятная мелочь.</div>
+      </div>
+      <div class="insight-card red">
+        <div class="insight-icon">⚠️</div>
+        <div class="insight-title">Важные лайфхаки по магазинам</div>
+        <div class="insight-text">В Магнолии <strong>всегда проверяйте чек</strong> — бывают задвоенные позиции. В Перекрёстке и Супер Ленте цена на кассе может отличаться от ценника — вы вправе потребовать цену с ценника. В Магнит на 2-й Прогонной после ремонта всё стало заметно лучше.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Мяснов мой любимейший магазин. Покупаем пельмени царские, сосиски советские, хлеб, хинкали, фарш. Мы с женой часто покупаем пирожки после 19 часов со скидкой 40%. В новом помещении стало просторнее.»<div class="quote-source">— Постоянный покупатель МясновЪ</div></div>
+  </div>
+
+  <!-- ── 3. ПРЕОБРАЖЕНСКИЙ РЫНОК ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fef9ec">🧺</div>
+      <div class="article-section-title">Преображенский рынок — душа района</div>
+    </div>
+    <p class="article-lead">Основан в 1932 году. Расположен на территории старообрядческого монастыря — кирпичные стены и башни подлинные. Один из последних настоящих базаров Москвы, где можно найти фермерские продукты без глянца и понтов.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🍎</div>
+        <div class="insight-title">Что брать</div>
+        <div class="insight-text">Мясо и рыба — особенно говядина и форель. Сезонные ягоды, зелень, абхазские продукты. Сыры и соленья. Авокадо по 3 штуки за 100 ₽, манго за 50 ₽ — при удаче.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">💡</div>
+        <div class="insight-title">Как покупать правильно</div>
+        <div class="insight-text"><strong>Берите наличные</strong> — карты принимают не все (банкомат на территории есть). Сначала обойдите весь рынок — цены сильно различаются. Своего продавца ищите методом проб: найдёте — будете ходить годами. В будни людей мало — комфортнее.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🚗</div>
+        <div class="insight-title">Как добраться</div>
+        <div class="insight-text">Пешком от метро «Преображенская площадь». Есть парковка, но небольшая. Рядом остановки общественного транспорта. В будние дни значительно легче с местом.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Аутентичный рынок, которому почти 100 лет. Расположен на территории старообрядческого монастыря. За этими стенами можно найти молочку, мясо, овощи, антиквариат и одежду — по демократичным ценам без потери качества. Москвичи едут специально.»<div class="quote-source">— Житель района о Преображенском рынке</div></div>
+  </div>
+
+  <!-- ── 4. ДЕТСКИЕ САДЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fdf4ff">🧸</div>
+      <div class="article-section-title">Детские сады: выбор огромный</div>
+    </div>
+    <p class="article-lead">41 детский сад в радиусе 30 минут — исключительный показатель даже для Москвы. Ближайший в 6 минутах. Средний рейтинг 4.6★. Жители пишут о садах с искренней теплотой — это редкость.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🏊</div>
+        <div class="insight-title">Школа №1080, дошкольное отделение №4</div>
+        <div class="insight-text"><strong>Бассейн</strong> — редкость для муниципального сада. Дополнительные секции, логопеды. Дети ходят с удовольствием, воспитателей называют по именам с благодарностью.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🏡</div>
+        <div class="insight-title">Happy Nappy и «Островок»</div>
+        <div class="insight-text">Частные сады с маленькими группами. Берут с 1,5 лет. <strong>Индивидуальное питание при аллергии.</strong> Медсестра встречает утром. Закрытая охраняемая территория. Адаптация проходит мягко.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🌲</div>
+        <div class="insight-title">«Академическая Гимназия» в Сокольниках</div>
+        <div class="insight-text">У леса, деревянное экологичное здание. Закрытая территория с камерами. Медкабинет постоянно. <strong>Онлайн-трансляция праздников.</strong> Собственный пищеблок. Отличный психолог и логопед.</div>
+      </div>
+      <div class="insight-card purple">
+        <div class="insight-icon">⏰</div>
+        <div class="insight-title">TeddyLand</div>
+        <div class="insight-text">Работает <strong>до 20:00</strong> — удобно для тех, кто задерживается на работе. Маленькие группы, разнообразные занятия. Питание без молока при непереносимости.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Замечательнейший садик! Три этажа. Пандусы. Парковка для колясок под крышей. Огромные окна, светлые просторные группы. Прекрасные новенькие детские площадки. А главное — самые лучшие воспитатели 🥰»<div class="quote-source">— Мама о школе №1362, дошкольный корпус</div></div>
+  </div>
+
+  <!-- ── 5. ШКОЛЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fffbeb">🏫</div>
+      <div class="article-section-title">Школы: от районных до сильных</div>
+    </div>
+    <p class="article-lead">26 школ в округе. Ближайшая — в 3 минутах. Среди них есть обычные районные и настоящие образовательные жемчужины, которые знают по всей Москве.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🏆</div>
+        <div class="insight-title">Школа 1502 «Энергия» — для мотивированных</div>
+        <div class="insight-text">Конкурс ~5 человек на место в лицейский класс. <strong>Только 20 учеников в классе.</strong> В расписании обязательных: мультипликация, робототехника, IT, шахматы. Формат «пар», как в институте — готовит к вузу с 5 класса.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🎭</div>
+        <div class="insight-title">ЦО «Богородский» — самая семейная</div>
+        <div class="insight-text">Одна семья отдала сюда 4 сыновей — теперь внучки идут. После ремонта: красивое здание, современные классы, отличная спортплощадка. Доброжелательные педагоги, <strong>индивидуальный подход.</strong></div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🎓</div>
+        <div class="insight-title">Школа 1505 «Преображенская»</div>
+        <div class="insight-text">Сильная внешкольная жизнь — поездки, постановки, проекты. Ежегодный ремонт, новое оборудование, молодые учителя. <strong>Много бесплатных кружков.</strong></div>
+      </div>
+      <div class="insight-card purple">
+        <div class="insight-icon">🌟</div>
+        <div class="insight-title">Школа 362 — летний лагерь «Бригантина»</div>
+        <div class="insight-text">Летний лагерь при школе — один из лучших по отзывам. Активные вожатые, игры, соревнования, творчество. Новый корпус со временем — <strong>бассейн есть.</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 6. МЕДИЦИНА ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fef2f2">🏥</div>
+      <div class="article-section-title">Медицина: хорошие новости после ремонтов</div>
+    </div>
+    <p class="article-lead">19 медицинских учреждений в округе. Несколько прошли капитальный ремонт и превратились в современные центры. Качество врачей варьируется — но у каждой поликлиники теперь есть конкретные плюсы, которые стоит знать.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">✨</div>
+        <div class="insight-title">КДЦ №2 — технологичный центр</div>
+        <div class="insight-text">После ремонта — современное оборудование, электронные направления без бумаги, мониторы очереди. <strong>Справку для замены прав — за 2 часа без записи (платно).</strong> Есть буфет, аптека с бесплатной выдачей.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">👶</div>
+        <div class="insight-title">Детская поликлиника №28 — лучшая в округе</div>
+        <div class="insight-text">Бизиборды, мультики, детский уголок. <strong>Отличные массажисты Галина и Елена</strong> — запись нарасхват. Кабинет здорового ребёнка. Дети уходят с наклейками и пазлами. Педиатр Кашигина М.В. — рекомендуют отдельно.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🔬</div>
+        <div class="insight-title">ЦМРТ на Стромынке, 11</div>
+        <div class="insight-text"><strong>МРТ до 22:15</strong> — для работающих. Запись в день обращения. Зона ожидания с чаем. Вышел — настроение хорошее, говорят пациенты. Адекватные цены.</div>
+      </div>
+      <div class="insight-card red">
+        <div class="insight-icon">📍</div>
+        <div class="insight-title">Поликлиника №64: лайфхак — найти вход</div>
+        <div class="insight-text">Спрятана за деревьями и хоккейной коробкой — без навигатора не найти. Зато внутри после ремонта хорошо. <strong>Бонус: экспресс-анализ на холестерин, сахар, ЭКГ — бесплатно на месте.</strong></div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Нам очень повезло с поликлиникой: с рождением дочери открылась новая поликлиника с современным оборудованием. Детки не боятся приходить сюда. Бизиборды, столики, мультики, уютное кафе. Ребёнок всегда уходит с подарком.»<div class="quote-source">— Мама о детской поликлинике №28</div></div>
+  </div>
+
+  <!-- ── 7. ПАРКИ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#f0fdf4">🌳</div>
+      <div class="article-section-title">Парки и прогулки: зелени больше, чем кажется</div>
+    </div>
+    <p class="article-lead">Для района с такой плотностью застройки зелени удивительно много. 9 парков и скверов, детские площадки в каждом дворе. И это не советское наследие — большинство парков прошли реконструкцию совсем недавно.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🛝</div>
+        <div class="insight-title">Алымовский сквер — история преображения</div>
+        <div class="insight-text">Раньше — заброшенный пустырь. Теперь — уютный сквер с велодорожками, клумбами, лавочками, <strong>большой горкой</strong> вдали от дороги. Площадки для занятий «Активного долголетия». Через дорогу — приятные кафе.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🦆</div>
+        <div class="insight-title">Черкизовский детский парк — реконструкция 2019</div>
+        <div class="insight-text">Фонтаны, беседки, спортивные и детские площадки, настольный теннис. <strong>Туалеты — теперь их хватает</strong> (раньше было проблемой). Набережная пруда. Идеально для детей.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🚲</div>
+        <div class="insight-title">Северный Хапиловский сквер</div>
+        <div class="insight-text">Прогулочные дорожки, живописные клумбы. Детские площадки с современными стандартами безопасности. Умиротворяющая атмосфера — антидот городской суете.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Раньше это место было заброшенным и гуляли только местные с собаками. Сейчас это уютный сквер, который любим всеми местными. Разбили клумбы, создали места для отдыха, занятия спортом. Дорожки для прогулок и для велосипедистов.»<div class="quote-source">— Житель об Алымовском сквере</div></div>
+  </div>
+
+  <!-- ── 8. ДОСУГ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#faf5ff">🎨</div>
+      <div class="article-section-title">Кружки, секции и досуг для детей</div>
+    </div>
+    <p class="article-lead">Дворец творчества «Преображенский» — главная точка притяжения семей с детьми. Жители называют его именно так: «мы там практически живём».</p>
+
+    <div class="insights-grid">
+      <div class="insight-card purple">
+        <div class="insight-icon">🎭</div>
+        <div class="insight-title">Дворец творчества «Преображенский»</div>
+        <div class="insight-text">Танцы (современная хореография, эстрадный танец), рисование, туризм, образовательные программы. <strong>Бассейн 25 м, 5 дорожек.</strong> Семейные группы для плавания. Концертный зал. Кафе до 21:00. До 17 лет — бюджетные группы. Гардероб до 19:00.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🏋️</div>
+        <div class="insight-title">ТЦ «Янтарь» — спорт и еда</div>
+        <div class="insight-text">Фитнес-клуб, школа гимнастики, фудкорт с разными кухнями, рестораны. <strong>Бесплатная большая парковка.</strong> Рядом Черкизовский пруд. Удобно с коляской — всё приспособлено. Нет кинотеатра, но есть всё остальное.</div>
+      </div>
+      <div class="insight-card green">
+        <div class="insight-icon">⚽</div>
+        <div class="insight-title">Стадион «Спартак»</div>
+        <div class="insight-text">Много полей с искусственным покрытием, <strong>одно поле с подогревом.</strong> Раздевалки, туалет, кофе-автоматы, трибуны с крышей. Бесплатная парковка (в дни ЮФЛ пускают на машине). Рядом парк Сокольники.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Если бы всё в нашей стране управлялось и было организовано так же, как во Дворце Творчества! Идеально чисто, великолепная территория, отличные концерты, высокий уровень педагогов. У меня двое детей — мы практически там живём.»<div class="quote-source">— Мама двоих детей</div></div>
+  </div>
+
+  <!-- ── 9. СЕРВИСЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fffbeb">🏛️</div>
+      <div class="article-section-title">Сервисы и госуслуги: лайфхаки</div>
+    </div>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">📋</div>
+        <div class="insight-title">МФЦ Преображенское — как найти</div>
+        <div class="insight-text">Найти сложно — нет указателей ни от метро, ни с дороги. <strong>Используйте навигатор.</strong> Первая дверь — не МФЦ, идите в следующую. Зато внутри: просторно, тихо, детская зона с ТВ, кулер, копир-автомат, терминал оплаты. Намного лучше МФЦ на Открытом шоссе.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🧾</div>
+        <div class="insight-title">КДЦ: справки без очередей</div>
+        <div class="insight-text">Справку для водительского удостоверения — <strong>в платном отделении за 2 часа без записи.</strong> Электронные направления вместо бумажных. Аптека с бесплатной выдачей льготных лекарств на 1 этаже.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">💳</div>
+        <div class="insight-title">Деньги и оплата</div>
+        <div class="insight-text">На Преображенском рынке <strong>берите наличные</strong> — карты не везде. Банкомат на территории рынка есть. Справка для бассейна — платное отделение КДЦ, около 500 ₽, другое здание.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 10. ПЛЮСЫ И МИНУСЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#f0f9ff">⚖️</div>
+      <div class="article-section-title">Честная картина района</div>
+    </div>
+    <p class="article-lead">Ни один район не идеален. Но зная о минусах заранее, к ним проще адаптироваться — а плюсы начинаешь ценить с первого дня.</p>
+
+    <div class="pro-con-grid">
+      <div class="pro-block">
+        <div class="pro-block-title">✅ Сильные стороны</div>
+        <div class="pc-item"><span class="pc-icon">🛒</span> Магазины буквально под каждым домом — в 2 минутах</div>
+        <div class="pc-item"><span class="pc-icon">🧺</span> Преображенский рынок — уникальный, живой, с душой</div>
+        <div class="pc-item"><span class="pc-icon">🧸</span> 41 детский сад — огромный выбор с хорошими рейтингами</div>
+        <div class="pc-item"><span class="pc-icon">🏫</span> Есть сильные школы, в т.ч. лицей с конкурсом</div>
+        <div class="pc-item"><span class="pc-icon">🌳</span> Обновлённые парки и скверы после реконструкции</div>
+        <div class="pc-item"><span class="pc-icon">🎨</span> Дворец Творчества — один из лучших в Москве</div>
+        <div class="pc-item"><span class="pc-icon">🏥</span> Обновлённые поликлиники с хорошим оборудованием</div>
+        <div class="pc-item"><span class="pc-icon">🚃</span> Трамвай, автобусы, метро — транспорт не проблема</div>
+      </div>
+      <div class="con-block">
+        <div class="con-block-title">🔶 Что учесть</div>
+        <div class="pc-item"><span class="pc-icon">🅿️</span> Парковка напряжённая — у большинства точек</div>
+        <div class="pc-item"><span class="pc-icon">🏛️</span> МФЦ сложно найти — нет указателей снаружи</div>
+        <div class="pc-item"><span class="pc-icon">💳</span> На рынке не везде принимают карты</div>
+        <div class="pc-item"><span class="pc-icon">🎬</span> Нет кинотеатра — ездить в соседние районы</div>
+        <div class="pc-item"><span class="pc-icon">🌃</span> Вечерний досуг для взрослых ограничен</div>
+        <div class="pc-item"><span class="pc-icon">👩‍⚕️</span> Качество врачей неоднородное — нужно искать своих</div>
+        <div class="pc-item"><span class="pc-icon">🚲</span> У Дворца Творчества кражи велосипедов — не оставлять без замка</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ИТОГ -->
+  <div class="summary-banner">
+    <div class="summary-banner-title">ЭТОТ РАЙОН СОЗДАН ДЛЯ СЕМЬИ</div>
+    <div class="summary-banner-text">82 магазина, 41 садик, 26 школ, обновлённые парки с сотнями площадок, Дворец Творчества с бассейном, живой Преображенский рынок и поликлиники после ремонта — всё в 30 минутах пешей прогулки. Богородское и Преображенское — это не просто адрес. Это сообщество реальных людей, которые живут здесь годами и называют его домом. А это, как известно, главный показатель.</div>
+  </div>
+
+</div><!-- /article-wrap -->
+</div><!-- /tab-article -->
+
+<script>
+// ─────────────────────────────────────────────
+// CONFIG
+// ─────────────────────────────────────────────
+const DATA_FILE = 'neighborhood_report.json';
+
+const CAT_COLORS = {
+  retail:     '#22d3a5',
+  education:  '#a78bfa',
+  healthcare: '#f87171',
+  leisure:    '#60a5fa',
+  services:   '#fbbf24',
+  other:      '#94a3b8',
+};
+
+const CAT_ICONS = {
+  'retail/supermarket':         '🛒',
+  'retail/convenience_store':   '🏪',
+  'retail/market':              '🧺',
+  'education/school':           '🏫',
+  'education/kindergarten':     '🧸',
+  'education/university':       '🎓',
+  'healthcare/clinic_adult':    '🏥',
+  'healthcare/clinic_children': '👶',
+  'healthcare/hospital':        '🏨',
+  'pharmacy/pharmacy':          '💊',
+  'leisure/park':               '🌳',
+  'leisure/playground':         '🛝',
+  'leisure/sport':              '⚽',
+  'leisure/children_activity':  '🎨',
+  'leisure/culture':            '🎭',
+  'services/government':        '🏛️',
+  'services/legal':             '⚖️',
+  'services/bank':              '🏦',
+  'other/other':                '📍',
+};
+
+const SCORE_COLORS = (score) => {
+  if (score >= 7) return '#22d3a5';
+  if (score >= 5) return '#fbbf24';
+  if (score >= 3) return '#fb923c';
+  return '#f87171';
+};
+
+const ZONE_COLORS = ['#00d4ff','#22d3a5','#a78bfa','#fbbf24','#f87171'];
+
+const CAT_LABELS = {
+  retail:     '🛒 Магазины',
+  education:  '🎓 Образование',
+  healthcare: '🏥 Здоровье',
+  leisure:    '🎡 Досуг',
+  services:   '🏛 Сервисы',
+  other:      '📍 Прочее',
+};
+
+// ─────────────────────────────────────────────
+// STATE
+// ─────────────────────────────────────────────
+let DATA = null;
+let activeTime = 30;
+let activeCats = new Set(['retail','education','healthcare','leisure','services','other']);
+let mapMarkers = {};
+let walkCircles = [];
+let charts = {};
+
+// ─────────────────────────────────────────────
+// INIT MAP
+// ─────────────────────────────────────────────
+const map = L.map('map', {
+  zoomControl: false,
+  preferCanvas: true,
+});
+window._map = map;
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© OpenStreetMap contributors © CARTO',
+  maxZoom: 19,
+}).addTo(map);
+
+// Walking circles (concentric rings)
+function drawWalkCircles(center, maxMin) {
+  walkCircles.forEach(c => map.removeLayer(c));
+  walkCircles = [];
+  const MPERMIN = 80;
+  const rings = [5, 10, 15, 20, 30].filter(m => m <= maxMin);
+
+  // Stroke colors for light map — vivid and distinct
+  const strokeColors = ['#1a6fdb','#0e9e74','#d97706','#dc2626','#7c3aed'];
+  const fillColors   = ['rgba(26,111,219,.06)','rgba(14,158,116,.06)','rgba(217,119,6,.06)','rgba(220,38,38,.06)','rgba(124,58,237,.06)'];
+
+  rings.forEach((min, i) => {
+    const r = min * MPERMIN;
+    const circle = L.circle(center, {
+      radius: r,
+      color: strokeColors[i],
+      weight: 2.5,
+      opacity: 0.85,
+      fillColor: fillColors[i],
+      fillOpacity: 1,
+      dashArray: '6 5',
+    }).addTo(map);
+    walkCircles.push(circle);
+
+    // Label badge — pill shape with solid bg for readability
+    const latOffset = r / 111320;
+    const labelLatLng = L.latLng(center[0] + latOffset, center[1]);
+    const lbl = L.divIcon({
+      html: `<div style="
+        background:${strokeColors[i]};
+        color:#fff;
+        font-size:11px;
+        font-family:'Bebas Neue',sans-serif;
+        font-weight:400;
+        letter-spacing:1.5px;
+        padding:2px 8px;
+        border-radius:10px;
+        white-space:nowrap;
+        box-shadow:0 1px 4px rgba(0,0,0,.25);
+        line-height:16px;
+      ">${min} МИН</div>`,
+      className: '',
+      iconSize: [62, 20],
+      iconAnchor: [31, 10],
+    });
+    const lblMarker = L.marker(labelLatLng, { icon: lbl, interactive: false }).addTo(map);
+    walkCircles.push(lblMarker);
+  });
+}
+
+// ─────────────────────────────────────────────
+// MARKERS
+// ─────────────────────────────────────────────
+function makeIcon(cat, subcat, rating) {
+  const key = `${cat}/${subcat}`;
+  const emoji = CAT_ICONS[key] || '📍';
+  const color = CAT_COLORS[cat] || '#6b7a8d';
+  const size = 34;
+  return L.divIcon({
+    html: `<div style="
+      width:${size}px;height:${size}px;
+      border-radius:50% 50% 50% 4px;
+      background:#fff;
+      border:2.5px solid ${color};
+      display:flex;align-items:center;justify-content:center;
+      font-size:16px;
+      box-shadow:0 2px 8px rgba(0,0,0,.18);
+      transition:transform .15s;
+    ">${emoji}</div>`,
+    className: '',
+    iconSize: [size, size],
+    iconAnchor: [size/2, size],
+    popupAnchor: [0, -size],
+  });
+}
+
+function buildPopup(poi) {
+  const key = `${poi.category}/${poi.subcategory}`;
+  const emoji = CAT_ICONS[key] || '📍';
+  const stars = poi.rating ? '⭐'.repeat(Math.round(poi.rating)) + ` ${poi.rating}` : 'нет рейтинга';
+  const revs = poi.reviews_count ? `${poi.reviews_count.toLocaleString('ru')} отзывов` : '';
+  const phone = poi.phones && poi.phones.length ? poi.phones[0] : '';
+  const site = poi.websites && poi.websites.length ? poi.websites[0] : '';
+  const addr = poi.address || '';
+  const hours = poi.working_hours || '';
+  return `
+    <div style="min-width:220px;max-width:280px">
+      <div class="popup-title">${emoji} ${poi.name}</div>
+      <div class="popup-rating">${stars}${revs ? ' · '+revs : ''}</div>
+      <div style="margin:8px 0;font-family:'Bebas Neue',sans-serif">
+        <span class="popup-time">${poi.walking_time_min?.toFixed(0)} МИН</span>
+        <span style="color:#64748b;font-size:12px"> · ${poi.distance_m?.toFixed(0)} м</span>
+      </div>
+      <div class="popup-meta">
+        ${addr ? `<span>📍 ${addr}</span>` : ''}
+        ${hours ? `<span>🕐 ${hours}</span>` : ''}
+        ${phone ? `<span>📞 ${phone}</span>` : ''}
+      </div>
+      ${poi.yandex_url ? `<a class="popup-link" href="${poi.yandex_url}" target="_blank">Открыть в Яндекс Картах →</a>` : ''}
+    </div>`;
+}
+
+function renderMarkers() {
+  // Clear old
+  Object.values(mapMarkers).forEach(m => map.removeLayer(m));
+  mapMarkers = {};
+
+  const pois = getFilteredPOIs();
+  pois.forEach(poi => {
+    if (!poi.lat || !poi.lon || isNaN(poi.lat) || isNaN(poi.lon)) return;
+    const marker = L.marker([poi.lat, poi.lon], {
+      icon: makeIcon(poi.category, poi.subcategory, poi.rating),
+    });
+    marker.bindPopup(buildPopup(poi), { maxWidth: 300 });
+    marker.addTo(map);
+    mapMarkers[poi.yandex_url || Math.random()] = marker;
+  });
+}
+
+// ─────────────────────────────────────────────
+// FILTERS
+// ─────────────────────────────────────────────
+function getFilteredPOIs() {
+  if (!DATA) return [];
+  return DATA.poi_list.filter(p =>
+    (p.walking_time_min || 0) <= activeTime &&
+    activeCats.has(p.category)
+  );
+}
+
+function renderCatFilters() {
+  const el = document.getElementById('catFilters');
+  el.innerHTML = '';
+  Object.keys(CAT_LABELS).forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-btn' + (activeCats.has(cat) ? ' active' : '');
+    btn.innerHTML = `<span class="cat-dot" style="background:${CAT_COLORS[cat]}"></span>${CAT_LABELS[cat]}`;
+    btn.onclick = () => {
+      if (activeCats.has(cat)) {
+        if (activeCats.size > 1) activeCats.delete(cat);
+      } else {
+        activeCats.add(cat);
+      }
+      btn.classList.toggle('active', activeCats.has(cat));
+      updateAll();
+    };
+    el.appendChild(btn);
+  });
+}
+
+// ─────────────────────────────────────────────
+// SCORECARD
+// ─────────────────────────────────────────────
+function renderScorecard() {
+  const el = document.getElementById('scorecardGrid');
+  el.innerHTML = '';
+  const sc = DATA.family_scorecard;
+  Object.entries(sc).forEach(([key, d]) => {
+    const score = d.total_score || 0;
+    const color = SCORE_COLORS(score);
+    const nearest = d.nearest_min ? `${d.nearest_min.toFixed(0)} мин` : '—';
+    const cnt = d.count || 0;
+
+    // Filter dimming
+    const [cat] = key.split('/');
+    const dim = !activeCats.has(cat) || cnt === 0;
+
+    const row = document.createElement('div');
+    row.className = 'score-row' + (score >= 7 ? ' highlight' : '');
+    row.style.opacity = dim ? '.4' : '1';
+    row.innerHTML = `
+      <div>
+        <div class="score-label">${d.label}</div>
+        <div class="score-sub">${cnt} объектов · ближайший ${nearest}</div>
+      </div>
+      <div>
+        <div class="score-bar-wrap">
+          <div class="score-bar" style="width:${score*10}%;background:${color}"></div>
+        </div>
+      </div>
+      <div class="score-num" style="color:${color}">${score.toFixed(1)}</div>`;
+    el.appendChild(row);
+  });
+}
+
+// ─────────────────────────────────────────────
+// ZONE RINGS
+// ─────────────────────────────────────────────
+function renderZones() {
+  const el = document.getElementById('zoneRings');
+  el.innerHTML = '';
+  const zones = DATA.time_zone_summary;
+  const allZoneKeys = Object.keys(zones);
+  const filtered = getFilteredPOIs();
+
+  // Recount by zone for current filter
+  const zoneCounts = {};
+  allZoneKeys.forEach(z => zoneCounts[z] = 0);
+  filtered.forEach(p => {
+    const t = p.walking_time_min || 0;
+    if (t <= 5) zoneCounts['0–5 мин']++;
+    else if (t <= 10) zoneCounts['5–10 мин']++;
+    else if (t <= 15) zoneCounts['10–15 мин']++;
+    else if (t <= 20) zoneCounts['15–20 мин']++;
+    else zoneCounts['20–30 мин']++;
+  });
+
+  const activeZones = allZoneKeys.filter(z => {
+    const [, end] = z.split('–');
+    const maxMin = parseInt(end);
+    return maxMin <= activeTime || z === '0–5 мин';
+  });
+
+  const maxCount = Math.max(...activeZones.map(z => zoneCounts[z] || 0), 1);
+
+  activeZones.forEach((zone, i) => {
+    const count = zoneCounts[zone] || 0;
+    const pct = (count / maxCount) * 100;
+    const row = document.createElement('div');
+    row.className = 'zone-row';
+    row.innerHTML = `
+      <div class="zone-label">${zone}</div>
+      <div class="zone-bar-wrap">
+        <div class="zone-bar" style="width:${pct}%;background:${ZONE_COLORS[i]}22;border-left:3px solid ${ZONE_COLORS[i]}">
+          <span style="color:${ZONE_COLORS[i]};font-size:11px">${count}</span>
+        </div>
+      </div>
+      <div class="zone-count">${count}</div>`;
+    el.appendChild(row);
+  });
+}
+
+// ─────────────────────────────────────────────
+// POI LIST
+// ─────────────────────────────────────────────
+function renderPOIList() {
+  const el = document.getElementById('poiList');
+  el.innerHTML = '';
+  const pois = getFilteredPOIs()
+    .sort((a, b) => (a.walking_time_min || 99) - (b.walking_time_min || 99))
+    .slice(0, 80); // cap for perf
+
+  document.getElementById('poiCountBadge').textContent = getFilteredPOIs().length;
+
+  pois.forEach(poi => {
+    const key = `${poi.category}/${poi.subcategory}`;
+    const emoji = CAT_ICONS[key] || '📍';
+    const item = document.createElement('div');
+    item.className = 'poi-item';
+    item.innerHTML = `
+      <div class="poi-icon">${emoji}</div>
+      <div>
+        <div class="poi-name">${poi.name}</div>
+        <div class="poi-sub">${poi.subcategory_label}</div>
+      </div>
+      <div class="poi-right">
+        <div class="poi-time">${poi.walking_time_min?.toFixed(0)}'</div>
+        ${poi.rating ? `<div class="poi-rating">⭐${poi.rating}</div>` : ''}
+      </div>`;
+    item.onclick = () => {
+      if (poi.lat && poi.lon) {
+        map.flyTo([poi.lat, poi.lon], 17, { duration: 1 });
+        const mkey = poi.yandex_url || '';
+        if (mapMarkers[mkey]) mapMarkers[mkey].openPopup();
+      }
+    };
+    el.appendChild(item);
+  });
+
+  if (getFilteredPOIs().length > 80) {
+    const more = document.createElement('div');
+    more.style.cssText = 'text-align:center;padding:10px;color:#64748b;font-size:11px';
+    more.textContent = `+ ещё ${getFilteredPOIs().length - 80} объектов`;
+    el.appendChild(more);
+  }
+}
+
+// ─────────────────────────────────────────────
+// HEADER STATS
+// ─────────────────────────────────────────────
+function renderHeaderMeta() {
+  const o = DATA.overall_stats;
+  const un = DATA.unnamed_objects;
+  const pills = [
+    { val: o.total_poi + (un.total||0), lbl: 'Объектов' },
+    { val: o.rating_avg_overall ? o.rating_avg_overall.toFixed(1)+'★' : '—', lbl: 'Ср. рейтинг' },
+    { val: (o.total_reviews_overall||0).toLocaleString('ru'), lbl: 'Отзывов' },
+    { val: un.by_subcategory?.playground || 0, lbl: 'Площадок' },
+  ];
+  document.getElementById('headerMeta').innerHTML = pills.map(p => `
+    <div class="meta-item">
+      <div class="val">${p.val}</div>
+      <div class="lbl">${p.lbl}</div>
+    </div>`).join('');
+}
+
+// ─────────────────────────────────────────────
+// CHARTS
+// ─────────────────────────────────────────────
+Chart.defaults.color = '#6b7a8d';
+Chart.defaults.font.family = "'Geologica', sans-serif";
+Chart.defaults.font.size = 12;
+
+function destroyChart(id) {
+  if (charts[id]) { charts[id].destroy(); delete charts[id]; }
+}
+
+function renderCharts() {
+  const filtered = getFilteredPOIs();
+
+  // 1) Categories doughnut
+  destroyChart('categories');
+  const catCounts = {};
+  filtered.forEach(p => {
+    catCounts[p.category] = (catCounts[p.category] || 0) + 1;
+  });
+  const catKeys = Object.keys(catCounts);
+  charts.categories = new Chart(document.getElementById('chartCategories'), {
+    type: 'doughnut',
+    data: {
+      labels: catKeys.map(k => CAT_LABELS[k] || k),
+      datasets: [{
+        data: catKeys.map(k => catCounts[k]),
+        backgroundColor: catKeys.map(k => CAT_COLORS[k] + 'cc'),
+        borderColor: catKeys.map(k => CAT_COLORS[k]),
+        borderWidth: 2,
+        hoverOffset: 8,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '65%',
+      plugins: {
+        legend: { position: 'right', labels: { boxWidth: 10, padding: 12, color: '#1a2535', font: { size: 12 } } },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.parsed}` } }
+      }
+    }
+  });
+
+  // 2) Ratings horizontal bar
+  destroyChart('ratings');
+  const ratData = [];
+  Object.entries(DATA.categories).forEach(([cat, cdata]) => {
+    Object.entries(cdata.subcategories).forEach(([subcat, sdata]) => {
+      if (sdata.rating_avg && sdata.count >= 2) {
+        ratData.push({ label: sdata.label, rating: sdata.rating_avg, cat });
+      }
+    });
+  });
+  ratData.sort((a, b) => b.rating - a.rating);
+  charts.ratings = new Chart(document.getElementById('chartRatings'), {
+    type: 'bar',
+    data: {
+      labels: ratData.map(d => d.label),
+      datasets: [{
+        data: ratData.map(d => d.rating),
+        backgroundColor: ratData.map(d => CAT_COLORS[d.cat] + '99'),
+        borderColor: ratData.map(d => CAT_COLORS[d.cat]),
+        borderWidth: 1,
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          min: 3, max: 5,
+          grid: { color: '#d1dce855' },
+          ticks: { color: '#6b7a8d', font: { size: 11 } }
+        },
+        y: { grid: { display: false }, ticks: { color: '#1a2535', font: { size: 11 } } }
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+
+  // 3) Zone donut
+  destroyChart('zones');
+  const zones = DATA.time_zone_summary;
+  const activeZoneKeys = Object.keys(zones).filter(z => {
+    const end = parseInt(z.split('–')[1]);
+    return end <= activeTime || z === '0–5 мин';
+  });
+  // Recount
+  const zoneCounts2 = {};
+  activeZoneKeys.forEach(z => zoneCounts2[z] = 0);
+  filtered.forEach(p => {
+    const t = p.walking_time_min || 0;
+    if (t <= 5) zoneCounts2['0–5 мин'] = (zoneCounts2['0–5 мин']||0)+1;
+    else if (t <= 10) zoneCounts2['5–10 мин'] = (zoneCounts2['5–10 мин']||0)+1;
+    else if (t <= 15) zoneCounts2['10–15 мин'] = (zoneCounts2['10–15 мин']||0)+1;
+    else if (t <= 20) zoneCounts2['15–20 мин'] = (zoneCounts2['15–20 мин']||0)+1;
+    else zoneCounts2['20–30 мин'] = (zoneCounts2['20–30 мин']||0)+1;
+  });
+  charts.zones = new Chart(document.getElementById('chartZones'), {
+    type: 'polarArea',
+    data: {
+      labels: activeZoneKeys,
+      datasets: [{
+        data: activeZoneKeys.map(z => zoneCounts2[z] || 0),
+        backgroundColor: ZONE_COLORS.slice(0, activeZoneKeys.length).map(c => c + '55'),
+        borderColor: ZONE_COLORS.slice(0, activeZoneKeys.length),
+        borderWidth: 2,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: { r: { ticks: { display: false }, grid: { color: '#d1dce8' } } },
+      plugins: {
+        legend: { position: 'right', labels: { boxWidth: 10, padding: 8, color: '#1a2535', font: { size: 12 } } }
+      }
+    }
+  });
+
+  // 4) Reviews bar
+  destroyChart('reviews');
+  const revData = [];
+  Object.entries(DATA.reviews_for_ai || {}).forEach(([subcat, rdata]) => {
+    if (rdata.total_reviews > 50) {
+      revData.push({ label: rdata.label, total: rdata.total_reviews, avg: rdata.avg_stars });
+    }
+  });
+  revData.sort((a, b) => b.total - a.total).splice(8);
+  charts.reviews = new Chart(document.getElementById('chartReviews'), {
+    type: 'bar',
+    data: {
+      labels: revData.map(d => d.label),
+      datasets: [{
+        label: 'Отзывов',
+        data: revData.map(d => d.total),
+        backgroundColor: '#1a6fdb22',
+        borderColor: '#1a6fdb',
+        borderWidth: 1,
+        borderRadius: 4,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#6b7a8d', font: { size: 11 }, maxRotation: 30 } },
+        y: { grid: { color: '#d1dce855' }, ticks: { color: '#6b7a8d', font: { size: 11 } } }
+      },
+      plugins: { legend: { display: false } }
+    }
+  });
+}
+
+// ─────────────────────────────────────────────
+// MAIN UPDATE
+// ─────────────────────────────────────────────
+function updateAll() {
+  renderScorecard();
+  renderZones();
+  renderPOIList();
+  renderMarkers();
+  renderCharts();
+}
+
+// ─────────────────────────────────────────────
+// LOAD DATA
+// ─────────────────────────────────────────────
+async function loadData() {
+  try {
+    const resp = await fetch(DATA_FILE);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    DATA = await resp.json();
+  } catch (e) {
+    document.querySelector('.loading-sub').textContent = '⚠️ Не удалось загрузить ' + DATA_FILE + '. Положите файл рядом с HTML.';
+    console.error(e);
+    return;
+  }
+
+  // Hide loader
+  setTimeout(() => {
+    document.getElementById('loadingScreen').classList.add('done');
+  }, 400);
+
+  // Center map
+  const pois = DATA.poi_list.filter(p => p.lat && p.lon);
+  const lats = pois.map(p => p.lat);
+  const lons = pois.map(p => p.lon);
+  const center = [(Math.min(...lats)+Math.max(...lats))/2, (Math.min(...lons)+Math.max(...lons))/2];
+  map.setView(center, 14);
+
+  // Home marker
+  L.marker(center, {
+    icon: L.divIcon({
+      html: `<div style="width:20px;height:20px;border-radius:50%;background:#00d4ff;border:3px solid #fff;box-shadow:0 0 20px #00d4ff"></div>`,
+      className: '',
+      iconSize: [20,20],
+      iconAnchor: [10,10],
+    })
+  }).addTo(map).bindPopup('<b>🏠 Ваш дом</b>');
+
+  drawWalkCircles(center, 30);
+
+  // Slider
+  const slider = document.getElementById('timeSlider');
+  const valEl = document.getElementById('timeVal');
+  slider.oninput = () => {
+    activeTime = +slider.value;
+    valEl.textContent = activeTime + ' мин';
+    drawWalkCircles(center, activeTime);
+    updateAll();
+  };
+
+  renderHeaderMeta();
+  renderCatFilters();
+  updateAll();
+}
+
+loadData();
+
+// ── TAB SWITCHING ──────────────────────────
+function switchTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  const btnId = 'btn' + name.charAt(0).toUpperCase() + name.slice(1);
+  const btn = document.getElementById(btnId);
+  if (btn) btn.classList.add('active');
+  if (name === 'map') {
+    setTimeout(() => { if (window._map) window._map.invalidateSize(); }, 80);
+  }
+}
+</script>
+</body>
+</html>
