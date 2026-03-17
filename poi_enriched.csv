@@ -1,0 +1,1583 @@
+﻿name,amenity,shop,leisure,lon,lat,walking_time_min,distance_m,yandex_url,url_status,jsonfile
+,,,playground,37.7146764,55.8024516,1.0,86.1,,skipped_unnamed,
+Просторная улица,,,,37.7147767,55.8040367,1.9,162.1,,skipped_street,
+,,,playground,37.71193149335756,55.80276888968178,2.0,167.1,,skipped_unnamed,
+Просторная улица,,,,37.7148843,55.8040548,2.0,168.5,,skipped_street,
+,,,playground,37.71628887957952,55.802955183735385,2.0,169.1,,skipped_unnamed,
+,,,pitch,37.712568598787016,55.80232758130763,2.0,170.1,,skipped_unnamed,
+,,,playground,37.716901913122406,55.803078642299056,2.1,174.4,,skipped_unnamed,
+Просторная улица,,,,37.7145505,55.8042288,2.2,185.8,,skipped_street,
+Просторная улица,,,,37.7146608,55.804254,2.2,187.3,,skipped_street,
+Знаменская улица,,,,37.7159374,55.8018609,2.4,201.5,,skipped_street,
+Знаменская улица,,,,37.7160805,55.8018825,2.5,209.0,,skipped_street,
+Будь здоров,pharmacy,,,37.7143264,55.8044581,2.5,210.5,https://yandex.com/maps/org/bud_zdorov/90898597242/,found,Будь_Здоров__20260311_075713.json
+Гриль 24/7,fast_food,,,37.7143211,55.8045049,2.6,215.5,,not_found,
+,,,playground,37.7138977810868,55.80401579880038,2.8,231.8,,skipped_unnamed,
+,,,sports_centre,37.7179037,55.8037963,2.8,235.4,https://yandex.com/maps/org/academy_spartak/1017626742/,found,Хоккейный_комплекс_академия_Спартак_20260311_075842.json
+Гимназия №1799 Школьное отделение 3,school,,,37.71681779303034,55.80182304150488,2.9,242.6,https://yandex.com/maps/org/shkola_1080_shkolnoye_otdeleniye_3/176303019430/,found,Школа___1080__школьное_отделение___3_20260305_144200.json
+,,,pitch,37.71658551927921,55.801612359135184,3.0,246.7,,skipped_unnamed,
+,,,pitch,37.71683670000001,55.80164775000002,3.0,247.1,,skipped_unnamed,
+МясновЪ,,convenience,,37.7147582,55.8046555,3.0,250.2,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/183676220593/,found,КуулКлевер_МясновЪ_Отдохни_20260305_142621.json
+Куулклевер,,convenience,,37.7148427,55.8046661,3.1,255.6,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/183676220593/,found,КуулКлевер_МясновЪ_Отдохни_20260305_143510.json
+Знаменская улица,,,,37.7161414,55.8012714,3.1,261.8,,skipped_street,
+Центр московского долголетия,community_centre,,,37.711725,55.8021165,3.2,268.2,https://yandex.com/maps/org/tsentr_moskovskogo_dolgoletiya/118261465121/,found,Центр_московского_долголетия_20260311_075905.json
+Знаменская улица,,,,37.7162469,55.8012806,3.2,268.6,,skipped_street,
+,,,pitch,37.713199450000005,55.8038983,3.3,277.4,,skipped_unnamed,
+Магнит,,supermarket,,37.7151844,55.8047166,3.3,277.7,https://yandex.com/maps/org/magnit/167477791593/,found,Магнит_20260305_144056.json
+Алымовский сквер,,,park,37.71116262243372,55.80279821645345,3.4,283.3,https://yandex.com/maps/org/public_garden_at_krasnobogatyrskaya_street/43251352211/,found,Сквер_20260305_144336.json
+ВкусВилл,,convenience,,37.7157997,55.8048095,3.8,313.2,https://yandex.com/maps/org/vkusvill/1191465422/,found,ВкусВилл_20260305_144135.json
+Улица Алымова,,,,37.711934,55.8044067,4.0,334.0,,skipped_street,
+Хлебшоп,,bakery,,37.7161585,55.8048775,4.0,336.9,https://yandex.com/maps/org/khlebshop/193721364628/,found,ХлебШоп_20260311_075935.json
+Улица Алымова,,,,37.7123486,55.8044004,4.2,349.3,,skipped_street,
+Улица Алымова,,,,37.7119111,55.8044844,4.2,352.5,,skipped_street,
+Улица Алымова,,,,37.7122997,55.8044697,4.3,355.8,,skipped_street,
+,,,playground,37.717929906665326,55.80194337698666,4.3,359.7,,skipped_unnamed,
+Краснобогатырская улица,,,,37.7104333,55.8020158,4.4,368.6,,skipped_street,
+Столички,pharmacy,,,37.7151176,55.8056391,4.4,370.5,https://yandex.com/maps/org/stolichki/121887326020/,found,Столички_20260311_075953.json
+,,,playground,37.7181265,55.804515300000006,4.5,376.5,,skipped_unnamed,
+Френдс,cafe,,,37.710341,55.8012446,4.6,379.1,https://yandex.com/maps/org/friends/174300601521/,found,Френдс_20260311_080300.json
+Диализный центр НИИ Клинической медицины,clinic,,,37.71177779401394,55.80475001151804,4.6,383.1,https://yandex.com/maps/org/institute_clinical_medicine/143567389638/,found,НИИ_клинической_медицины_20260305_144225.json
+Краснобогатырская улица,,,,37.7103189,55.801931,4.7,386.9,,skipped_street,
+Додо Пицца,fast_food,,,37.7105699,55.8010714,4.7,388.0,https://yandex.com/maps/org/dodo_pizza/182854425695/,found,Додо_Пицца_20260311_080350.json
+Иван раковар,restaurant,,,37.7101771,55.8012586,4.7,388.6,https://yandex.com/maps/org/moia_rakovarnya/9481087810/,found,Моя_Раковарня_20260311_080504.json
+,,,playground,37.71929784122448,55.803490217378254,4.7,390.2,,skipped_unnamed,
+Оазис,cafe,,,37.7165526,55.800096,4.7,394.4,,not_found,
+Хороший доктор,doctors,,,37.7100745,55.8012309,4.7,395.6,https://yandex.com/maps/org/good_doctor/40267397512/,found,Хороший_Доктор_20260311_080546.json
+MyFitlab Преображенская,,,fitness_centre,37.7165728,55.8000666,4.8,397.9,https://yandex.com/maps/org/myfitlab/209083406668/,found,MyFitlab_20260311_080654.json
+Izıplay Кибер Арена,community_centre,,,37.7106246,55.8009682,4.8,399.9,https://yandex.com/maps/org/colizeum/189252168187/,found,Colizeum_20260311_080720.json
+Авоська,,supermarket,,37.7172255,55.8049434,4.9,409.2,https://yandex.com/maps/org/avos_ka/1015734229/,found,Авоська_20260305_144312.json
+More poke,cafe,,,37.7106777,55.8008618,4.9,412.2,https://yandex.com/maps/org/poke_more/155360543869/,found,Poke___More_20260311_080747.json
+Горздрав,pharmacy,,,37.7172875,55.805003,5.0,414.9,https://yandex.com/maps/org/gorzdrav/3834515160/,found,Горздрав_20260311_080805.json
+Mitsar,pharmacy,,,37.7174048,55.8050122,5.1,422.2,https://yandex.com/maps/org/mitsar/1029974793/,found,Мицар_20260311_080830.json
+Мама я плыву,,,sports_centre,37.7096017,55.8011302,5.1,427.1,https://yandex.com/maps/org/mama_ya_plyvu/84341101555/,found,Мама__я_плыву__20260311_080929.json
+Сбербанк,bank,,,37.7175624,55.8050678,5.2,433.4,https://yandex.com/maps/org/sberbank/87918851510/,found,СберБанк_20260311_081011.json
+,,,playground,37.714014892446,55.80617103370769,5.2,435.6,,skipped_unnamed,
+Перекрёсток,,supermarket,,37.7113539,55.800633,5.2,437.0,https://yandex.com/maps/org/perekrestok/54052554701/,found,Перекрёсток_20260305_145538.json
+,,,pitch,37.7100183704269,55.80083745490052,5.3,440.4,,skipped_unnamed,
+Медси,doctors,,,37.7112545,55.8005801,5.3,444.6,https://yandex.com/maps/org/medsi/237716612187/,found,Медси_20260311_081151.json
+Улица Хромова,,,,37.7128505,55.8002005,5.4,450.2,,skipped_street,
+Доктор Столетов,pharmacy,,,37.7111356,55.8005601,5.4,452.5,https://yandex.com/maps/org/doktor_stoletov/71841443179/,found,Доктор_Столетов_20260311_081210.json
+Зельев переулок,,,,37.7175178,55.8053753,5.5,454.4,,skipped_street,
+Краснобогатырская улица,,,,37.7092242,55.8026006,5.5,455.5,,skipped_street,
+Чайхана Халяль,cafe,,,37.7096554,55.805373,5.5,457.3,https://yandex.com/maps/org/chaykhana_khalyal/215549618494/,found,Чайхана_халяль_20260311_081229.json
+Улица Хромова,,,,37.7126671,55.8001835,5.5,459.9,,skipped_street,
+Улица Хромова,,,,37.7126904,55.8001894,5.5,460.0,,skipped_street,
+,pharmacy,,,37.7093533,55.8010917,5.6,464.1,https://yandex.com/maps/org/stolichki/121887326020/,found,Столички_20260311_081246.json
+,,,playground,37.709590858357785,55.80077751143904,5.6,464.6,,skipped_unnamed,
+,,,playground,37.7092997081142,55.80072949610069,5.6,464.6,,skipped_unnamed,
+Обнимая солнце,kindergarten,,,37.7089167,55.8009863,5.6,464.6,https://yandex.com/maps/org/hug_the_sun/66147649481/,found,Обнимая_Солнце_20260305_150104.json
+Лента,,supermarket,,37.7162903,55.7998718,5.6,465.0,https://yandex.com/maps/org/super_lenta/159289841467/,found,Супер_Лента_20260305_144835.json
+,,,playground,37.720975012381885,55.80442974976673,5.6,465.6,,skipped_unnamed,
+Краснобогатырская улица,,,,37.7090985,55.8025356,5.6,467.0,,skipped_street,
+Зельев переулок,,,,37.7174951,55.8054521,5.7,472.1,,skipped_street,
+Бойцовая улица,,,,37.7133493,55.8067194,5.7,473.5,,skipped_street,
+Бойцовая улица,,,,37.7134834,55.8067347,5.8,479.7,,skipped_street,
+Pro Coffee,cafe,,,37.7107054,55.800491,5.8,480.2,https://yandex.com/maps/org/procoffee/40375359264/,found,ProCoffee_20260311_081326.json
+,,,pitch,37.72032705,55.802258650000006,5.8,481.0,,skipped_unnamed,
+,,,playground,37.72038889570919,55.8033977193604,5.8,482.1,,skipped_unnamed,
+,,,playground,37.71131400047543,55.80005599972778,5.8,483.6,,skipped_unnamed,
+Zemsclinic,dentist,,,37.7120802,55.7999315,5.8,486.5,https://yandex.com/maps/org/zemsclinic/124808086639/,found,Земсклиника_20260311_081419.json
+Улица Хромова,,,,37.7128303,55.799953,5.8,487.5,,skipped_street,
+Улица Хромова,,,,37.7128534,55.7999592,5.8,487.5,,skipped_street,
+Футбольный клуб Преображенка,,,sports_centre,37.720700999999984,55.8025422,5.9,488.0,https://yandex.com/maps/org/prayd_futbolnaya_shkola/122033319367/,found,Прайд__Футбольная_школа_20260311_082024.json
+Улица Хромова,,,,37.7126514,55.7999608,5.9,488.6,,skipped_street,
+,,,playground,37.71146195000001,55.79978495,5.9,491.4,,skipped_unnamed,
+,,,pitch,37.72086086977514,55.80238535183867,5.9,492.3,,skipped_unnamed,
+Пятёрочка,,supermarket,,37.7137188,55.8069715,6.0,500.9,https://yandex.com/maps/org/pyatyorochka/148224309269/,found,Пятёрочка_20260305_144423.json
+Вита Экспресс,pharmacy,,,37.7135378,55.8069613,6.0,502.9,https://yandex.com/maps/org/vita_express/52613375086/,found,Вита_Экспресс_20260311_082050.json
+Пятёрочка,,supermarket,,37.7159936,55.8062319,6.0,502.9,https://yandex.com/maps/org/pyatyorochka/148752244403/,found,Пятёрочка_20260305_144739.json
+Nero,fast_food,,,37.7121392,55.7997748,6.0,504.4,https://yandex.com/maps/org/sushi_nero_wok/9407402778/,found,Суши_Неро_Вок_20260311_082157.json
+,,,playground,37.71804473206839,55.7996285509932,6.1,505.4,,skipped_unnamed,
+"Гимназия №1799, дошкольное отделение 4",kindergarten,,,37.71837240937348,55.80134740415583,6.1,505.5,https://yandex.com/maps/org/shkola_1080_doshkolnoye_otdeleniye_4/1088209648/,found,Школа___1080__дошкольное_отделение___4_20260305_145010.json
+Adria Mare,restaurant,,,37.7124853,55.7997924,6.1,508.7,https://yandex.com/maps/org/adria_mare/140739352225/,found,Adria_Mare_20260311_082347.json
+Будь здоров!,pharmacy,,,37.7102555,55.8004044,6.1,510.0,https://yandex.com/maps/org/bud_zdorov/104199994745/,found,Будь_Здоров__20260311_082406.json
+Зельев переулок,,,,37.7185162,55.805466,6.1,512.1,,skipped_street,
+Грузинская кухня,cafe,,,37.7183273,55.7998506,6.2,515.0,https://yandex.com/maps/org/georgian_food/148820131484/,found,Грузинская_кухня_20260311_082433.json
+Зельев переулок,,,,37.7184814,55.8055353,6.2,517.9,,skipped_street,
+Магнит,,convenience,,37.7183845,55.7998601,6.2,518.7,https://yandex.com/maps/org/magnit/167477791593/,found,Магнит_20260305_145051.json
+Буханка,,bakery,,37.7163696,55.8059925,6.3,521.7,https://yandex.com/maps/org/buhanka/223960900654/,found,Буханка_20260311_082531.json
+,,,playground,37.7124569074239,55.80581590816442,6.3,524.1,,skipped_unnamed,
+Еаптека,pharmacy,,,37.7124862,55.7996554,6.4,529.7,https://yandex.com/maps/org/eapteka/29197460466/,found,ЕАПТЕКА_20260311_082556.json
+Гемотест,,,,37.70882,55.8009636,6.4,536.4,https://yandex.com/maps/org/laboratoria_gemotest/199278147227/,found,Лаборатория_Гемотест_20260311_082626.json
+,,,pitch,37.72143363032385,55.80246849248322,6.4,537.1,,skipped_unnamed,
+ВкусВилл,,convenience,,37.7086497,55.8009288,6.5,537.4,https://yandex.com/maps/org/vkusvill/28234578703/,found,ВкусВилл_20260305_150735.json
+Школа №1080 (школьное отделение №3),school,,,37.721130480356805,55.80160517962691,6.5,537.6,https://yandex.com/maps/org/shkola_1080_shkolnoye_otdeleniye_3/176303019430/,found,Школа___1080__школьное_отделение___3_20260305_145650.json
+Ozzy coffee,cafe,,,37.7097309,55.8003251,6.5,544.0,https://yandex.com/maps/org/ozzy/81474077044/,found,Ozzy_20260311_082654.json
+МФЦ Преображенское,,,,37.7174713,55.7988153,6.6,547.4,https://yandex.com/maps/org/tsentr_gosuslug_rayona_preobrazhenskoye/1582177141/,found,Центр_госуслуг_района_Преображенское_20260311_082818.json
+МФЦ Преображенское,,,,37.7175467,55.7988278,6.6,553.2,https://yandex.com/maps/org/tsentr_gosuslug_rayona_preobrazhenskoye/1582177141/,found,Центр_госуслуг_района_Преображенское_20260305_150015.json
+Shawarma cafe,fast_food,,,37.7184637,55.8060793,6.8,563.2,https://yandex.com/maps/org/shaurma_pekarnya/86242734974/,found,Шаурма_Пекарня_20260311_082849.json
+,,,playground,37.70965269319314,55.806256420797055,6.8,564.2,,skipped_unnamed,
+Дикси,,supermarket,,37.7080245,55.8051858,6.9,572.1,https://yandex.com/maps/org/dixi/87836330334/,found,Дикси_20260305_150351.json
+,,,playground,37.721653471616456,55.80518353193543,6.9,572.2,,skipped_unnamed,
+Heritage,childcare,,,37.710003,55.799803,6.9,573.3,https://yandex.com/maps/org/heritage_international_school/238185762316/,found,Heritage_International_School_20260311_082919.json
+,,,playground,37.70941928302613,55.80005809988652,6.9,576.8,,skipped_unnamed,
+Resentin,restaurant,,,37.7092077,55.8002268,6.9,578.4,https://yandex.com/maps/org/resentin/203835448532/,found,Resentin_20260311_083008.json
+Школа №1797,school,,,37.71227849874701,55.80736827771557,7.0,583.7,https://yandex.com/maps/org/gbou_school_1797_building_2/1127920038/,found,Школа___1797_Богородская__корпус___2_20260305_144906.json
+Авиценна Фарма,pharmacy,,,37.7078324,55.8051547,7.0,584.6,https://yandex.com/maps/org/avilek/1230583549/,found,Авилек_20260311_083043.json
+,,greengrocer,,37.7179417,55.8060968,7.0,585.8,,skipped_unnamed,
+ProfiTrolly,cafe,,,37.7090313,55.8002077,7.1,589.7,https://yandex.com/maps/org/profitrolly/181700290674/,found,ProfiTrolly_20260311_083304.json
+,atm,,,37.7146411,55.7996342,7.2,599.9,https://yandex.com/maps/org/t_bank/39000042744/,found,Т-Банк_20260311_083330.json
+Мосгорсуд,,,,37.70751,55.8045361,7.2,600.1,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260311_083502.json
+,,,pitch,37.71857001929615,55.80086695162264,7.2,603.3,,skipped_unnamed,
+Пятёрочка,,supermarket,,37.7190702,55.8062286,7.2,604.2,https://yandex.com/maps/org/pyatyorochka/24126370673/,found,Пятёрочка_20260305_144950.json
+ST-clinics,dentist,,,37.7088416,55.8003286,7.3,604.9,https://yandex.com/maps/org/st/66636532328/,found,СТ_20260311_083525.json
+"Семейный центр ""Веста""",kindergarten,,,37.7199409,55.800881,7.3,607.6,https://yandex.com/maps/org/vesta/205192364200/,found,Веста_20260305_150501.json
+Бойцовая улица,,,,37.713685,55.8077803,7.3,607.8,,skipped_street,
+Московский индустриальный банк,bank,,,37.7146928,55.7995481,7.3,609.0,https://yandex.com/maps/org/moscow_industrial_bank/1436132599/,found,Московский_Индустриальный_банк_20260311_083546.json
+,atm,,,37.7191666,55.8062461,7.3,610.6,https://yandex.com/maps/org/t_bank/220354585027/,found,Т-Банк_20260311_083612.json
+,,,park,37.71957137682027,55.80594019907044,7.3,610.7,,skipped_unnamed,
+ИнтДент,dentist,,,37.7115813,55.7992817,7.3,611.9,https://yandex.com/maps/org/intdent/145780125461/,found,Интдент_20260311_083652.json
+Хинкальная,fast_food,,,37.7067433,55.8039487,7.4,613.2,https://yandex.com/maps/org/khinkalnaya/1224426109/,found,Хинкальная_20260311_083839.json
+Бойцовая улица,,,,37.713635,55.8078031,7.4,613.6,,skipped_street,
+Часовня-усыпальница А.Т. Колычева,place_of_worship,,,37.70940729850687,55.80443118190788,7.4,614.1,https://yandex.com/maps/org/bogorodskoe_cemetery/199448982685/,found,Богородское_кладбище_20260311_083857.json
+Мосгорсуд,,,,37.7072979,55.8045675,7.4,614.7,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260305_152342.json
+Пятёрочка,,supermarket,,37.7199038,55.8005398,7.4,615.5,https://yandex.com/maps/org/pyatyorochka/174993126988/,found,Пятёрочка_20260305_150636.json
+,,,playground,37.71468871593861,55.80728514470601,7.4,620.7,,skipped_unnamed,
+J2S,,,fitness_centre,37.711414,55.7992564,7.5,622.7,https://yandex.com/maps/org/j2s/118372558911/,found,J2s_20260311_083925.json
+Мосгорсуд,,,,37.7071638,55.8047883,7.5,625.0,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260305_151256.json
+,,,playground,37.72159862040149,55.80194970373311,7.5,626.1,,skipped_unnamed,
+,,,playground,37.72261675,55.80289350000001,7.6,630.8,,skipped_unnamed,
+,,,playground,37.717499,55.8066012,7.6,632.2,,skipped_unnamed,
+Дизайнерский дом Татьяны Тягиной,,clothes,,37.7112474,55.7992325,7.6,633.5,https://yandex.com/maps/org/dizaynersky_dom_tatyany_tyaginoy/215680677457/,found,Дизайнерский_дом_Татьяны_Тягиной_20260311_083956.json
+Дикси,,supermarket,,37.7138095,55.8080299,7.7,640.0,https://yandex.com/maps/org/dixy/1260020173/,found,Дикси_20260305_145625.json
+Храм-часовня Николая Чудотворца,place_of_worship,,,37.706501002094896,55.803052960177055,7.7,641.4,https://yandex.com/maps/org/chapel_of_saint_nicholas_the_wonderworker/1313305308/,found,Часовня_Николая_Чудотворца_20260311_084015.json
+,,,playground,37.72342421815764,55.804627509596926,7.7,641.5,,skipped_unnamed,
+,veterinary,,,37.7068768,55.8043965,7.7,644.0,https://yandex.com/maps/org/chetyre_lapy/107415786655/,found,Четыре_Лапы_20260311_084105.json
+Мосгорсуд,,,,37.7070434,55.804779,7.8,649.8,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260311_084238.json
+,,,playground,37.7230607,55.8053801,7.9,654.1,,skipped_unnamed,
+,dentist,,,37.7189816,55.7986847,7.9,658.6,https://yandex.com/maps/org/dentality/7789476382/,found,Денталити_20260311_084318.json
+,,,pitch,37.70943323412495,55.80696445099405,7.9,661.0,,skipped_unnamed,
+,,,pitch,37.7100884,55.79922404999999,7.9,661.0,,skipped_unnamed,
+Центр образования №1452 Богородский,school,,,37.70889481381086,55.80710470788066,7.9,661.0,https://yandex.com/maps/org/tsentr_obrazovaniya_bogorodskiy/1126809443/,found,Центр_образования_Богородский_20260305_152414.json
+,,,park,37.71556402844008,55.8071844523264,7.9,661.1,,skipped_unnamed,
+Дикси,,supermarket,,37.7222824,55.8057198,8.0,663.1,https://yandex.com/maps/org/dixy/1413271851/,found,Дикси_20260305_151806.json
+"Медицинский семейный центр ""Пангея""",doctors,,,37.7189138,55.7992054,8.1,672.8,https://yandex.com/maps/org/pangeya/1062900548/,found,Пангея_20260311_084410.json
+,,,pitch,37.72357461874393,55.805391808934914,8.1,675.6,,skipped_unnamed,
+,,,pitch,37.71500173987442,55.807121480847,8.1,677.5,,skipped_unnamed,
+,,,pitch,37.71214625,55.80756689999999,8.2,681.6,,skipped_unnamed,
+Хорошая Аптека,pharmacy,,,37.7146997,55.8082173,8.3,684.9,https://yandex.com/maps/org/vita_express/52613375086/,found,Вита_Экспресс_20260311_084435.json
+3-я Гражданская улица,,,,37.7140688,55.8083621,8.3,690.9,,skipped_street,
+3-я Гражданская улица,,,,37.7140388,55.8083447,8.3,690.9,,skipped_street,
+Детский сад №413,kindergarten,,,37.711641902520185,55.80770246823581,8.4,693.6,https://yandex.com/maps/org/detskiy_sad_413/172871960175/,found,Детский_сад___413_20260305_150328.json
+Cosmodent,dentist,,,37.7178962,55.8071114,8.3,694.6,https://yandex.com/maps/org/dr_pogodin_laboratory_of_perfect_smiles/7134045488/,found,Лаборатория_совершенных_улыбок_доктора_Погодина_20260311_084458.json
+,,,playground,37.716320246625216,55.80753502206893,8.3,695.5,,skipped_unnamed,
+,,,playground,37.707051329589376,55.80007937992331,8.4,696.1,,skipped_unnamed,
+,,,pitch,37.709650014742586,55.7992963777002,8.4,700.3,,skipped_unnamed,
+3-я Гражданская улица,,,,37.7139505,55.8084265,8.4,701.3,,skipped_street,
+Каждый День,,convenience,,37.714866,55.8083394,8.5,701.9,https://yandex.com/maps/org/kazhdy_den/1742861904/,found,Каждый_День_20260305_150419.json
+3-я Гражданская улица,,,,37.7140016,55.8084561,8.5,707.7,,skipped_street,
+Eurospar,,supermarket,,37.70605165649395,55.80193954123161,8.7,717.6,https://yandex.com/maps/org/eurospar/174888074779/,found,Eurospar_20260305_154736.json
+,,,pitch,37.71169391127401,55.807312614949176,8.7,719.6,,skipped_unnamed,
+,,,playground,37.7167989,55.79765860000001,8.7,723.7,,skipped_unnamed,
+Стоматологическая поликлиника №56,dentist,,,37.72168130120411,55.80101267567745,8.8,730.2,https://yandex.com/maps/org/dental_clinic_56/1013953134/,found,Стоматологическая_поликлиника___56_20260311_084638.json
+Магнит,,supermarket,,37.7209894,55.8065149,8.8,730.5,https://yandex.com/maps/org/magnit/237104845021/,found,Магнит_20260305_150705.json
+,cafe,,,37.7181041,55.7973381,8.8,732.7,https://yandex.com/maps/org/zdraste/39895408342/,found,Здрасте_20260311_084705.json
+Эверест,,supermarket,,37.7180859,55.7973105,8.8,732.7,https://yandex.com/maps/org/everest/238268748040/,found,Эверест_20260305_152458.json
+,,,playground,37.71083730208543,55.80741702185479,8.9,740.2,,skipped_unnamed,
+,,,pitch,37.714241,55.80895985,8.9,740.3,,skipped_unnamed,
+Авоська,,supermarket,,37.7188713,55.7986354,8.9,744.8,https://yandex.com/maps/org/avos_ka/96058051755/,found,Авоська_20260305_152604.json
+,,,playground,37.70803345054751,55.806520257468655,9.0,747.7,,skipped_unnamed,
+,,,pitch,37.70854939007136,55.80673154474359,9.0,748.4,,skipped_unnamed,
+,,,playground,37.71721776558789,55.7977267407287,9.0,748.8,,skipped_unnamed,
+Мосгорсуд,,,,37.7045376,55.802812,9.1,751.4,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260305_155539.json
+,,,playground,37.72306435000001,55.80188950000001,9.0,753.1,,skipped_unnamed,
+,,,playground,37.71695329999999,55.79754024999999,9.0,753.6,,skipped_unnamed,
+Мосгорсуд,,,,37.7046435,55.8027274,9.1,755.3,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260311_084835.json
+Олдент,dentist,,,37.7050067,55.8025071,9.1,756.5,https://yandex.com/maps/org/oldent/56491907564/,found,ОлДент_20260311_085021.json
+"Гимназия №1080, дошкольное отделение 1",kindergarten,,,37.72065962124005,55.799211263819615,9.1,757.2,https://yandex.com/maps/org/gbou_gimnaziya_1799_ekopolis_doshkolnoye_otdeleniye_1/1046778636/,found,Школа___1080__дошкольное_отделение___1_20260305_152925.json
+Метро «Преображенская площадь»,,,,37.7146709,55.7977091,9.2,760.4,,skipped_street,
+,,clothes,,37.707105,55.8068168,9.1,761.6,https://yandex.com/maps/org/odezhda/200178825577/,found,Одежда_20260311_085047.json
+Take and Wake,fast_food,,,37.717169,55.797235,9.2,763.6,https://yandex.com/maps/org/take_and_wake/237854165255/,found,Take_and_Wake_20260311_085105.json
+Поликлиника №149,clinic,,,37.72290247426906,55.80121906495246,9.2,764.4,https://yandex.com/maps/org/cdc_2_branch_2/173628682733/,found,Консультативно-диагностический_центр___2__филиал___20260305_153258.json
+,,,playground,37.71574020416499,55.80845965151229,9.2,766.7,,skipped_unnamed,
+Чайхана,cafe,,,37.7187493,55.7972275,9.2,767.7,https://yandex.com/maps/org/chaykhana_samarkand/101739513601/,found,Чайхана_Самарканд_20260311_085151.json
+Метро «Преображенская площадь»,,,,37.7145171,55.7976795,9.2,767.9,,skipped_street,
+Cofix,fast_food,,,37.7175032,55.7972531,9.2,769.7,https://yandex.com/maps/org/cofix/14021024233/,found,Cofix_20260311_085220.json
+DHL,post_office,,,37.7175155,55.7972103,9.2,770.3,https://yandex.com/maps/org/dhl/70418144506/,found,DHL_20260311_085238.json
+У Палыча,,convenience,,37.717432,55.7971995,9.3,775.6,https://yandex.com/maps/org/u_palycha/1769726260/,found,У_Палыча_20260305_153328.json
+,,,pitch,37.71585969153554,55.80836376739807,9.4,777.9,,skipped_unnamed,
+,,,playground,37.72470543442866,55.80446885151685,9.4,779.3,,skipped_unnamed,
+"Не плачь, пей кофе",cafe,,,37.7247467,55.8055592,9.4,782.0,https://yandex.com/maps/org/neplach_coffee/60796792770/,found,не_плачь__пей_кофе_20260311_085351.json
+,,,playground,37.70486800687272,55.801399512855554,9.5,785.3,,skipped_unnamed,
+Библиотека №107,library,,,37.7070492,55.8066246,9.4,786.5,https://yandex.com/maps/org/library_107/89476355455/,found,Библиотека___107_20260311_085411.json
+,,,playground,37.71540734999999,55.79765099999999,9.5,788.1,,skipped_unnamed,
+ВТБ,bank,,,37.7190545,55.7971346,9.5,791.9,https://yandex.com/maps/org/vtb_bank/1058116075/,found,Банк_ВТБ_20260311_085507.json
+Мосгорсуд,,,,37.7039063,55.802638,9.6,795.4,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260305_160943.json
+Бэби-клуб,childcare,,,37.7190605,55.8073108,9.6,798.1,https://yandex.com/maps/org/baby_club/1400546597/,found,Бэби-клуб_20260311_085530.json
+One Price Coffee,fast_food,,,37.7170596,55.7971771,9.6,798.6,https://yandex.com/maps/org/one_price_coffee/72243830958/,found,One_Price_Coffee_20260311_085611.json
+Мосгорсуд,,,,37.7038733,55.8026828,9.7,799.9,https://yandex.com/maps/org/moscow_city_court/1011300136/,found,Московский_городской_суд_20260305_160943.json
+,atm,,,37.7170095,55.7971163,9.6,803.6,https://yandex.com/maps/org/t_bank/217711506257/,found,Т-Банк_20260311_085627.json
+Апрель,pharmacy,,,37.7255078,55.8040026,9.7,804.6,https://yandex.com/maps/org/april/56643692262/,found,Апрель_20260311_085656.json
+Горздрав,pharmacy,,,37.7169603,55.797159,9.7,805.2,https://yandex.com/maps/org/gorzdrav/1168376636/,found,Горздрав_20260311_085727.json
+Здоров.ру,pharmacy,,,37.7168931,55.7971549,9.7,809.3,https://yandex.com/maps/org/zdorov_ru/191708198284/,found,Здоров_ру_20260311_085814.json
+,,,playground,37.72010281978164,55.79824535567049,9.7,809.8,,skipped_unnamed,
+Дракон,,,playground,37.72180633290583,55.799676508401646,9.7,811.7,https://yandex.com/maps/org/chyorny_drakon/107443570429/,found,Чёрный_Дракон_20260305_153909.json
+Москва 107076,post_office,,,37.7041251,55.8023635,9.8,813.9,,not_found,
+Хлебница,,bakery,,37.7256185,55.8036101,9.8,815.2,https://yandex.com/maps/org/hlebnitca/121412451478/,found,Хлебница_20260311_085842.json
+Панин и Ко,,supermarket,,37.716816,55.7971127,9.8,815.3,https://yandex.com/maps/org/panin_i_co/212761008917/,found,Панин_и_Ко_20260305_153933.json
+Метро «Преображенская площадь»,,,,37.7172098,55.7967993,9.8,815.6,,skipped_street,
+Метро «Преображенская площадь»,,,,37.7171683,55.7968776,9.8,815.7,,skipped_street,
+Детский сад №1521,kindergarten,,,37.70823006688676,55.807792984342015,9.8,820.6,https://yandex.com/maps/org/shkola_1797_bogorodskaya_korpus_mir_detstva/1106984712/,found,Школа___1797_Богородская__корпус_Мир_детства_20260305_153617.json
+Детский сад №381,kindergarten,,,37.71119387692943,55.80803541081123,9.9,821.1,https://yandex.com/maps/org/gimnaziya_1797_bogorodskaya_doshkolnoye_otdeleniye_4_3_rostok/1292875636/,found,Гимназия___1797_Богородская__дошкольное_отделение__20260305_153641.json
+Метро «Преображенская площадь»,,,,37.7147987,55.7971751,9.9,823.6,,skipped_street,
+ВкусВилл,,convenience,,37.7256429,55.80353,9.9,824.1,https://yandex.com/maps/org/vkusvill/233877374922/,found,ВкусВилл_20260305_154021.json
+,,,,37.7170384,55.7969136,9.9,825.0,,skipped_unnamed,
+Телерадиокомпания «Мир»,,,,37.7065221,55.8068634,9.9,825.2,https://yandex.com/maps/org/television_and_radio_company_mir/1368145642/,found,Межгосударственная_телерадиокомпания_Мир_20260311_085918.json
+Метро «Преображенская площадь»,,,,37.714962,55.7971221,9.9,827.1,,skipped_street,
+,,,pitch,37.71255730868092,55.80875116558395,10.0,827.9,,skipped_unnamed,
+Ваша № 1,pharmacy,,,37.715356,55.797093,10.0,829.8,https://yandex.com/maps/org/vasha_1/165538968579/,found,Ваша___1_20260311_085943.json
+Телерадиокомпания «Мир»,,,,37.7064271,55.8068477,10.0,831.1,https://yandex.com/maps/org/television_and_radio_company_mir/1368145642/,found,Межгосударственная_телерадиокомпания_Мир_20260305_154934.json
+,,,pitch,37.71195215,55.8090267,10.0,832.2,,skipped_unnamed,
+,,,playground,37.7067549,55.7991907,10.0,833.1,,skipped_unnamed,
+Белорусский дворик,,convenience,,37.7256936,55.8034458,10.0,834.0,https://yandex.com/maps/org/belorusskiy_dvorik/87509060893/,found,Белорусский_дворик_20260305_154801.json
+Суши Wok,fast_food,,,37.7197063,55.7972378,10.0,834.1,https://yandex.com/maps/org/sushi_wok/1787805273/,found,Суши_Wok_20260311_090042.json
+Viva Dent,dentist,,,37.7242706,55.8059513,10.0,835.1,https://yandex.com/maps/org/vivadent/1334081036/,found,VivaDent_20260311_090117.json
+,,,pitch,37.7082878,55.8081238,10.1,837.4,,skipped_unnamed,
+,,clothes,,37.7233868,55.8006802,10.0,837.7,https://yandex.com/maps/org/francesco_donni/198819639804/,found,Francesco_Donni_20260311_090145.json
+Понарошку,theatre,,,37.7261415,55.8056815,10.1,837.9,https://yandex.com/maps/org/ponaroshku/131847212083/,found,Понарошку_20260311_090208.json
+,,,playground,37.7093589626388,55.808372817774064,10.1,838.1,,skipped_unnamed,
+4-я Гражданская улица,,,,37.7195911,55.8073947,10.1,841.4,,skipped_street,
+Столички,pharmacy,,,37.7198488,55.7972589,10.1,843.5,https://yandex.com/maps/org/stolichki/117182125191/,found,Столички_20260311_090237.json
+,,,playground,37.7038043,55.8006848,10.2,844.3,,skipped_unnamed,
+Детская улица,,,,37.7159084,55.8095111,10.2,844.3,,skipped_street,
+4-я Гражданская улица,,,,37.7196249,55.8074447,10.2,846.8,,skipped_street,
+,,,playground,37.7069556,55.7990818,10.2,847.9,,skipped_unnamed,
+Товары для детей,,toys,,37.7253776,55.8042571,10.2,849.3,https://yandex.com/maps/org/nebo_sport/96094669779/,found,Небо_спорт_20260311_090258.json
+Школа №363 (начальные классы),school,,,37.711957077270974,55.80879031073356,10.2,850.9,https://yandex.com/maps/org/shkola_1797_bogorodskaya_korpus_1_2/1014872123/,found,Школа___1797_Богородская__корпус___1_2_20260305_152523.json
+Детская улица,,,,37.7157719,55.8095536,10.3,851.3,,skipped_street,
+,,,pitch,37.70435799044792,55.80166266034438,10.3,851.5,,skipped_unnamed,
+Ярче!,,supermarket,,37.719145,55.8078323,10.2,851.9,https://yandex.com/maps/org/yarche_/73490181608/,found,Ярче__20260305_152858.json
+,,,,37.7165779,55.7968311,10.3,855.2,,skipped_unnamed,
+Центральная библиотека имени Шолохова,library,,,37.7259152,55.8059737,10.3,858.9,https://yandex.com/maps/org/library_70/1139452688/,found,ОКЦ_ВАО__Центральная_библиотека___70_им__М__А__Шол_20260311_090325.json
+,,,pitch,37.72198930830376,55.7987679628977,10.3,860.6,,skipped_unnamed,
+,,,pitch,37.70834693447962,55.79976230532431,10.3,861.9,,skipped_unnamed,
+СДЭК,post_office,,,37.7208758,55.8071355,10.4,863.0,https://yandex.com/maps/org/cdek/95092326505/,found,unknown_20260311_090337.json
+Дикси,,supermarket,,37.7067617,55.8073381,10.4,863.7,https://yandex.com/maps/org/dixy/1087070550/,found,Дикси_20260305_160214.json
+Сбербанк,bank,,,37.7201874,55.7973036,10.4,865.1,https://yandex.com/maps/org/sberbank/1232723322/,found,СберБанк_20260311_090412.json
+Телерадиокомпания «Мир»,,,,37.7062274,55.8071635,10.4,868.2,https://yandex.com/maps/org/television_and_radio_company_mir/1368145642/,found,Межгосударственная_телерадиокомпания_Мир_20260305_160020.json
+Диалог,pharmacy,,,37.7189215,55.8079271,10.4,869.3,https://yandex.com/maps/org/dialog/173671661678/,found,Диалог_20260311_090441.json
+,,,playground,37.7039829,55.7998646,10.5,870.5,,skipped_unnamed,
+Детская улица,,,,37.7162057,55.8097502,10.6,876.8,,skipped_street,
+Планета Здоровья,pharmacy,,,37.726144,55.805287,10.5,877.3,https://yandex.com/maps/org/planeta_zdorovya/209317606506/,found,Планета_здоровья_20260311_090514.json
+Детская улица,,,,37.7162882,55.8097141,10.6,878.3,,skipped_street,
+HDMed,clinic,,,37.7070346,55.7988015,10.6,879.3,https://yandex.com/maps/org/novostom/93811573315/,found,Новостом_20260305_161330.json
+Фармленд,pharmacy,,,37.7066426,55.8074876,10.6,882.0,https://yandex.com/maps/org/farmlend/153177709515/,found,Фармленд_20260311_090532.json
+Телерадиокомпания «Мир»,,,,37.7060964,55.8071886,10.6,882.2,https://yandex.com/maps/org/television_and_radio_company_mir/1368145642/,found,Межгосударственная_телерадиокомпания_Мир_20260311_090607.json
+4-я Гражданская улица,,,,37.7201206,55.8071351,10.6,882.3,,skipped_street,
+Совкомбанк,bank,,,37.7204778,55.7973528,10.6,884.1,https://yandex.com/maps/org/sovkombank/164422860499/,found,Совкомбанк_20260311_090651.json
+,,,pitch,37.71236420418706,55.80862881646429,10.6,884.2,,skipped_unnamed,
+Гемотест,doctors,,,37.7262022,55.8049284,10.6,884.8,https://yandex.com/maps/org/laboratoria_gemotest/1149681253/,found,Лаборатория_Гемотест_20260311_090722.json
+4-я Гражданская улица,,,,37.7201681,55.8071672,10.6,885.5,,skipped_street,
+Метро «Преображенская площадь»,,,,37.7146334,55.7966236,10.6,887.4,,skipped_street,
+Apteka.ru,pharmacy,,,37.7260405,55.802539,10.7,889.2,https://yandex.com/maps/org/melodiya_zdorovya/39519624964/,found,Мелодия_здоровья_20260311_090749.json
+Чижик,,supermarket,,37.7262282,55.8046216,10.7,889.9,https://yandex.com/maps/org/chizhik/175751432228/,found,Чижик_20260305_160105.json
+,,convenience,,37.7205147,55.807294,10.7,891.5,https://yandex.com/maps/org/smeshannyye_tovary/114786180219/,found,Смешанные_товары_20260305_153553.json
+Пятёрочка,,supermarket,,37.7259804,55.8029531,10.7,891.6,https://yandex.com/maps/org/pyatyorochka/1810498656/,found,Пятёрочка_20260305_155939.json
+Метро «Преображенская площадь»,,,,37.7143377,55.7966139,10.8,895.4,,skipped_street,
+,veterinary,,,37.7262596,55.8050903,10.8,898.0,https://yandex.com/maps/org/multidisciplinary_veterinary_center/36838963086/,found,Многопрофильный_Ветеринарный_центр_20260311_090822.json
+"Лицей №1502. Корпус ""Гамма""",school,,,37.70736558524287,55.79806079678427,10.8,898.1,https://yandex.com/maps/org/school_1502_energy_div_gamma/1118605055/,found,Школа___1502_Энергия__корпус_Гамма_20260305_161424.json
+Фармленд,pharmacy,,,37.726171,55.80499,10.8,899.5,https://yandex.com/maps/org/farmlend/61801639013/,found,Фармленд_20260311_090846.json
+Добрынинский,,convenience,,37.7207327,55.7973979,10.8,900.8,https://yandex.com/maps/org/dobryninskiy/2379187344/,found,Добрынинский_20260305_161019.json
+Здравсити,pharmacy,,,37.7208037,55.7974308,10.9,906.1,https://yandex.com/maps/org/zdravcity/221308838932/,found,Здравсити_20260311_090909.json
+Метро «Преображенская площадь»,,,,37.7163797,55.796347,10.9,910.4,,skipped_street,
+Метро «Преображенская площадь»,,,,37.7163151,55.7964542,10.9,911.1,,skipped_street,
+Пятёрочка,,supermarket,,37.7065708,55.8077606,11.0,913.3,https://yandex.com/maps/org/pyatyorochka/110643220141/,found,Пятёрочка_20260305_161129.json
+,,,,37.7173807,55.7964381,11.0,915.7,,skipped_unnamed,
+,,,playground,37.72525285693044,55.80202523738133,11.0,917.1,,skipped_unnamed,
+,,,pitch,37.72736305099681,55.804484830631296,11.0,918.1,,skipped_unnamed,
+,,,track,37.727367796401055,55.80448552183928,11.0,918.1,,skipped_unnamed,
+,,,,37.7174263,55.7963574,11.1,925.1,,skipped_unnamed,
+,,,playground,37.7042306,55.7992524,11.2,925.6,,skipped_unnamed,
+,,,park,37.70808379272322,55.79988392056839,11.1,925.8,,skipped_unnamed,
+Метро «Преображенская площадь»,,,,37.7175579,55.7964387,11.1,926.3,,skipped_street,
+,,,pitch,37.7080635948332,55.80032041991163,11.1,926.4,,skipped_unnamed,
+,,,playground,37.7034111,55.8015262,11.2,929.4,,skipped_unnamed,
+,,,playground,37.7167925,55.8091646,11.3,944.4,,skipped_unnamed,
+,,,pitch,37.71158148599409,55.81010944627352,11.4,944.5,,skipped_unnamed,
+,,,pitch,37.71750495,55.80892174999999,11.4,947.3,,skipped_unnamed,
+,,,,37.7138931,55.7963271,11.4,948.4,,skipped_unnamed,
+Метро «Преображенская площадь»,,,,37.7179144,55.79653375,11.4,950.7,,skipped_street,
+Детский сад №2065,kindergarten,,,37.718987441555605,55.80869553098516,11.4,953.2,https://yandex.com/maps/org/gbou_shkola_1080_d_10/1062875946/,found,Школа___1080__дошкольное_отделение___10_20260305_154824.json
+ВкусВилл,,convenience,,37.7215296,55.7975536,11.4,953.5,https://yandex.com/maps/org/vkusvill/217892834560/,found,ВкусВилл_20260305_161234.json
+Почта Банк,bank,,,37.726206,55.8024052,11.4,954.4,https://yandex.com/maps/org/post_bank/1712446287/,found,Почта_Банк_20260311_090927.json
+,dentist,,,37.7262707,55.804793,11.5,958.2,https://yandex.com/maps/org/denta_house/1024950435/,found,Дента-Хаус_20260311_090950.json
+,,,,37.7170139,55.795962,11.5,959.0,,skipped_unnamed,
+,,,,37.7175932,55.7960658,11.5,959.2,,skipped_unnamed,
+Столовая,cafe,,,37.7096154,55.7970527,11.5,959.4,https://yandex.com/maps/org/eda_veka/6800720613/,found,Еда_Века_20260311_091017.json
+Метро «Преображенская площадь»,,,,37.7179589,55.79645285,11.5,960.1,,skipped_street,
+Стадион «Спартак»,,,,37.7108121,55.8100767,11.6,961.7,https://yandex.com/maps/org/spartak/224712439291/,found,Спартак_20260311_091047.json
+,,,playground,37.72332960000001,55.7990368,11.6,963.3,,skipped_unnamed,
+Москва 107392,post_office,,,37.7262569,55.8023249,11.6,963.9,,not_found,
+,,,pitch,37.70790949999999,55.800648,11.6,964.1,,skipped_unnamed,
+СДЭК,post_office,,,37.716663,55.810492,11.7,968.7,https://yandex.com/maps/org/cdek/134183856755/,found,CDEK_20260311_091321.json
+Преображенская площадь,,,,37.71534359581212,55.79637368487772,11.6,969.8,,skipped_street,
+Преображенская площадь,,,,37.7153466,55.7963698,11.6,969.8,,skipped_street,
+Стадион «Спартак»,,,,37.7108804,55.8101159,11.7,969.9,https://yandex.com/maps/org/spartak/224712439291/,found,Спартак_20260305_155616.json
+,,,playground,37.71090698560712,55.80932470304179,11.7,971.7,,skipped_unnamed,
+Преображенская площадь,,,,37.7153803,55.79632,11.7,974.5,,skipped_street,
+Преображенская площадь,,,,37.7153116,55.7964285,11.7,974.9,,skipped_street,
+,,,playground,37.70832644732344,55.809279467310674,11.7,975.9,,skipped_unnamed,
+Кулинария,,convenience,,37.7096673,55.7968891,11.7,977.9,https://yandex.com/maps/org/lya_fantazi/41203608439/,found,Ля_Фантази_20260305_163352.json
+,,,pitch,37.7077552,55.8002746,11.7,979.0,,skipped_unnamed,
+Детская библиотека №57,library,,,37.7073384,55.8086102,11.8,979.6,https://yandex.com/maps/org/library_74/1703508334/,found,ОКЦ_ВАО__библиотека___74_20260311_091348.json
+Коррекционная школа-интернат VIII вида №29,school,,,37.7016433,55.8015246,11.8,982.3,https://yandex.com/maps/org/tekhnologichesky_kolledzh_21_shkola_internat_viii_vida_dlya_detey_s_ovz/1789903858/,found,Технологический_колледж___21__школа_Благо_для_обуч_20260305_163415.json
+,,,,37.7133376,55.796228,11.8,984.8,,skipped_unnamed,
+"Гимназия №1799, дошкольное отделение 3",kindergarten,,,37.72570831114129,55.80028426432145,11.8,985.1,https://yandex.com/maps/org/sh1080_do_3/1120938071/,found,Школа___1080__дошкольное_отделение___3_20260305_161255.json
+Российская государственная библиотека для молодежи,library,,,37.71765001871257,55.79579448309509,11.8,987.2,https://yandex.com/maps/org/russian_state_library_for_young_adults/1263737305/,found,Российская_государственная_библиотека_для_молодёжи_20260311_091519.json
+,,,playground,37.72678556370592,55.80584187647712,11.8,987.2,,skipped_unnamed,
+Кофешефф,cafe,,,37.713746,55.7960093,11.9,989.8,https://yandex.com/maps/org/kofesheff/234747220226/,found,Кофешефф_20260311_091540.json
+Метро «Преображенская площадь»,,,,37.7183996,55.7965626,11.9,990.1,,skipped_street,
+,,,pitch,37.70799012019848,55.799624157817846,11.9,990.6,,skipped_unnamed,
+"Школа № 1797 ""Богородская"". Корпус ""Солнышко""",kindergarten,,,37.71901507339405,55.80978513333162,12.0,996.7,https://yandex.com/maps/org/shkola_1797_bogorodskaya_korpus_solnyshko/1066931713/,found,Школа___1797_Богородская__корпус_Солнышко_20260305_160240.json
+Черкизово,,,,37.7268982,55.8023627,12.0,1000.0,https://yandex.com/maps/org/cherkizovo/179144725872/,found,Черкизовский_мясоперерабатывающий_завод_20260311_091657.json
+,,,playground,37.71454697624058,55.8106247188645,12.0,1001.0,,skipped_unnamed,
+,,,playground,37.714665887349945,55.8105705173734,12.0,1001.0,,skipped_unnamed,
+KDL,doctors,,,37.7223784,55.7977951,12.0,1003.9,https://yandex.com/maps/org/kdl/116688239357/,found,KDL_20260311_091731.json
+Черкизово,,,,37.7270054,55.8023741,12.1,1005.5,https://yandex.com/maps/org/cherkizovo/179144725872/,found,Черкизовский_мясоперерабатывающий_завод_20260305_161759.json
+,,,pitch,37.72682781971529,55.804036301697984,12.1,1010.3,,skipped_unnamed,
+Школа 1080,school,,,37.72745018337206,55.804045293178405,12.1,1010.3,https://yandex.com/maps/org/shkola_1080_shkolnoye_otdeleniye_2/200086370521/,found,Школа___1080__школьное_отделение___2_20260305_161449.json
+Практик,dentist,,,37.706294,55.808596,12.2,1014.2,https://yandex.com/maps/org/stompraktik/1197298945/,found,Практик_20260311_091757.json
+SportCourt,,clothes,,37.7227683,55.7981639,12.2,1015.6,https://yandex.com/maps/org/sportcourt/1031144738/,found,SportCourt_20260311_091827.json
+,,,,37.7134975,55.7958907,12.2,1016.7,,skipped_unnamed,
+,,,pitch,37.70760115517004,55.80060218008708,12.2,1016.7,,skipped_unnamed,
+Форсаж,cafe,,,37.7266258,55.8015302,12.2,1017.3,https://yandex.com/maps/org/forsazh/1060827262/,found,Форсаж_20260311_091844.json
+,,,playground,37.72621327060269,55.807325234109456,12.2,1018.8,,skipped_unnamed,
+,,,playground,37.7263245,55.807159,12.2,1019.6,,skipped_unnamed,
+Магнит,,supermarket,,37.7264751,55.8018202,12.3,1021.3,https://yandex.com/maps/org/magnit/148556405817/,found,Магнит_20260305_161838.json
+Зельев переулок,,,,37.7226287,55.7975476,12.3,1023.3,,skipped_street,
+Доня,fast_food,,,37.7267349,55.801553,12.3,1024.5,https://yandex.com/maps/org/donja_grill/189479408575/,found,Доня_Гриль_20260311_091901.json
+Зельев переулок,,,,37.7227128,55.7974338,12.3,1024.7,,skipped_street,
+Стадион «Спартак»,,,,37.710217,55.8104979,12.4,1029.2,https://yandex.com/maps/org/spartak/224712439291/,found,Спартак_20260305_161052.json
+,,,playground,37.71632705,55.81101699999999,12.4,1032.7,,skipped_unnamed,
+Метро «Преображенская площадь»,,,,37.7165535,55.7960008,12.4,1034.6,,skipped_street,
+Просторная улица,,,,37.7270983,55.8067779,12.4,1035.9,,skipped_street,
+Стадион «Спартак»,,,,37.7102819,55.8105429,12.5,1036.3,https://yandex.com/maps/org/spartak/224712439291/,found,Спартак_20260311_091931.json
+Метро «Преображенская площадь»,,,,37.7164667,55.7961142,12.4,1036.4,,skipped_street,
+Просторная улица,,,,37.7269811,55.806923,12.5,1037.9,,skipped_street,
+,,,playground,37.708642279225074,55.8096001057702,12.5,1038.8,,skipped_unnamed,
+Метро «Преображенская площадь»,,,,37.7131692,55.7957972,12.5,1039.6,,skipped_street,
+Метро «Преображенская площадь»,,,,37.7132008,55.7957163,12.5,1040.7,,skipped_street,
+,,,park,37.7128386772992,55.79588504545419,12.6,1043.4,,skipped_unnamed,
+МясновЪ,,convenience,,37.7232706,55.798254,12.6,1048.6,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/1217466819/,found,КуулКлевер_МясновЪ_Отдохни_20260305_162605.json
+Черкизово,,,,37.7272534,55.8019936,12.6,1053.2,https://yandex.com/maps/org/cherkizovo/179144725872/,found,Черкизовский_мясоперерабатывающий_завод_20260305_163036.json
+Магнит,,convenience,,37.7080909,55.8097323,12.7,1054.1,https://yandex.com/maps/org/magnit/1532254228/,found,Магнит_20260305_161945.json
+Просторная улица,,,,37.72669563603296,55.80727224281551,12.7,1055.8,,skipped_street,
+Черкизово,,,,37.7273501,55.8020041,12.7,1056.0,https://yandex.com/maps/org/cherkizovo/179144725872/,found,Черкизовский_мясоперерабатывающий_завод_20260311_092049.json
+Дикси,,supermarket,,37.7180906,55.8109635,12.7,1056.7,https://yandex.com/maps/org/dixy/124746788276/,found,Дикси_20260305_161159.json
+,,,playground,37.726738909891786,55.80080982969525,12.7,1057.6,,skipped_unnamed,
+Просторная улица,,,,37.7267495,55.8072533,12.7,1059.8,,skipped_street,
+,fast_food,,,37.7058135,55.8092071,12.7,1059.9,https://yandex.com/maps/org/papa_dzhons/1558519752/,found,Папа_Джонс_20260311_092432.json
+,,,pitch,37.71050225,55.8109843,12.8,1060.9,,skipped_unnamed,
+Машенька,,clothes,,37.7058808,55.809279,12.7,1062.3,https://yandex.com/maps/org/mashenkashop/23370678241/,found,Машенька_20260311_092451.json
+,,,pitch,37.72135569480493,55.809319862322496,12.8,1062.6,,skipped_unnamed,
+Дикси,,supermarket,,37.7235118,55.7982877,12.8,1064.1,https://yandex.com/maps/org/dixy/1275740455/,found,Дикси_20260305_163258.json
+,,,playground,37.72632835605395,55.800438080212174,12.8,1065.0,,skipped_unnamed,
+,pharmacy,,,37.7062299,55.8094246,12.8,1068.0,https://yandex.com/maps/org/stolichki/121887326020/,found,Столички_20260311_092509.json
+,,,playground,37.71812156051634,55.81015489358439,12.9,1068.4,,skipped_unnamed,
+ВкусВилл,,convenience,,37.7193614,55.7963539,13.0,1082.4,https://yandex.com/maps/org/vkusvill/7791271905/,found,ВкусВилл_20260305_164301.json
+,,,playground,37.72820250000001,55.80534095,13.0,1083.6,,skipped_unnamed,
+,,,pitch,37.721548136603325,55.809481434573655,13.0,1083.8,,skipped_unnamed,
+,veterinary,,,37.7238376,55.798351,13.0,1085.6,https://yandex.com/maps/org/masvet/140346437355/,found,Масвет_20260311_092609.json
+Смешные цены,,clothes,,37.7194777,55.7963612,13.1,1089.6,https://yandex.com/maps/org/smeshnyye_tseny/16246845305/,found,Смешные_цены_20260311_092640.json
+,atm,,,37.7055075,55.8094162,13.1,1089.8,https://yandex.com/maps/org/t_bank/158186844853/,found,Т-Банк_20260311_092705.json
+,,,fitness_centre,37.7194414,55.796058,13.1,1090.6,https://yandex.com/maps/org/womans_way/125139437292/,found,Womans_Way_20260311_092728.json
+,,,,37.7138498,55.7953367,13.1,1091.2,,skipped_unnamed,
+Горздрав,pharmacy,,,37.7056015,55.8094949,13.1,1091.5,https://yandex.com/maps/org/gorzdrav/30557727508/,found,Горздрав_20260311_092748.json
+,,,,37.7141741,55.7952018,13.1,1091.8,,skipped_unnamed,
+Психиатрическая больница №4 имени Ганнушкина,hospital,,,37.7019905469623,55.79902489495344,13.2,1092.5,https://yandex.com/maps/org/psychiatric_clinical_hospital_4_named_after_p_b_gannushkin/106004952197/,found,Психиатрическая_клиническая_больница___4_имени_П___20260311_092841.json
+,fast_food,,,37.7195178,55.7963878,13.1,1092.8,https://yandex.com/maps/org/burger_king/39403452123/,found,Бургер_Кинг_20260311_093146.json
+Почта Банк,bank,,,37.7158012,55.7952068,13.1,1092.8,https://yandex.com/maps/org/post_bank/1703491659/,found,Почта_банк_20260311_093205.json
+,,,playground,37.70942935657644,55.81016358187895,13.2,1093.9,,skipped_unnamed,
+"ГБОУ Школа №1080, Школьное отделение № 5",school,,,37.720363412737925,55.809502704989946,13.1,1094.2,https://yandex.com/maps/org/shkola_1080_shkolnoye_otdeleniye_5/1039635310/,found,Школа___1080__школьное_отделение___5_20260305_161354.json
+,atm,,,37.7054515,55.8094441,13.1,1094.5,https://yandex.com/maps/org/sberbank/177260591538/,found,СберБанк_20260311_093222.json
+,,,pitch,37.7281827,55.8054809,13.1,1094.6,,skipped_unnamed,
+Магнолия,,convenience,,37.7195573,55.796382,13.1,1095.0,https://yandex.com/maps/org/magnoliya/1101224500/,found,Магнолия_20260305_164342.json
+,,clothes,,37.7055344,55.8095241,13.2,1096.8,https://yandex.com/maps/org/zhenskaya_odezhda/41848461970/,found,Женская_одежда_20260311_093240.json
+,,,playground,37.7060039,55.8099695,13.2,1097.6,,skipped_unnamed,
+Москва 107061,post_office,,,37.7158213,55.7951524,13.2,1099.1,,not_found,
+,,,playground,37.7164649,55.79505915,13.2,1101.4,,skipped_unnamed,
+Горздрав,pharmacy,,,37.719682,55.7964,13.2,1103.0,https://yandex.com/maps/org/gorzdrav/55661872947/,found,Горздрав_20260311_093303.json
+Универсам,,convenience,,37.7054862,55.8096313,13.3,1107.2,https://yandex.com/maps/org/chizhik/222306075518/,found,Чижик_20260305_164417.json
+,cafe,,,37.7053227,55.8095451,13.3,1108.0,https://yandex.com/maps/org/samarkand/117404724924/,found,Самарканд_20260311_093621.json
+Магнит,,supermarket,,37.7274949,55.8068935,13.3,1109.9,https://yandex.com/maps/org/magnit/222131299794/,found,Магнит_20260305_163205.json
+Столички,pharmacy,,,37.7273419,55.8068485,13.4,1114.5,https://yandex.com/maps/org/stolichki/1075764796/,found,Столички_20260311_093651.json
+,,,,37.7148422,55.7955691,13.4,1115.5,,skipped_unnamed,
+,,,playground,37.72813795,55.80642825,13.4,1117.0,,skipped_unnamed,
+Папа Джонс,fast_food,,,37.7048286,55.8091341,13.4,1117.4,https://yandex.com/maps/org/papa_dzhons/1558519752/,found,Папа_Джонс_20260311_093746.json
+,,,playground,37.725550520529154,55.79909490567865,13.5,1122.3,,skipped_unnamed,
+Столички,pharmacy,,,37.7181491,55.8116173,13.5,1124.4,https://yandex.com/maps/org/stolichki/53675148099/,found,Столички_20260311_093814.json
+"Церковь ""Роса""",place_of_worship,,,37.7046382,55.8088882,13.5,1125.6,https://yandex.com/maps/org/moscow_christian_charismatic_church_rosa/1037985084/,found,Христианская_церковь_Роса_20260311_093834.json
+,,,playground,37.72913094880059,55.80362061081159,13.5,1127.6,,skipped_unnamed,
+"ГБОУ Школа №1797 ""Богородская"" Дошкольное отделение",kindergarten,,,37.71395361118789,55.81131004210381,13.6,1128.9,https://yandex.com/maps/org/shkola_1797_bogorodskaya_korpus_teremok/1058136719/,found,Школа___1797_Богородская__корпус_Теремок_20260305_161903.json
+СДЭК,post_office,,,37.7080402,55.7964096,13.6,1129.7,https://yandex.com/maps/org/cdek/209083245443/,found,CDEK_20260311_093904.json
+,,,,37.7148676,55.795254,13.6,1131.8,,skipped_unnamed,
+,,,pitch,37.7290624,55.8036795,13.6,1133.6,,skipped_unnamed,
+,,,pitch,37.72758192237662,55.80413638047352,13.6,1136.5,,skipped_unnamed,
+Идиллия,cafe,,,37.7182721,55.8117232,13.7,1138.6,https://yandex.com/maps/org/idillia/109970798857/,found,Идиллия_20260311_093937.json
+,atm,,,37.7129792,55.7949598,13.7,1140.3,https://yandex.com/maps/org/t_bank/217711506257/,found,Т-Банк_20260311_093954.json
+True cost,restaurant,,,37.7129988,55.7948099,13.7,1140.3,https://yandex.com/maps/org/true_cost/107315972970/,found,True_Cost_20260311_094237.json
+,school,,,37.7211132998582,55.80972473188605,13.7,1140.4,https://yandex.com/maps/org/shkola_1080_shkolnoye_otdeleniye_5/1039635310/,found,Школа___1080__школьное_отделение___5_20260305_162013.json
+Mango,cafe,,,37.7094716,55.795606,13.7,1141.2,https://yandex.com/maps/org/mango/1632632102/,found,Mango_20260311_094306.json
+"Бойцовая улица, 17",,,,37.7186899,55.8117454,13.8,1147.6,,skipped_street,
+JustFit Exclusive Club,,,fitness_centre,37.7133662,55.7949455,13.8,1148.2,https://yandex.com/maps/org/justfit_exclusive_club/182182417931/,found,JustFit_Exclusive_Club_20260311_094344.json
+,,,playground,37.72855101791419,55.802457542766064,13.8,1148.8,,skipped_unnamed,
+,,,,37.714470690466506,55.79479614909733,13.8,1149.1,,skipped_unnamed,
+,,,playground,37.70699619898075,55.79676395583893,13.8,1149.1,,skipped_unnamed,
+,,,,37.7146041,55.7948,13.8,1149.2,,skipped_unnamed,
+Кот+Бегемот,veterinary,,,37.704461,55.8093398,13.8,1149.9,https://yandex.com/maps/org/kot_begemot/233427903676/,found,Кот_Бегемот_20260311_094456.json
+,,,park,37.72876010038327,55.801945206101664,13.8,1153.1,,skipped_unnamed,
+Врачебно-физкультурный диспансер №4,clinic,,,37.70585641580277,55.79715652336135,13.9,1154.8,https://yandex.com/maps/org/meditsinsky_nauchno_praktichesky_tsentr_meditsinskoy_reabilitatsii_vosstanovitelnoy_i_sportivnoy_meditsiny_gosudarstvennoye_byudzhetnoye_uchrezhdeniye_zdravookhraneniya_goroda_moskvy_filial_7/1314298260/,found,Медицинский_научно-практический_центр_Медицинской__20260305_165329.json
+Боевые перчатки,,,sports_centre,37.7060652,55.7971802,13.9,1154.8,,not_found,
+Джин про мясо,restaurant,,,37.7090518,55.7957689,13.9,1154.9,https://yandex.com/maps/org/gin_pro_meat/238436952974/,found,Джин_про_Мясо_20260311_094928.json
+Prime,cafe,,,37.7130071,55.7950099,13.9,1155.1,https://yandex.com/maps/org/prime/1089952080/,found,Prime_20260311_094957.json
+"Бойцовая улица, 17",,,,37.7185777,55.8117896,13.9,1155.7,,skipped_street,
+Управа района Богородское,,,,37.7055768,55.8103242,13.9,1156.1,https://yandex.com/maps/org/uprava_rayona_bogorodskoye_goroda_moskvy/1394119746/,found,Управа_района_Богородское_20260305_164538.json
+Зельев переулок,,,,37.72443470000001,55.7976613,13.9,1157.7,,skipped_street,
+Зельев переулок,,,,37.7244508,55.7976369,13.9,1157.8,,skipped_street,
+,,,fitness_centre,37.7269718,55.8004144,13.9,1158.2,https://yandex.com/maps/org/selform/192396094691/,found,Selform_20260311_095452.json
+Coffeeport,cafe,,,37.7129171,55.7950874,13.9,1158.8,https://yandex.com/maps/org/coffeeport/87277514852/,found,Кофепорт_20260311_095520.json
+Инвитро,doctors,,,37.7197335,55.7963408,13.9,1159.1,https://yandex.com/maps/org/invitro/1007523364/,found,Invitro_20260311_095549.json
+"ГБОУ Школа №1797 ""Богородская""",school,,,37.7151787384689,55.81190827773833,13.9,1159.6,https://yandex.com/maps/org/gbou_school_1797_building_2/1127920038/,found,Школа___1797_Богородская__корпус___2_20260305_162801.json
+Управа района Богородское,,,,37.7061877,55.8105953,14.0,1163.0,https://yandex.com/maps/org/uprava_rayona_bogorodskoye_goroda_moskvy/1394119746/,found,Управа_района_Богородское_20260311_095635.json
+,,,playground,37.728889629551,55.80636155608305,14.0,1163.5,,skipped_unnamed,
+Зельев переулок,,,,37.724479900000006,55.797573400000005,14.0,1167.6,,skipped_street,
+Зельев переулок,,,,37.7244614,55.7976086,14.0,1167.6,,skipped_street,
+Управа района Богородское,,,,37.7061253,55.8106312,14.0,1167.7,https://yandex.com/maps/org/uprava_rayona_bogorodskoye_goroda_moskvy/1394119746/,found,Управа_района_Богородское_20260305_164611.json
+,,,pitch,37.729011910225935,55.801776285375,14.1,1172.7,,skipped_unnamed,
+Сбер Еаптека,pharmacy,,,37.7093428,55.7954326,14.1,1175.8,https://yandex.com/maps/org/eapteka/21670607310/,found,ЕАПТЕКА_20260311_095656.json
+Свой,,supermarket,,37.719213,55.8118533,14.2,1178.0,https://yandex.com/maps/org/svoy/7186846545/,found,Свой_20260305_163328.json
+,cafe,,,37.7292287,55.8061991,14.2,1181.5,https://yandex.com/maps/org/dejure/119142470204/,found,DeJure_20260311_095746.json
+Храм Преображения Господня в Преображенском,place_of_worship,,,37.7110324372699,55.795561413584124,14.2,1183.0,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_lord/1375579655/,found,Храм_Преображения_Господня_на_Преображенской_площа_20260311_095844.json
+Зельев переулок,,,,37.7231052,55.7972701,14.2,1184.6,,skipped_street,
+Зельев переулок,,,,37.7231667,55.7971523,14.2,1184.9,,skipped_street,
+Сбербанк,bank,,,37.7091937,55.79544,14.2,1185.2,https://yandex.com/maps/org/sberbank/1016535390/,found,СберБанк_20260311_095950.json
+,,,playground,37.7207937,55.79654,14.2,1186.0,,skipped_unnamed,
+Stars Coffee,cafe,,,37.7125119,55.7949773,14.3,1186.1,https://yandex.com/maps/org/stars_coffee/159246427962/,found,Stars_Coffee_20260311_100241.json
+,,,playground,37.71780764436546,55.79533685624696,14.2,1187.0,,skipped_unnamed,
+Преображенская площадь,,,,37.7091457,55.795372,14.3,1188.1,,skipped_street,
+,,clothes,,37.704471,55.8100899,14.3,1189.0,https://yandex.com/maps/org/thetsekh/194261325350/,found,TheЦех_20260311_100308.json
+Поликлиника №186,clinic,,,37.70665135557005,55.81071533964663,14.3,1193.2,https://yandex.com/maps/org/children_city_polyclinic_28/167853126285/,found,Детская_городская_поликлиника___28__филиал___1_20260305_164635.json
+,,,pitch,37.7178682,55.7953934,14.3,1193.9,,skipped_unnamed,
+ВкусВилл,,convenience,,37.7043737,55.8101352,14.4,1196.9,https://yandex.com/maps/org/vkusvill/170868174652/,found,ВкусВилл_20260305_165059.json
+,,,playground,37.72790880082926,55.80803265065136,14.4,1198.0,,skipped_unnamed,
+Басни,,,playground,37.72890265827716,55.80769132910857,14.4,1199.8,https://yandex.com/maps/org/krylov_fables/2607650788/,found,Иллюстрации_к_басням_Крылова_20260305_164506.json
+,,,pitch,37.721971550000006,55.80976505,14.4,1200.5,,skipped_unnamed,
+,,,track,37.72196764674244,55.80976253755678,14.4,1202.1,,skipped_unnamed,
+Управа района Богородское,,,,37.7054969,55.8103685,14.4,1203.2,https://yandex.com/maps/org/uprava_rayona_bogorodskoye_goroda_moskvy/1394119746/,found,Управа_района_Богородское_20260311_100401.json
+1-я Прогонная улица,,,,37.7040763,55.8099681,14.5,1205.4,,skipped_street,
+Детская поликлиника №28,clinic,,,37.72750459420098,55.79998325746784,14.5,1206.4,https://yandex.com/maps/org/children_city_polyclinic_28_branch_2/1034105200/,found,Детская_городская_поликлиника___28__филиал___2_20260305_164852.json
+Пятёрочка,,supermarket,,37.7262648,55.7983608,14.5,1210.0,https://yandex.com/maps/org/pyatyorochka/53785490483/,found,Пятёрочка_20260305_164800.json
+"Арт-кластер ""Восток""",community_centre,,,37.7257544,55.8090465,14.5,1211.7,https://yandex.com/maps/org/art_klaster_vostok/1012220073/,found,Арт-кластер_Восток_20260311_100429.json
+1-я Прогонная улица,,,,37.7039343,55.8099066,14.6,1216.1,,skipped_street,
+1-я Прогонная улица,,,,37.7039157,55.8098968,14.6,1216.1,,skipped_street,
+Моссовет,restaurant,,,37.7137041,55.7943274,14.7,1219.3,https://yandex.com/maps/org/mossovet_district_community_center/221117084105/,found,ОКЦ_ВАО__Территориальное_управление_Моссовет_20260311_101026.json
+ВТБ,bank,,,37.712285,55.7948966,14.7,1221.6,https://yandex.com/maps/org/vtb_bank/182087867815/,found,Банк_ВТБ_20260311_101044.json
+Дантист & Док,dentist,,,37.7072065,55.7960654,14.7,1222.0,https://yandex.com/maps/org/dentist_doc/183924827220/,found,Дантист___Док_20260311_101127.json
+ДНКом,doctors,,,37.7078698,55.7955607,14.7,1227.3,https://yandex.com/maps/org/dnkom/65842646440/,found,ДНКОМ_20260311_101206.json
+,,,pitch,37.7300777,55.8020476,14.8,1229.6,,skipped_unnamed,
+,,,pitch,37.72919060000001,55.807138900000005,14.8,1230.3,,skipped_unnamed,
+Преображенская площадь,,,,37.7080672,55.7954058,14.8,1230.7,,skipped_street,
+Преображенская площадь,,,,37.7080632,55.7952837,14.8,1231.0,,skipped_street,
+CrossFit Bayard,,,sports_centre,37.7130772,55.7942754,14.8,1232.4,https://yandex.com/maps/org/bayard_athletic/211928264655/,found,Баярд_20260311_101236.json
+,,,pitch,37.7300911,55.8020234,14.8,1232.4,,skipped_unnamed,
+Артемида,clinic,,,37.707352,55.7959044,14.8,1234.5,https://yandex.com/maps/org/artemida_med_/1092796240/,found,Артемида_Мед__20260305_170926.json
+Аленький цветочек,,convenience,,37.7043441,55.8102235,14.8,1237.0,https://yandex.com/maps/org/alenkiy_tsvetochek/72474040282/,found,Аленький_цветочек_20260305_165409.json
+Преображенская площадь,,,,37.7091523,55.7952214,14.8,1237.6,,skipped_street,
+,,,playground,37.72033315,55.79543545,14.9,1238.2,,skipped_unnamed,
+,,,playground,37.7289706,55.80040814999999,14.9,1241.2,,skipped_unnamed,
+,,,playground,37.72321590414722,55.79696501841914,14.9,1241.7,,skipped_unnamed,
+Smart Food,cafe,,,37.7122263,55.7947048,14.9,1243.2,https://yandex.com/maps/org/smart_food/1158227976/,found,Smart_Food_20260311_101303.json
+Детский сад № 24,kindergarten,,,37.72427548957879,55.80875508967812,14.9,1244.1,https://yandex.com/maps/org/detskiy_sad_pri_shkole_internate/1069529960/,found,Детский_сад_при_школе-интернате_20260305_164437.json
+Чижик,,supermarket,,37.7037899,55.8104504,15.0,1247.4,https://yandex.com/maps/org/chizhik/222306075518/,found,Чижик_20260305_165445.json
+Хэппи Нэппи,kindergarten,,,37.7070808,55.795978,15.0,1251.5,https://yandex.com/maps/org/happy_nappy/1733796090/,found,Happy_Nappy_20260305_174147.json
+Superapteka.ru,pharmacy,,,37.7142339,55.7937995,15.1,1252.7,https://yandex.com/maps/org/superapteka/112841893796/,found,Супераптека_20260311_101335.json
+Аптеки Столицы,pharmacy,,,37.7219583,55.7968059,15.0,1253.2,https://yandex.com/maps/org/apteki_stolitsy/1138082033/,found,Аптеки_столицы_20260311_101620.json
+Бургер Кинг,fast_food,,,37.7114302,55.7948992,15.1,1253.5,https://yandex.com/maps/org/burger_king/39403452123/,found,Бургер_Кинг_20260311_102150.json
+Здравсити,pharmacy,,,37.7036851,55.8104917,15.1,1255.4,https://yandex.com/maps/org/zdravcity/124055735954/,found,Здравсити_20260311_102247.json
+МЗ Эконом,pharmacy,,,37.7143124,55.7937253,15.1,1257.1,https://yandex.com/maps/org/apteka_ekonom/156015875559/,found,Эконом_20260311_102343.json
+1-я Прогонная улица,,,,37.7034712,55.8101741,15.1,1257.6,,skipped_street,
+1-я Прогонная улица,,,,37.7034529,55.8101641,15.1,1257.6,,skipped_street,
+,,,park,37.715483674270814,55.794202169714616,15.1,1258.1,,skipped_unnamed,
+1-я Прогонная улица,,,,37.703391,55.8101392,15.1,1258.2,,skipped_street,
+Магнит,,supermarket,,37.7251893,55.809302,15.1,1258.7,https://yandex.com/maps/org/magnit/1590548734/,found,Магнит_20260305_164717.json
+,,,pitch,37.702435251392814,55.80956414906147,15.1,1258.9,,skipped_unnamed,
+1-я Прогонная улица,,,,37.7086933,55.812016,15.1,1259.8,,skipped_street,
+Самарканд,cafe,,,37.7036231,55.8105161,15.1,1260.0,https://yandex.com/maps/org/ulugh_beg_observatory/158428626285/,found,Обсерватория_Улугбека_20260311_102839.json
+Парус,restaurant,,,37.7117558,55.7946865,15.2,1260.7,https://yandex.com/maps/org/parus/1258507688/,found,Парус_20260311_103119.json
+Халтуринская улица,,,,37.7284768,55.7993565,15.2,1262.3,,skipped_street,
+,,,playground,37.71994556468244,55.81164399713949,15.2,1262.7,,skipped_unnamed,
+,,,playground,37.72719280523141,55.80956839290885,15.2,1263.0,,skipped_unnamed,
+,,,playground,37.70688845,55.7958776,15.2,1263.5,,skipped_unnamed,
+,,,pitch,37.71318405,55.80957849999999,15.2,1264.4,,skipped_unnamed,
+,,,pitch,37.7238536,55.7970369,15.2,1264.8,,skipped_unnamed,
+Вертел,fast_food,,,37.7143205,55.7936562,15.2,1264.8,https://yandex.com/maps/org/sochny_vertel/34895157767/,found,Сочный_Вертел_20260311_103419.json
+Subway,fast_food,,,37.7117506,55.7946312,15.2,1266.9,https://yandex.com/maps/org/subjoy/1067441617/,found,Subjoy_20260311_103508.json
+,,,playground,37.72381460077085,55.797019513295126,15.2,1267.7,,skipped_unnamed,
+Профи Дент,dentist,,,37.7166576,55.8125186,15.3,1269.7,https://yandex.com/maps/org/profi_dent/80223587842/,found,Профидент_20260311_103553.json
+Преображенская площадь,,,,37.7095571,55.7951353,15.3,1271.2,,skipped_street,
+,,,playground,37.72919255006149,55.80094402591032,15.3,1273.0,,skipped_unnamed,
+,kindergarten,,,37.7034738230006,55.80868691766138,15.3,1278.1,https://yandex.com/maps/org/heritage_international_school/238185762316/,found,Heritage_International_School_20260305_170539.json
+Халтуринская улица,,,,37.7272621,55.7981841,15.3,1278.6,,skipped_street,
+1-я Прогонная улица,,,,37.708612,55.8120687,15.4,1279.2,,skipped_street,
+Халтуринская улица,,,,37.7272033,55.7983005,15.4,1279.8,,skipped_street,
+Манави,cafe,,,37.7094187,55.7949414,15.4,1280.8,https://yandex.com/maps/org/manavi/210984461886/,found,Манави_20260311_104354.json
+Халтуринская улица,,,,37.7286106,55.7993531,15.4,1281.9,,skipped_street,
+ВТБ,bank,,,37.7251893,55.7973056,15.4,1282.8,https://yandex.com/maps/org/vtb_bank/1058116075/,found,Банк_ВТБ_20260311_104650.json
+Преображенский рынок,,,,37.7146649,55.793725,15.4,1283.6,https://yandex.com/maps/org/preobrazhensky_market/1069981165/,found,Преображенский_рынок_20260305_170439.json
+,,,pitch,37.71567018684435,55.81220388566759,15.5,1285.5,,skipped_unnamed,
+Преображенский рынок,,,,37.7148433,55.7937463,15.5,1285.9,https://yandex.com/maps/org/preobrazhensky_market/1069981165/,found,Преображенский_рынок_20260311_105206.json
+Народный парк Янтарная горка,,,park,37.7266062525963,55.80957187756294,15.5,1288.2,https://yandex.com/maps/org/gorka_park/124923426979/,found,Парк_Горка_20260305_165218.json
+ВкусВилл,,convenience,,37.7108738,55.7949306,15.5,1288.2,https://yandex.com/maps/org/vkusvill/204802585449/,found,ВкусВилл_20260305_170742.json
+,,,playground,37.7073446,55.8117165,15.5,1288.9,,skipped_unnamed,
+,,convenience,,37.7137012,55.7938396,15.5,1289.0,https://yandex.com/maps/org/convenience_food_technology/1126923865/,found,Convenience_food_technology_20260305_170702.json
+Преображенская площадь,,,,37.709553,55.7950333,15.5,1289.8,,skipped_street,
+Пятёрочка,,supermarket,,37.7163311,55.7942588,15.5,1291.4,https://yandex.com/maps/org/pyatyorochka/86192405278/,found,Пятёрочка_20260305_170248.json
+,,,playground,37.73021361781127,55.80124688381176,15.5,1293.2,,skipped_unnamed,
+1-я Прогонная улица,,,,37.709495,55.812353,15.6,1295.5,,skipped_street,
+Продукты,,convenience,,37.7248516,55.809596,15.6,1296.6,https://yandex.com/maps/org/vkusvill/25224777832/,found,ВкусВилл_20260305_165258.json
+1-я Прогонная улица,,,,37.7094343,55.8123922,15.7,1303.5,,skipped_street,
+,,,playground,37.72379331577408,55.81062403718423,15.7,1304.6,,skipped_unnamed,
+,,,playground,37.7266282,55.8098228,15.7,1307.9,,skipped_unnamed,
+,,,pitch,37.729497,55.8087624,15.8,1308.2,,skipped_unnamed,
+Москва 107370,post_office,,,37.7247414,55.8096384,15.7,1308.9,,not_found,
+,,,playground,37.72220987799145,55.795762228548405,15.7,1310.2,,skipped_unnamed,
+"Бульвар Маршала Рокоссовского, 22",,,,37.7201863,55.8129504,15.8,1311.0,,skipped_street,
+Пятёрочка,,supermarket,,37.7204559,55.8128309,15.8,1311.8,https://yandex.com/maps/org/pyatyorochka/34738704321/,found,Пятёрочка_20260305_164939.json
+"Гимназия №1799, дошкольное отделение 2",kindergarten,,,37.72919900928924,55.80033647471737,15.7,1312.0,https://yandex.com/maps/org/shkola_1080_doshkolnoye_otdeleniye_2/10300912342/,found,Школа___1080__дошкольное_отделение___2_20260305_170806.json
+"Бульвар Маршала Рокоссовского, 22",,,,37.7203116,55.8128954,15.8,1312.5,,skipped_street,
+Преображенская площадь,,,,37.7085013,55.7945369,15.8,1313.1,,skipped_street,
+Тхань,fast_food,,,37.7120309,55.7940722,15.8,1314.0,https://yandex.com/maps/org/thanh/23674292652/,found,Тхань_20260311_105232.json
+Преображенская площадь,,,,37.7099613,55.7951809,15.8,1314.8,,skipped_street,
+,,,playground,37.7043338,55.810675,15.8,1315.6,,skipped_unnamed,
+Дикси,,supermarket,,37.7167729,55.812789,15.8,1317.7,https://yandex.com/maps/org/dixy/1036338459/,found,Дикси_20260305_165019.json
+Преображенская площадь,,,,37.7083768,55.7945468,15.8,1317.9,,skipped_street,
+,,,playground,37.71869111536397,55.812717795354345,15.9,1319.4,,skipped_unnamed,
+,cafe,,,37.718174,55.7945204,15.9,1321.2,https://yandex.com/maps/org/vey_vo/65922762640/,found,Вей_ВО_20260311_105259.json
+,,,playground,37.70639343988928,55.795951054619984,15.9,1321.8,,skipped_unnamed,
+Базис-Мед,dentist,,,37.7131596,55.7937876,15.9,1323.2,https://yandex.com/maps/org/basis_med/158969244494/,found,Базис-Мед_20260311_105408.json
+,,,playground,37.70796180000001,55.79471765000002,15.9,1324.4,,skipped_unnamed,
+Eazzy Pizza & Gelato,fast_food,,,37.7295909,55.8090774,16.0,1326.3,https://yandex.com/maps/org/eazzy_pizza_gelato/63532941051/,found,Eazzy_Pizza___Gelato_20260311_105435.json
+,,,pitch,37.72620103483595,55.81000830341715,15.9,1327.1,,skipped_unnamed,
+,,,pitch,37.7058412,55.7962167,15.9,1327.6,,skipped_unnamed,
+,,,pitch,37.7058546,55.7961933,16.0,1330.3,,skipped_unnamed,
+,cafe,,,37.719377,55.7944315,16.0,1330.8,https://yandex.com/maps/org/vey_vo/65922762640/,found,Вей_ВО_20260311_105501.json
+,,,playground,37.72270482340051,55.81052990372548,16.0,1331.3,,skipped_unnamed,
+Халтуринская улица,,,,37.7288431,55.7990247,16.0,1331.6,,skipped_street,
+,,,pitch,37.7057849,55.8117899,16.0,1331.7,,skipped_unnamed,
+"36,6",pharmacy,,,37.7130092,55.79382,16.0,1332.4,https://yandex.com/maps/org/apteka_36_6/41034495530/,found,Аптека_36_6_20260311_105525.json
+,,,playground,37.72584571865868,55.79729391112075,16.0,1332.6,,skipped_unnamed,
+,cafe,,,37.7184784,55.794289,16.0,1333.6,https://yandex.com/maps/org/vey_vo/65922762640/,found,Вей_ВО_20260311_105557.json
+Крошка Картошка,fast_food,,,37.7296874,55.8090352,16.1,1333.9,https://yandex.com/maps/org/kroshka_kartoshka/211602462827/,found,Крошка_Картошка_20260311_105630.json
+Cooltime.life,cafe,,,37.7115923,55.7940279,16.0,1334.7,https://yandex.com/maps/org/anticafe_cooltime_life/132055152850/,found,Cooltime__life_20260311_105815.json
+Столовая,cafe,,,37.695897,55.801124,16.1,1335.4,https://yandex.com/maps/org/eda_veka/6800720613/,found,Еда_Века_20260311_105914.json
+Халтуринская улица,,,,37.7289665,55.7990489,16.0,1335.6,,skipped_street,
+,,,playground,37.71590073017104,55.81283173235726,16.1,1336.6,,skipped_unnamed,
+,atm,,,37.7026536,55.8109945,16.1,1340.3,https://yandex.com/maps/org/t_bank/158186844853/,found,Т-Банк_20260311_105942.json
+,,,playground,37.71376798826288,55.793399859343054,16.1,1341.6,,skipped_unnamed,
+Нефтьмагистраль,,convenience,,37.7022878,55.7971129,16.1,1342.6,https://yandex.com/maps/org/neftmagistral/1019455122/,found,Нефтьмагистраль_20260305_173238.json
+Братья Караваевы,,bakery,,37.702217,55.7971167,16.1,1342.6,https://yandex.com/maps/org/culinary_shop_of_the_karavaev_brothers/174683922550/,found,Кулинарная_лавка_братьев_Караваевых_20260311_110806.json
+,,,pitch,37.7058868,55.79597245,16.1,1344.6,,skipped_unnamed,
+,,,playground,37.71213681486715,55.812707082700456,16.2,1345.2,,skipped_unnamed,
+,,,playground,37.7199027,55.81336799999999,16.2,1345.6,,skipped_unnamed,
+Gloria Jeans,,clothes,,37.7298403,55.8089673,16.2,1346.0,https://yandex.com/maps/org/gloria_jeans/159941276267/,found,Gloria_Jeans_20260311_110837.json
+,cafe,,,37.7195352,55.7942686,16.2,1350.5,https://yandex.com/maps/org/vey_vo/65922762640/,found,Вей_ВО_20260311_110919.json
+Шоколадница,cafe,,,37.7297625,55.8094002,16.3,1350.9,https://yandex.com/maps/org/shokoladnitsa/28606972346/,found,Шоколадница_20260311_111306.json
+Лента,,supermarket,,37.7025367,55.811069,16.2,1351.3,https://yandex.com/maps/org/super_lenta/225654833828/,found,Супер_Лента_20260305_172131.json
+Перекрёсток,,supermarket,,37.7300003,55.8089631,16.3,1353.3,https://yandex.com/maps/org/perekryostok/133453991009/,found,Перекрёсток_20260305_170631.json
+Россельхозбанк,bank,,,37.7073008,55.7948872,16.3,1354.9,https://yandex.com/maps/org/russian_agricultural_bank/78042266224/,found,Россельхозбанк_20260311_111518.json
+Корсаков,clinic,,,37.7175836,55.7944502,16.3,1358.6,,not_found,
+Скорая медицинская помощь «СНП 03»,clinic,,,37.717486,55.7944134,16.3,1359.1,https://yandex.com/maps/org/moskovskaya_skoraya/85628884208/,found,Московская_скорая_20260305_171955.json
+Олений Вал,,,,37.6954585,55.8008917,16.5,1363.1,,not_found,
+,,,playground,37.6975372,55.7998452,16.4,1364.4,,skipped_unnamed,
+,,,playground,37.70379539863165,55.81110613198189,16.4,1364.5,,skipped_unnamed,
+Московский кредитный банк,bank,,,37.7070676,55.7949527,16.4,1365.9,https://yandex.com/maps/org/moskovskiy_kreditny_bank/1016839479/,found,Московский_кредитный_банк_20260311_111646.json
+Тануки,restaurant,,,37.7055912,55.7955416,16.4,1368.0,https://yandex.com/maps/org/tanuki/1237760768/,found,Тануки_20260311_111733.json
+Детский сад №1299,kindergarten,,,37.704888288275065,55.81172677352853,16.4,1369.1,https://yandex.com/maps/org/school_1360/1340429811/,found,Школа___1360__корпус___10__Умка_20260305_172015.json
+Ddx,,,fitness_centre,37.7301782,55.8088498,16.5,1370.1,https://yandex.com/maps/org/ddx_fitness/68485414557/,found,DDX_Fitness_20260311_112446.json
+,,,playground,37.7206463,55.8121943,16.5,1371.8,,skipped_unnamed,
+,,,pitch,37.7213711708787,55.811844815122015,16.5,1372.9,,skipped_unnamed,
+Олений Вал,,,,37.6954835,55.8008402,16.5,1375.7,,not_found,
+Совкомбанк,bank,,,37.7051285,55.7961711,16.5,1376.8,https://yandex.com/maps/org/sovkombank/125219289409/,found,Совкомбанк_20260311_112514.json
+,,,playground,37.69686455509984,55.80009192438761,16.5,1377.7,,skipped_unnamed,
+,atm,,,37.7068128,55.7949507,16.6,1380.4,https://yandex.com/maps/org/sberbank/44398713611/,found,СберБанк_20260311_112533.json
+Райффайзен,bank,,,37.7067772,55.7949504,16.6,1380.4,https://yandex.com/maps/org/raiffeisenbank/1088244952/,found,Райффайзенбанк_20260311_112702.json
+Трика,pharmacy,,,37.7022141,55.8112671,16.6,1381.0,https://yandex.com/maps/org/trika/1144414438/,found,Трика_20260311_112727.json
+Спецодежда,,clothes,,37.7295093,55.7989525,16.6,1381.8,https://yandex.com/maps/org/soyuzspetsodezhda/1056720626/,found,Союзспецодежда_20260311_112830.json
+,,,track,37.731067035139134,55.805146518755954,16.6,1382.9,,skipped_unnamed,
+,,,pitch,37.70938612145812,55.813118397437584,16.6,1384.7,,skipped_unnamed,
+Гемотест,doctors,,,37.7081313,55.7939412,16.6,1387.0,https://yandex.com/maps/org/laboratoria_gemotest/94677794180/,found,Лаборатория_Гемотест_20260311_112858.json
+Детский сад №1392,kindergarten,,,37.70379413718483,55.81225952663762,16.7,1388.0,https://yandex.com/maps/org/shkola_1392_imeni_d_v_ryabinkina_ploshchadka_d_10/41564652470/,found,Школа___1392_имени_Д__В__Рябинкина__площадка_Д-10_20260305_172048.json
+Преображенский рынок,,,,37.7145747,55.7925459,16.7,1389.1,https://yandex.com/maps/org/preobrazhensky_market/1069981165/,found,Преображенский_рынок_20260311_113453.json
+Фонарик,community_centre,,,37.7078167,55.7940319,16.7,1389.4,https://yandex.com/maps/org/fonarik/1201891130/,found,Семейный_клуб_Фонарик_20260311_113545.json
+,,,playground,37.6968453,55.7998633,16.7,1390.1,,skipped_unnamed,
+,atm,,,37.7064984,55.7949481,16.7,1394.6,https://yandex.com/maps/org/sberbank/44398713611/,found,СберБанк_20260311_113607.json
+Familia,,clothes,,37.7301326,55.8090533,16.8,1395.4,https://yandex.com/maps/org/familia/63134840051/,found,Familia_20260311_113701.json
+Преображенский рынок,,,,37.7147329,55.7925367,16.8,1396.4,https://yandex.com/maps/org/preobrazhensky_market/1069981165/,found,_20260228_154149.json
+Хоум,bank,,,37.7064506,55.7949477,16.8,1397.6,https://yandex.com/maps/org/home_bank/94593821099/,found,Хоум_банк_20260311_113810.json
+,,,playground,37.70338666621517,55.81163108585844,16.8,1398.4,,skipped_unnamed,
+Ярче!,,convenience,,37.7253938,55.81062,16.8,1402.1,https://yandex.com/maps/org/yarche_/208242000695/,found,Ярче__20260305_170504.json
+,,,pitch,37.69648607478193,55.80029377842797,16.8,1402.5,,skipped_unnamed,
+,,,playground,37.72999837116945,55.79980220938669,16.9,1404.3,,skipped_unnamed,
+,,,playground,37.72569001428532,55.79622817755614,17.0,1414.0,,skipped_unnamed,
+,,,playground,37.715177,55.8136253,17.0,1414.7,,skipped_unnamed,
+,,butcher,,37.7196876,55.793632,17.0,1418.2,https://yandex.com/maps/org/myasnoy_1/42384602278/,found,Мясной___1_20260311_113840.json
+,,,playground,37.70818528505566,55.81317738465724,17.1,1421.3,,skipped_unnamed,
+,,clothes,,37.7184717,55.7936217,17.1,1423.8,https://yandex.com/maps/org/aglae_michon_knitwear/23687059491/,found,Aglae_Michon_Knitwear_20260311_113901.json
+Дикси,,supermarket,,37.728233008337575,55.79786158257124,17.1,1424.9,https://yandex.com/maps/org/dixy/1413271851/,found,Дикси_20260305_172756.json
+,,,playground,37.71231093978908,55.793163305657245,17.2,1429.0,,skipped_unnamed,
+,,,pitch,37.70931055483838,55.813480108109445,17.2,1433.8,,skipped_unnamed,
+Пятёрочка,,supermarket,,37.7228853,55.812189,17.2,1433.9,https://yandex.com/maps/org/pyatyorochka/34738704321/,found,Пятёрочка_20260305_170853.json
+,,,pitch,37.6983485,55.8038602,17.3,1436.4,,skipped_unnamed,
+,,,playground,37.7061451,55.7947532,17.3,1438.1,,skipped_unnamed,
+РМП,bank,,,37.7062167,55.7949532,17.3,1438.5,https://yandex.com/maps/org/industry_development_and_modernization_bank/46505363405/,found,РМП_20260311_113920.json
+То что надо,,supermarket,,37.7115315,55.7929786,17.3,1439.1,https://yandex.com/maps/org/to_chto_nuzhno_/1146990440/,found,ТО__Что_Нужно__20260305_174309.json
+Халтуринская улица,,,,37.7278814,55.7979817,17.3,1442.0,,skipped_street,
+Халтуринская улица,,,,37.7278165,55.7980991,17.3,1442.0,,skipped_street,
+Илья Муромец,restaurant,,,37.7057455,55.7949346,17.3,1444.3,https://yandex.com/maps/org/restoran_ilya_muromets/1232569286/,found,Илья_Муромец_20260311_114516.json
+,,,pitch,37.70972889069583,55.813690041222586,17.4,1449.8,,skipped_unnamed,
+,,,playground,37.7235907,55.7953422,17.5,1457.1,,skipped_unnamed,
+,,,playground,37.72313474999999,55.79523025,17.5,1457.3,,skipped_unnamed,
+Школа №1505 Дошкольное отделение,kindergarten,,,37.722980767638646,55.7939269163459,17.5,1458.2,https://yandex.com/maps/org/shkola_1505_preobrazhenskaya_doshkolnoye_otdeleniye_2/1026646783/,found,Школа___1505_Преображенская__дошкольное_отделение__20260305_174623.json
+,atm,,,37.7088358,55.7935584,17.5,1458.9,https://yandex.com/maps/org/t_bank/217711506257/,found,Т-Банк_20260311_114533.json
+Районный центр «Янтарь»,,,,37.7305045,55.8103495,17.6,1459.1,https://yandex.com/maps/org/mesto_vstrechi_yantar/209781762382/,found,Место_встречи_Янтарь_20260305_172401.json
+"Бульвар Маршала Рокоссовского, 22",,,,37.7216233,55.8140362,17.7,1461.8,,skipped_street,
+,,,pitch,37.7232903,55.795217,17.5,1462.5,,skipped_unnamed,
+,,,playground,37.7158647,55.8140696,17.6,1462.8,,skipped_unnamed,
+"Бульвар Маршала Рокоссовского, 22",,,,37.721572,55.8140902,17.7,1464.0,,skipped_street,
+,,,playground,37.71112511177896,55.79454808532178,17.6,1464.4,,skipped_unnamed,
+,,,playground,37.70522273855297,55.81277926556421,17.6,1466.3,,skipped_unnamed,
+,,,playground,37.701323,55.8115243,17.6,1466.7,,skipped_unnamed,
+Районный центр «Янтарь»,,,,37.7304042,55.81026464999999,17.7,1470.3,https://yandex.com/maps/org/mesto_vstrechi_yantar/209781762382/,found,Место_встречи_Янтарь_20260311_114935.json
+,,,playground,37.7023514,55.8120027,17.7,1471.3,,skipped_unnamed,
+,,,pitch,37.731407991487,55.809928960791886,17.8,1474.6,,skipped_unnamed,
+Магнит,,supermarket,,37.7205256,55.7934406,17.7,1475.7,https://yandex.com/maps/org/magnit/1586699740/,found,Магнит_20260305_174659.json
+Пятёрочка,,supermarket,,37.7066472,55.8127957,17.8,1477.2,https://yandex.com/maps/org/pyatyorochka/110861267757/,found,Пятёрочка_20260305_172230.json
+,,,playground,37.73222082964768,55.80867479432107,17.7,1477.3,,skipped_unnamed,
+Районный центр «Янтарь»,,,,37.7308974,55.8106201,17.8,1479.1,https://yandex.com/maps/org/mesto_vstrechi_yantar/209781762382/,found,Место_встречи_Янтарь_20260305_173039.json
+Олений Вал,,,,37.6944627,55.8003745,17.8,1479.5,,not_found,
+Церковь Воздвижения Креста Господня на Преображенском кладбище,place_of_worship,,,37.71728027096168,55.79333411276574,17.8,1482.3,https://yandex.com/maps/org/chapel_of_the_exaltation_of_the_holy_cross/1089620228/,found,Соборная_моленная_во_имя_Воздвижения_Животворящего_20260311_115001.json
+,,,garden,37.71723125,55.79349620000001,17.8,1483.0,,skipped_unnamed,
+,,,,37.71537152663958,55.79188712415295,17.8,1483.6,,skipped_unnamed,
+Олений Вал,,,,37.6943705,55.8003403,17.8,1487.2,,not_found,
+,,,,37.715478522339616,55.79193233259437,17.9,1488.2,,skipped_unnamed,
+Домино'c,fast_food,,,37.7108246,55.7949,17.9,1491.9,https://yandex.com/maps/org/domino_picca/19235750478/,found,Domino_Pizza_20260311_115108.json
+Центральная библиотека № 70 имени М.А. Шолохова,library,,,37.730179687892736,55.797960222396085,18.0,1493.0,https://yandex.com/maps/org/library_70/18061951698/,found,ОКЦ_ВАО__библиотека___70_им__М__А__Шолохова_20260311_115210.json
+Районный центр «Янтарь»,,,,37.7310327,55.8107295,18.0,1493.8,https://yandex.com/maps/org/mesto_vstrechi_yantar/209781762382/,found,Место_встречи_Янтарь_20260311_115859.json
+Столички,pharmacy,,,37.7268711,55.811602,18.0,1496.7,https://yandex.com/maps/org/stolichki/167650210879/,found,Столички_20260311_115929.json
+,,,playground,37.705910512261575,55.81324174519724,18.0,1498.0,,skipped_unnamed,
+Вишенка,,supermarket,,37.7296308918457,55.797444232186415,18.1,1502.0,https://yandex.com/maps/org/vishenka/98844880204/,found,Гастроном_Вишенка_20260305_174955.json
+,,,playground,37.708939199545725,55.81404775073024,18.1,1505.5,,skipped_unnamed,
+,,,garden,37.71731995,55.793125,18.1,1506.0,,skipped_unnamed,
+Всероссийский центр контактной коррекции зрения,clinic,,,37.7099482,55.7930853,18.1,1507.5,https://yandex.com/maps/org/nmits_gb_imeni_gelmgoltsa_otdeleniye_kontaktnoy_korrektsii_zreniya/144590134004/,found,НМИЦ_ГБ_имени_Гельмгольца__отделение_контактной_ко_20260305_175208.json
+ВкусВилл,,convenience,,37.7303043,55.8109362,18.1,1508.3,https://yandex.com/maps/org/vkusvill/25224777832/,found,ВкусВилл_20260305_173316.json
+"Школа №1502 ""Энергия""",school,,,37.7132684810125,55.79193683856061,18.2,1512.1,https://yandex.com/maps/org/school_1502_energy_div_beta/1000246868/,found,Школа___1502_Энергия__корпус_Бета_20260305_175134.json
+Денто-гранд,dentist,,,37.7302357,55.8109923,18.2,1515.8,https://yandex.com/maps/org/dento_grand/1001720435/,found,Денто_Гранд_20260311_115950.json
+,,,playground,37.72685367832973,55.79614126487,18.3,1521.8,,skipped_unnamed,
+,,,playground,37.73200427788914,55.80911409507349,18.3,1527.1,,skipped_unnamed,
+ОТП Банк,bank,,,37.7116531,55.7948332,18.4,1527.8,https://yandex.com/maps/org/otp_bank/1269091548/,found,ОТП-банк_20260311_120135.json
+,,,pitch,37.7181747,55.8141864,18.4,1529.4,,skipped_unnamed,
+,,,playground,37.73044524898361,55.797636927419,18.4,1530.0,,skipped_unnamed,
+Дикси,,supermarket,,37.7280715,55.8107751,18.4,1530.4,https://yandex.com/maps/org/dixy/1309151566/,found,Дикси_20260305_174743.json
+МясновЪ,,convenience,,37.7271559,55.811525,18.4,1531.9,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/1290025650/,found,КуулКлевер_МясновЪ_Отдохни_20260305_173135.json
+Национальный медицинский исследовательский центр глазных болезней Им. Гельмгольца,clinic,,,37.71032669276621,55.79303201174868,18.4,1535.0,https://yandex.com/maps/org/natsionalny_meditsinskiy_issledovatelskiy_tsentr_glaznykh_bolezney_imeni_gelmgoltsa/137026687333/,found,Национальный_медицинский_исследовательский_центр_г_20260305_175301.json
+,,,park,37.7196939941231,55.81445640062875,18.5,1535.3,,skipped_unnamed,
+Школа №370 им. генерала П. И. Батова,school,,,37.7292703,55.810851,18.4,1535.9,https://yandex.com/maps/org/school_1360/1807802966/,found,Школа___1360__корпус___14_Рыжик_20260305_174805.json
+,,,park,37.723456460182014,55.81250531723717,18.4,1536.0,,skipped_unnamed,
+Поликлиника,,,,37.7128136,55.8143797,18.5,1537.9,https://yandex.com/maps/org/konsultativno_diagnosticheskiy_centr_2/193679892317/,found,Консультативно-диагностический_центр___2_20260311_120759.json
+Колодезный переулок,,,,37.6963409,55.7987869,18.5,1543.7,,skipped_street,
+,,,playground,37.70674836775353,55.79469763032821,18.5,1544.9,,skipped_unnamed,
+Колодезный переулок,,,,37.6962806,55.7987657,18.6,1547.3,,skipped_street,
+Поликлиника,,,,37.7127052,55.8144432,18.6,1548.9,https://yandex.com/maps/org/konsultativno_diagnosticheskiy_centr_2/193679892317/,found,Консультативно-диагностический_центр___2_20260305_173628.json
+,,,playground,37.7168329,55.81468,18.6,1549.9,,skipped_unnamed,
+,,,playground,37.710542321255005,55.79234145477233,18.6,1551.5,,skipped_unnamed,
+,,,pitch,37.72311667488636,55.81436592939681,18.7,1553.1,,skipped_unnamed,
+Преображенское кладбище,,,,37.7159056,55.7914332,18.7,1553.6,https://yandex.com/maps/org/preobrazhenskoye_cemetery/1017887843/,found,Преображенское_кладбище_20260305_175903.json
+,,,playground,37.702100061855845,55.80984064453682,18.6,1553.7,,skipped_unnamed,
+Нью Йорк,restaurant,,,37.7112512,55.7919636,18.7,1556.7,,not_found,
+,,,playground,37.7039501,55.8132233,18.8,1558.2,,skipped_unnamed,
+,,,playground,37.7268583732702,55.81239858220548,18.7,1559.3,,skipped_unnamed,
+Преображенское кладбище,,,,37.7160441,55.7914357,18.7,1559.8,https://yandex.com/maps/org/preobrazhenskoye_cemetery/1017887843/,found,Преображенское_кладбище_20260311_120835.json
+"Школа №1360, дошкольное отделение Карамель",kindergarten,,,37.73236264381131,55.81018673656106,18.8,1560.2,https://yandex.com/maps/org/school_1360/1066280567/,found,Школа___1360__корпус___15_Карамель_20260305_174854.json
+Продукты,,supermarket,,37.7296916,55.8112948,18.8,1563.6,https://yandex.com/maps/org/vkusvill/24922339057/,found,ВкусВилл_20260305_175028.json
+,atm,,,37.7230343,55.8133847,18.8,1564.8,https://yandex.com/maps/org/sberbank/1020556151/,found,СберБанк_20260311_120858.json
+,,,playground,37.722720300000006,55.8138207,18.8,1566.4,,skipped_unnamed,
+MyFitlab,,,fitness_centre,37.727829,55.8107185,18.8,1568.1,https://yandex.com/maps/org/myfitlab/1356543038/,found,MyFitlab_20260311_120953.json
+Сбербанк,bank,,,37.7231111,55.8133405,18.9,1572.7,https://yandex.com/maps/org/sberbank/1117287165/,found,СберБанк_20260311_121033.json
+,,,playground,37.70602525224787,55.81385814087264,19.0,1573.9,,skipped_unnamed,
+,,,pitch,37.72543036652522,55.81248440900213,18.9,1575.5,,skipped_unnamed,
+СДЭК,post_office,,,37.7126343,55.7913809,18.9,1575.9,https://yandex.com/maps/org/cdek/1293489858/,found,CDEK_20260311_121115.json
+,,,playground,37.7280318,55.79658475,19.0,1579.8,,skipped_unnamed,
+,,,playground,37.699032274546674,55.81117818791478,19.0,1583.7,,skipped_unnamed,
+,,bakery,,37.7167135,55.7916207,19.1,1586.8,https://yandex.com/maps/org/kiflitsa/37421437986/,found,Кифлица_20260311_121148.json
+,,,playground,37.726206496901696,55.79473086888039,19.0,1587.0,,skipped_unnamed,
+Монастырская кухня,cafe,,,37.7166614,55.7914917,19.1,1589.6,https://yandex.com/maps/org/monastyrskij_dvorik/103726818644/,found,Монастырский_дворик_20260311_121332.json
+Школа №318,school,,,37.72365799007124,55.81456006019873,19.1,1591.9,https://yandex.com/maps/org/gbou_school_318_with_in_depth_study_of_the_italian_language/1019587792/,found,Школа___318_20260305_174832.json
+,,,playground,37.7259922,55.8126635,19.2,1596.3,,skipped_unnamed,
+,,,pitch,37.7223103,55.81516605,19.2,1596.8,,skipped_unnamed,
+,,,playground,37.7123069145219,55.81470797178675,19.2,1598.0,,skipped_unnamed,
+Улица Титова,,,,37.7077262,55.7919727,19.2,1598.6,,skipped_street,
+,,bakery,,37.7237177,55.812918,19.2,1599.6,https://yandex.com/maps/org/makovka/62005155077/,found,Маковка_20260311_121359.json
+Улица Титова,,,,37.7076452,55.7919885,19.2,1600.4,,skipped_street,
+,,,playground,37.732625850000005,55.809424750000005,19.3,1605.1,,skipped_unnamed,
+,,,playground,37.717542367273694,55.8149954062576,19.3,1605.7,,skipped_unnamed,
+,,,pitch,37.72474880433307,55.79396355487619,19.3,1605.9,,skipped_unnamed,
+,,,playground,37.70741733663854,55.81449213761647,19.3,1606.3,,skipped_unnamed,
+,,bakery,,37.7170912,55.7916526,19.4,1610.6,https://yandex.com/maps/org/kiflitsa/37421437986/,found,Кифлица_20260311_121426.json
+Продукты,,convenience,,37.732087,55.8115349,19.3,1611.0,https://yandex.com/maps/org/vkusvill/25224777832/,found,ВкусВилл_20260305_175546.json
+,,,pitch,37.72794335,55.7955447,19.4,1612.8,,skipped_unnamed,
+,,,playground,37.7325895,55.8037126,19.4,1612.9,,skipped_unnamed,
+Воздвиженская церковь,place_of_worship,,,37.71638910113058,55.79105688149067,19.4,1615.1,https://yandex.com/maps/org/tserkov_vozdvizheniya_chestnogo_kresta_gospodnya_pri_khrame_nikolaya_chudotvortsa/1276349637/,found,Церковь_Воздвижения_Честного_Креста_Господня_при_Х_20260311_121446.json
+,,,playground,37.69918955641768,55.81236821238208,19.4,1615.5,,skipped_unnamed,
+,,,pitch,37.70561972441834,55.81393982430446,19.5,1617.8,,skipped_unnamed,
+Школа №442,school,,,37.722363097337066,55.81549524662154,19.5,1620.2,https://yandex.com/maps/org/442/1042737898/,found,__442_20260305_175059.json
+Дикси,,supermarket,,37.7297297,55.8116826,19.5,1626.0,https://yandex.com/maps/org/dixy/187041158963/,found,Дикси_20260305_175626.json
+,,,pitch,37.73273120661145,55.81026566598835,19.6,1626.2,,skipped_unnamed,
+,,,playground,37.73384542497652,55.80952159743141,19.5,1626.9,,skipped_unnamed,
+Дворец творчества,,,,37.733482,55.7993209,19.5,1627.6,https://yandex.com/maps/org/preobrazhensky/1022060929/,found,Дворец_творчества_детей_и_молодёжи_Преображенский_20260311_121801.json
+Дворец творчества,,,,37.7335288,55.799235,19.5,1627.7,https://yandex.com/maps/org/preobrazhensky/1022060929/,found,Дворец_творчества_детей_и_молодёжи_Преображенский_20260305_180424.json
+Пшеница,cafe,,,37.7336067,55.8023827,19.5,1629.1,https://yandex.com/maps/org/pshenitsa/32518035892/,found,Пшеница_20260311_121835.json
+СДЭК,post_office,,,37.7282787,55.8120569,19.6,1631.3,https://yandex.com/maps/org/cdek/125558725955/,found,CDEK_20260311_121906.json
+,,,track,37.7005023305285,55.813049430946805,19.6,1632.8,,skipped_unnamed,
+,,,playground,37.72357643628223,55.813438496289415,19.7,1634.7,,skipped_unnamed,
+,,,track,37.72356077379098,55.814396733879725,19.7,1638.0,,skipped_unnamed,
+Идеал Лик,dentist,,,37.7284144,55.8119983,19.7,1641.9,https://yandex.com/maps/org/ideal_lik/1011905305/,found,Идеал_лик_20260311_121927.json
+,,,garden,37.73308571785388,55.811573092266016,19.8,1644.4,,skipped_unnamed,
+Пикассо,doctors,,,37.7109076,55.7911762,19.8,1646.9,https://yandex.com/maps/org/picasso/1175459708/,found,Пикассо_20260311_121958.json
+,kindergarten,,,37.73019684333529,55.81219030122009,19.8,1647.9,https://yandex.com/maps/org/shkola_1080_doshkolnoye_otdeleniye_5/230719328350/,found,Школа___1080__дошкольное_отделение___5_20260305_175925.json
+Старый Доктор,pharmacy,,,37.7159139,55.8155251,19.8,1648.1,https://yandex.com/maps/org/stary_doktor/1202054937/,found,Золотой_доктор_20260311_122021.json
+Яуза,restaurant,,,37.70334360790003,55.79431333264699,19.8,1648.8,https://yandex.com/maps/org/yauza/1000728830/,found,Яуза_20260311_122558.json
+Столовая,cafe,,,37.7084491,55.7920128,19.8,1651.8,https://yandex.com/maps/org/snedi_fedi/120804209097/,found,Снеди_Феди_20260311_122621.json
+,,,playground,37.72852334800062,55.81235486722249,19.8,1652.3,,skipped_unnamed,
+Булочная,,convenience,,37.7285493,55.811887,19.8,1652.3,https://yandex.com/maps/org/makovka/62005155077/,found,Маковка_20260305_175239.json
+Ева,restaurant,,,37.7158471,55.815493,19.9,1653.6,https://yandex.com/maps/org/restoran_yeva/213401789908/,found,Ева_20260311_122645.json
+Преображенская свеча,place_of_worship,,,37.71681171428003,55.7911726207597,19.9,1654.4,https://yandex.com/maps/org/fancy_nancy/109079881991/,found,Фэнси_Нэнси_20260311_122714.json
+,,,pitch,37.70029982472001,55.8055429701141,19.9,1654.4,,skipped_unnamed,
+Лента,,supermarket,,37.6975622,55.7981056,19.9,1655.3,https://yandex.com/maps/org/super_lenta/161886220432/,found,Супер_Лента_20260305_181900.json
+Школа боевых искусств Дмитрия Носова,,,sports_centre,37.7263467,55.7943086,19.9,1657.4,https://yandex.com/maps/org/nosov_school/44186139869/,found,Школа_Носова_20260311_122921.json
+Консультативно-диагностический центр № 2 Филиал №1,clinic,,,37.71425052657632,55.81477631759083,19.9,1657.5,https://yandex.com/maps/org/konsultativno_diagnosticheskiy_centr_2/193679892317/,found,Консультативно-диагностический_центр___2_20260305_175511.json
+,,,park,37.72518973794276,55.79391258285327,19.9,1657.5,,skipped_unnamed,
+,,,playground,37.72712058352085,55.81313759942016,19.9,1657.9,,skipped_unnamed,
+Сквер на набережной Шитова,,,park,37.733043931297104,55.80446792313975,19.9,1661.6,https://yandex.com/maps/org/pamyatny_kamen_naberezhnaya_shitova/108521424130/,found,Памятный_камень_Набережная_Шитова_20260305_180823.json
+Горздрав,pharmacy,,,37.6976216,55.7982024,19.9,1662.4,https://yandex.com/maps/org/gorzdrav/202611309025/,found,Горздрав_20260311_123017.json
+Легенда,,,sports_centre,37.6975798,55.7979516,20.0,1663.8,https://yandex.com/maps/org/legenda/121117311255/,found,Легенда_20260311_123051.json
+,,,playground,37.71154071721428,55.79119682211972,20.0,1664.0,,skipped_unnamed,
+Поликлиника,,,,37.7134146,55.8154147,20.0,1664.1,https://yandex.com/maps/org/konsultativno_diagnosticheskiy_centr_2/193679892317/,found,Консультативно-диагностический_центр___2_20260305_175835.json
+,,,pitch,37.710480036417735,55.8151634432217,20.0,1664.1,,skipped_unnamed,
+,,,playground,37.73313448298004,55.810981366885535,20.0,1664.5,,skipped_unnamed,
+,atm,,,37.7162148,55.8156896,20.0,1664.9,https://yandex.com/maps/org/t_bank/77338458239/,found,Т-Банк_20260311_123109.json
+,,toys,,37.7160925,55.8157031,20.0,1664.9,https://yandex.com/maps/org/detskij_mir/163838290661/,found,Детский_мир_20260311_123149.json
+,,,garden,37.733326800864006,55.81171050123243,20.1,1665.8,,skipped_unnamed,
+,,,playground,37.7256000538442,55.79398951682538,20.0,1667.1,,skipped_unnamed,
+Улица Титова,,,,37.7074483,55.7913975,20.0,1667.3,,skipped_street,
+Пятёрочка,,supermarket,,37.7081377,55.7915443,20.0,1667.3,https://yandex.com/maps/org/pyatyorochka/194596718841/,found,Пятёрочка_20260305_182016.json
+Церковь Николая Чудотворца,place_of_worship,,,37.71719590349543,55.791215919815016,20.0,1668.2,https://yandex.com/maps/org/church_of_st_nicholas_the_wonderworker/1009619064/,found,Храм_святителя_Николая_Чудотворца_на_Преображенско_20260311_123220.json
+,,,playground,37.73176155,55.81197635,20.0,1668.5,,skipped_unnamed,
+,,,pitch,37.70116043789375,55.81314343478704,20.0,1668.5,,skipped_unnamed,
+Старообрядческая Успенская молельная,place_of_worship,,,37.71745406261621,55.79120363837329,20.0,1668.6,https://yandex.com/maps/org/assumption_pomeranian_chapel/1099895656/,found,Успенская_поморская_часовня_20260311_123241.json
+"Дворец творчества детей и молодежи ""Преображенский""",community_centre,,,37.7330536,55.8024433,20.0,1670.2,https://yandex.com/maps/org/preobrazhensky/1022060929/,found,Дворец_творчества_детей_и_молодёжи_Преображенский_20260311_123431.json
+Поликлиника,,,,37.713289,55.8154323,20.1,1670.3,https://yandex.com/maps/org/konsultativno_diagnosticheskiy_centr_2/193679892317/,found,Консультативно-диагностический_центр___2_20260311_124032.json
+,atm,,,37.7156751,55.8153767,20.1,1670.4,https://yandex.com/maps/org/t_bank/77338458239/,found,Т-Банк_20260311_124051.json
+,,,playground,37.7117505,55.8153146,20.1,1670.5,,skipped_unnamed,
+Клиника профессора Карташёвой,clinic,,,37.6984669,55.8125348,20.0,1670.6,https://yandex.com/maps/org/professor_kartasheva_clinic/1040487162/,found,Клиника_профессора_Карташёвой_20260305_181143.json
+,,,pitch,37.72427425,55.81391235,20.1,1670.9,,skipped_unnamed,
+Улица Титова,,,,37.7073264,55.7914135,20.1,1672.6,,skipped_street,
+,,,track,37.73106545646137,55.79617964562915,20.1,1673.5,,skipped_unnamed,
+,,,pitch,37.7310687657389,55.7961835685418,20.1,1673.9,,skipped_unnamed,
+,dentist,,,37.7081501,55.7914782,20.1,1674.4,https://yandex.com/maps/org/basis_med/158969244494/,found,Базис-Мед_20260311_124134.json
+,,,pitch,37.700931695819605,55.81305516327327,20.1,1674.9,,skipped_unnamed,
+,,greengrocer,,37.7286543,55.8119402,20.1,1676.6,,skipped_unnamed,
+Школа-интернат №30 им. К. А. Микаэльяна,school,,,37.69243477532971,55.79960820268116,20.1,1678.2,https://yandex.com/maps/org/gosudarstvennoye_kazennoye_obsheobrazovatelnoye_uchrezhdeniye_spetsialnaya_korrektsionnaya_obsheobrazovatelnaya_shkola_internat_30_imeni_k_a_mikaelyana/1023354102/,found,Специальная_коррекционная_общеобразовательная_школ_20260305_191821.json
+ПроЛапы,veterinary,,,37.7323347,55.7978677,20.2,1681.4,https://yandex.com/maps/org/veterinary_clinic_prolapy/67869428587/,found,ПроЛапы_20260311_124413.json
+,,,pitch,37.6924256,55.79912825,20.2,1683.2,,skipped_unnamed,
+"Зона отдыха ""Оленьи пруды""",,,park,37.69100106033491,55.80133276425245,20.3,1683.6,https://yandex.com/maps/org/oleniy_prud/31491374253/,found,Оленьи_пруды_20260305_183702.json
+Городская поликлиника № 64 Филиал № 1,clinic,,,37.72525870694032,55.79342628998151,20.2,1683.9,https://yandex.com/maps/org/gbuz_city_polyclinic_64_of_dzm_branch_1/1097113186/,found,Городская_поликлиника___64__филиал___1_20260305_181118.json
+,fast_food,,,37.6950177,55.7986984,20.2,1684.2,https://yandex.com/maps/org/dodo_pizza/157862789544/,found,Додо_Пицца_20260311_124742.json
+Инновационный университет,,,,37.6977959,55.8123149,20.2,1686.3,https://yandex.com/maps/org/moscow_innovative_university/1344856982/,found,Московский_инновационный_университет_20260311_124828.json
+Детский сад №1343,kindergarten,,,37.73096437117683,55.79712330819516,20.3,1686.5,https://yandex.com/maps/org/shkola_1505_preobrazhenskaya_doshkolnoye_otdeleniye_4/1300233208/,found,Школа___1505_Преображенская__дошкольное_отделение__20260305_181205.json
+,,,park,37.71764484032056,55.81551286196017,20.3,1687.1,,skipped_unnamed,
+Инновационный университет,,,,37.6978557,55.8123997,20.3,1687.4,https://yandex.com/maps/org/moscow_innovative_university/1344856982/,found,Московский_инновационный_университет_20260305_181432.json
+Инновационный университет,,,,37.6978374,55.8123893,20.3,1687.8,https://yandex.com/maps/org/moscow_innovative_university/1344856982/,found,Московский_инновационный_университет_20260305_181432.json
+,,,pitch,37.695508,55.7977787,20.3,1688.9,,skipped_unnamed,
+,,,track,37.70087199024371,55.813254785698014,20.3,1690.4,,skipped_unnamed,
+,,,pitch,37.6925403,55.79903745,20.3,1695.2,,skipped_unnamed,
+,,,playground,37.70584639394504,55.814898186254425,20.4,1695.2,,skipped_unnamed,
+Школа № 1505 «Преображенская»,school,,,37.728350499596345,55.795485751116885,20.4,1696.5,https://yandex.com/maps/org/shkola_1505_preobrazhenskaya_uchebny_korpus_5/38951675695/,found,Школа___1505_Преображенская__учебный_корпус___5_20260305_181251.json
+Школа №1505 Дошкольное отделение,kindergarten,,,37.72730296805157,55.79351647201058,20.4,1701.2,https://yandex.com/maps/org/shkola_1505_preobrazhenskaya_doshkolnoye_otdeleniye_2/1026646783/,found,Школа___1505_Преображенская__дошкольное_отделение__20260305_181315.json
+Клевер,veterinary,,,37.7244624,55.8155054,20.5,1702.9,https://yandex.com/maps/org/clever/64384546977/,found,Клевер_20260311_125050.json
+Инновационный университет,,,,37.6976444,55.8126065,20.5,1705.0,https://yandex.com/maps/org/moscow_innovative_university/1344856982/,found,Московский_инновационный_университет_20260311_125136.json
+,,,pitch,37.692650150000006,55.79895045,20.5,1706.8,,skipped_unnamed,
+Рим,cafe,,,37.7336879,55.7988296,20.5,1706.9,,not_found,
+,kindergarten,,,37.71922396600072,55.81575732030749,20.5,1707.4,https://yandex.com/maps/org/ostrovok/1261972896/,found,Детский_сад_Островок_20260305_175958.json
+Горздрав,pharmacy,,,37.7158527,55.8157465,20.5,1708.2,https://yandex.com/maps/org/gorzdrav/188960127434/,found,Горздрав_20260311_125220.json
+,,,playground,37.73441934048555,55.81011365133056,20.5,1708.6,,skipped_unnamed,
+Инновационный университет,,,,37.6975568,55.8125241,20.5,1710.7,https://yandex.com/maps/org/moscow_innovative_university/1344856982/,found,Московский_инновационный_университет_20260305_181612.json
+Инновационный университет,,,,37.6975726,55.8125354,20.5,1710.7,https://yandex.com/maps/org/moscow_innovative_university/1344856982/,found,Московский_инновационный_университет_20260305_181612.json
+Честная клиника,doctors,,,37.7083753,55.7914585,20.5,1711.5,https://yandex.com/maps/org/chestnaya_klinika/22790168984/,found,Честная_клиника_20260311_125242.json
+Храм Илии Пророка в Черкизове,place_of_worship,,,37.73443160487233,55.800267144565126,20.5,1711.6,https://yandex.com/maps/org/church_of_saint_elijah_the_prophet/1079719567/,found,Церковь_Илии_Пророка_и_Воздвижения_Честного_Креста_20260311_125550.json
+,,,pitch,37.700566817999615,55.813353547500384,20.6,1712.3,,skipped_unnamed,
+Дикси,,supermarket,,37.7245921,55.8156162,20.7,1719.3,https://yandex.com/maps/org/dixy/1259083968/,found,Дикси_20260305_180048.json
+,,,pitch,37.72818065,55.79502435,20.6,1719.8,,skipped_unnamed,
+,,,pitch,37.73532104596892,55.80304231558733,20.6,1720.8,,skipped_unnamed,
+Детский сад №535,kindergarten,,,37.72529785971623,55.81332437886306,20.7,1721.9,https://yandex.com/maps/org/shkola_1080_doshkolnoye_otdeleniye_6/1034968128/,found,Школа___1080__дошкольное_отделение___6_20260305_180111.json
+,,,pitch,37.71541701895924,55.78982112814553,20.7,1724.6,,skipped_unnamed,
+,,,track,37.72548025,55.79317895,20.7,1724.8,,skipped_unnamed,
+Fungiline,pharmacy,,,37.7239602,55.8158373,20.7,1725.1,https://yandex.com/maps/org/fungiline/167407988641/,found,Fungiline_20260311_125622.json
+,,,pitch,37.73583197530407,55.80925521184336,20.7,1726.8,,skipped_unnamed,
+,,,playground,37.71413481660529,55.81597347540115,20.8,1726.8,,skipped_unnamed,
+,,,playground,37.73467641911316,55.802965357791216,20.7,1727.1,,skipped_unnamed,
+,,,playground,37.7326861,55.7971048,20.8,1727.6,,skipped_unnamed,
+Фесфарм-9,clinic,,,37.72727826376159,55.79515039786649,20.8,1730.4,https://yandex.com/maps/org/fesfarm/94937268147/,found,Фесфарм_20260305_181539.json
+,,,pitch,37.69525914999999,55.8034377,20.8,1731.0,,skipped_unnamed,
+Детский сад №534,kindergarten,,,37.72452124449855,55.8142191769013,20.9,1736.1,https://yandex.com/maps/org/school_1360/1740032698/,found,Школа___1360__корпус___7_Золотой_ключик_20260305_180449.json
+"Торговый дом ""Славич""",,mall,,37.715635708750455,55.81565008535765,20.9,1737.0,https://yandex.com/maps/org/slavich/1310102280/,found,Славич_20260311_125722.json
+Пятёрочка,,supermarket,,37.715664,55.8158188,20.9,1737.0,https://yandex.com/maps/org/pyatyorochka/1029757612/,found,Пятёрочка_20260305_180626.json
+,,,pitch,37.7143237,55.815959,20.9,1737.6,,skipped_unnamed,
+,,,playground,37.70792621191077,55.81566009845008,20.9,1740.8,,skipped_unnamed,
+часовня Николы Чудотворца,place_of_worship,,,37.72140775,55.7921073,20.9,1742.2,https://yandex.com/maps/org/chapel_of_saint_nicholas_the_wonderworker/1281017341/,found,Часовня_Николая_Чудотворца_на_Преображенском_кладб_20260311_125740.json
+Школа №362,school,,,37.72861865912782,55.8138386136603,20.9,1743.1,https://yandex.com/maps/org/gbou_school_362_moskovsky_district_of_st_petersburg/1108090840/,found,Школа___362_20260305_180520.json
+,,,pitch,37.7243698,55.81452155,21.0,1746.9,,skipped_unnamed,
+Школа №1360,school,,,37.71108734804318,55.815744033723966,21.0,1747.8,https://yandex.com/maps/org/school_1360/1247589298/,found,Школа___1360__школьный_корпус___1_20260305_180703.json
+Северный Хапиловский сквер,,,park,37.71467003618894,55.78991021186821,21.1,1753.1,https://yandex.com/maps/org/severny_khapilovsky_public_garden/1597500084/,found,Северный_Хапиловский_сквер_20260305_181923.json
+,,,park,37.73383583456588,55.79816815106975,21.1,1754.3,,skipped_unnamed,
+Детский сад №437 (компенсирующего типа),kindergarten,,,37.71941021653622,55.81577085051051,21.1,1754.8,https://yandex.com/maps/org/school_1360/1085512207/,found,Школа___1360__корпус___16_Изумрудный_город_20260305_180752.json
+Дворец творчества,,,,37.7349536,55.7993389,21.1,1755.6,https://yandex.com/maps/org/preobrazhensky/1022060929/,found,Дворец_творчества_детей_и_молодёжи_Преображенский_20260305_181814.json
+,,,pitch,37.7223983,55.81569035,21.1,1756.0,,skipped_unnamed,
+Ковылинская часовня,place_of_worship,,,37.7216615,55.79203000000001,21.1,1756.4,https://yandex.com/maps/org/tserkov_serafima_v_kovylkino/1797342197/,found,Церковь_Серафима_Саровского_в_Ковылкино_20260311_125759.json
+Дворец творчества,,,,37.7350196,55.7992408,21.1,1756.5,https://yandex.com/maps/org/preobrazhensky/1022060929/,found,Дворец_творчества_детей_и_молодёжи_Преображенский_20260311_130124.json
+,,,pitch,37.7055869724007,55.81502357577845,21.2,1758.3,,skipped_unnamed,
+Детский сад №66,kindergarten,,,37.7122348546575,55.81578644613817,21.1,1758.4,https://yandex.com/maps/org/nursery_school_no_66/199483680963/,found,Детский_сад___66_20260305_180728.json
+,,,playground,37.70709252085685,55.81600748057927,21.2,1762.5,,skipped_unnamed,
+,atm,,,37.7002765,55.7949069,21.2,1763.3,https://yandex.com/maps/org/t_bank/131297136636/,found,Т-Банк_20260311_130144.json
+Хлеб & Пицца,,bakery,,37.7152222,55.8157887,21.2,1764.9,https://yandex.com/maps/org/khleb_da_kalach/180322804198/,found,Хлеб_да_Калач_20260311_130222.json
+,,,pitch,37.69551775000001,55.8037204,21.3,1766.2,,skipped_unnamed,
+2-й Электрозаводский переулок,,,,37.7071161,55.7904662,21.3,1773.0,,skipped_street,
+,,,playground,37.7086418,55.7908875,21.3,1774.2,,skipped_unnamed,
+Eda,cafe,,,37.700083,55.7949238,21.3,1774.2,https://yandex.com/maps/org/yeda/119326419651/,found,Еда_20260311_130300.json
+,,,playground,37.73304645458061,55.81270284730967,21.3,1774.7,,skipped_unnamed,
+ВкусВилл,,convenience,,37.7154185,55.8158098,21.3,1775.0,https://yandex.com/maps/org/vkusvill/217527101804/,found,ВкусВилл_20260305_180935.json
+Детское питание,,convenience,,37.7156485,55.815427,21.4,1776.3,https://yandex.com/maps/org/fabimilk/89755719167/,found,Fabimilk_20260305_180955.json
+,,toys,,37.7155282,55.8154894,21.4,1776.3,https://yandex.com/maps/org/detskij_mir/163838290661/,found,Детский_мир_20260311_130405.json
+Добрынинский,,bakery,,37.706902,55.7905094,21.3,1776.4,https://yandex.com/maps/org/dobryninskiy/70277841480/,found,Добрынинский_20260311_130641.json
+2-й Электрозаводский переулок,,,,37.7072463,55.7904456,21.3,1777.1,,skipped_street,
+ВкусВилл,,convenience,,37.7150619,55.8160209,21.4,1777.2,https://yandex.com/maps/org/vkusvill/217527101804/,found,ВкусВилл_20260305_180858.json
+Чайхона Омар Хайам,cafe,,,37.7003511,55.795424,21.3,1779.1,https://yandex.com/maps/org/omar_khayyam/166082878144/,found,Омар_Хайям_20260311_130706.json
+,,,playground,37.69530480104735,55.7972125665685,21.4,1780.2,,skipped_unnamed,
+,,,playground,37.73666196971886,55.8009832304621,21.4,1781.2,,skipped_unnamed,
+,,,track,37.724670450000005,55.7918378,21.4,1782.9,,skipped_unnamed,
+Дворец творчества,,,,37.7353359,55.7992123,21.4,1783.7,https://yandex.com/maps/org/preobrazhensky/1022060929/,found,Дворец_творчества_детей_и_молодёжи_Преображенский_20260305_182226.json
+,,,playground,37.71866116312438,55.81602395663052,21.4,1784.2,,skipped_unnamed,
+Горздрав,pharmacy,,,37.7288708,55.7947729,21.4,1784.3,https://yandex.com/maps/org/gorzdrav/70677077843/,found,Горздрав_20260311_130746.json
+Дворец творчества,,,,37.7353575,55.79917,21.5,1788.8,https://yandex.com/maps/org/preobrazhensky/1022060929/,found,Дворец_творчества_детей_и_молодёжи_Преображенский_20260305_182226.json
+ЭстетДент,dentist,,,37.7348968,55.8124069,21.5,1789.9,https://yandex.com/maps/org/dantist_m/1011770038/,found,Дантист-М_20260311_130825.json
+,atm,,,37.6999594,55.7952935,21.5,1790.2,https://yandex.com/maps/org/t_bank/131297136636/,found,Т-Банк_20260311_130844.json
+Самсон Фарма,pharmacy,,,37.7001818,55.7954967,21.5,1791.9,https://yandex.com/maps/org/samson_pharma/68173893761/,found,Самсон-Фарма_20260311_130945.json
+Дикси,,supermarket,,37.7351482,55.798929,21.5,1792.2,https://yandex.com/maps/org/dixy/14063375416/,found,Дикси_20260305_183445.json
+Пятёрочка,,supermarket,,37.7288203,55.7946722,21.5,1794.0,https://yandex.com/maps/org/pyatyorochka/67141097625/,found,Пятёрочка_20260305_183424.json
+,,,,37.716472550000006,55.78918685,21.6,1794.2,,skipped_unnamed,
+Столички,pharmacy,,,37.7169712,55.81654,21.6,1794.8,https://yandex.com/maps/org/stolichki/56749053244/,found,Столички_20260311_131018.json
+,,,pitch,37.71546691557408,55.78965300283389,21.6,1795.8,,skipped_unnamed,
+FunFam,restaurant,,,37.7001565,55.7955555,21.6,1798.2,https://yandex.com/maps/org/funfam/133944541855/,found,unknown_20260311_131030.json
+,,,park,37.7156622461082,55.81653548588679,21.6,1798.7,,skipped_unnamed,
+Делегат,,convenience,,37.7299075,55.8137059,21.6,1799.1,https://yandex.com/maps/org/delegat/32328389479/,found,Делегат_20260305_181228.json
+СДЭК,post_office,,,37.6900395,55.7990406,21.6,1800.5,https://yandex.com/maps/org/cdek/180751683376/,found,CDEK_20260311_131052.json
+,,,playground,37.698813022975344,55.813831368712215,21.6,1801.0,,skipped_unnamed,
+Горздрав,pharmacy,,,37.7352933,55.7989472,21.6,1801.4,https://yandex.com/maps/org/gorzdrav/100300095546/,found,Горздрав_20260311_131109.json
+,,,park,37.71915757575113,55.79122789932896,21.6,1801.6,,skipped_unnamed,
+,,,playground,37.70425391600995,55.81473709793993,21.7,1802.2,,skipped_unnamed,
+,,,,37.71660495,55.78919665,21.7,1803.1,,skipped_unnamed,
+Храм Рождества Иоанна Предтечи в Сокольниках,place_of_worship,,,37.69447412267917,55.79888270378102,21.7,1804.6,https://yandex.com/maps/org/church_of_the_nativity_of_john_the_baptist_in_sokolniki/160329938021/,found,Церковь_Рождества_Иоанна_Предтечи_в_Сокольниках_20260311_131129.json
+Трамвайное депо имени Русакова,,,,37.6996631,55.7947643,21.7,1804.7,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260311_131157.json
+Снеди Феди,fast_food,,,37.7057952,55.7918034,21.7,1805.7,https://yandex.com/maps/org/snedi_fedi/120804209097/,found,Снеди_Феди_20260311_131240.json
+Мясновъ,,convenience,,37.7168304,55.8166089,21.7,1806.4,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/243926522212/,found,КуулКлевер_МясновЪ_Отдохни_20260305_181357.json
+Перекрёсток,,supermarket,,37.7007852,55.7956196,21.7,1807.6,https://yandex.com/maps/org/perekrestok/54052554701/,found,Перекрёсток_20260305_184811.json
+,,,track,37.72512500697274,55.79179839751447,21.7,1808.8,,skipped_unnamed,
+,,,pitch,37.72513500000001,55.79179735000001,21.7,1809.3,,skipped_unnamed,
+Школа №1032,school,,,37.73102283019448,55.79589388865995,21.8,1809.5,https://yandex.com/maps/org/shkola_1505_pedagogicheskaya/1201004951/,found,Школа___1505_Преображенская__учебный_корпус___6_20260305_183820.json
+,,,pitch,37.7297893,55.7946727,21.8,1809.7,,skipped_unnamed,
+,,,playground,37.7298217176277,55.7947187796879,21.8,1810.0,,skipped_unnamed,
+,,,pitch,37.72597614234357,55.81477223404379,21.8,1810.6,,skipped_unnamed,
+,,,playground,37.6977198,55.796685,21.8,1813.3,,skipped_unnamed,
+,,,playground,37.71400269345375,55.78949896745038,21.8,1813.9,,skipped_unnamed,
+5-й проезд Подбельского,,,,37.7254261,55.816376,21.9,1814.2,,skipped_street,
+Учебно-тренировочный спортивный комплекс Черкизовского детского парка,,,sports_centre,37.73550288835767,55.80414551188115,21.8,1814.5,https://yandex.com/maps/org/cherkizovsky_children_park/52516475292/,found,Черкизовский_детский_парк_20260311_131406.json
+,,,pitch,37.7003829,55.7941891,21.8,1814.9,,skipped_unnamed,
+5-й проезд Подбельского,,,,37.7253977,55.8164045,21.9,1815.3,,skipped_street,
+,,,playground,37.72584432939846,55.8146189488421,21.8,1816.0,,skipped_unnamed,
+,,,pitch,37.73651186836515,55.80345715290451,21.8,1816.9,,skipped_unnamed,
+,,,pitch,37.72479708063874,55.79148649250384,21.8,1817.2,,skipped_unnamed,
+,,,pitch,37.73151265596299,55.812891116109626,21.8,1818.3,,skipped_unnamed,
+Дружба,,convenience,,37.6899642,55.79902,21.8,1820.6,https://yandex.com/maps/org/druzhba/1217233852/,found,Дружба_20260305_185154.json
+Детский сад №1860,kindergarten,,,37.69227084296856,55.79866419408553,21.9,1821.4,https://yandex.com/maps/org/spetsialnaya_korrektsionnaya_shkola_internat_30_imeni_k_a_mikaelyana_korpus_doshkolnykh_grupp/142301351582/,found,Специальная_коррекционная_школа-интернат___30_имен_20260305_185046.json
+Дринкит,cafe,,,37.7055964,55.7916085,21.9,1823.0,https://yandex.com/maps/org/drinkit/74832768469/,found,Дринкит_20260311_131430.json
+,,,park,37.7150226221188,55.78910646243625,21.9,1823.4,,skipped_unnamed,
+Детский черкизовский парк,,,park,37.7365642460434,55.80268792745817,21.9,1825.6,https://yandex.com/maps/org/cherkizovsky_children_park/52516475292/,found,Черкизовский_детский_парк_20260305_183947.json
+,,,playground,37.705375972936174,55.81579068710362,22.0,1827.7,,skipped_unnamed,
+2-й Электрозаводский переулок,,,,37.7069607,55.7899522,22.0,1831.0,,skipped_street,
+,,,pitch,37.72857183347666,55.81404655084599,22.0,1831.3,,skipped_unnamed,
+,,,track,37.7254301,55.79197130000001,22.0,1832.6,,skipped_unnamed,
+,,,playground,37.69799956546724,55.81394528572207,22.0,1832.7,,skipped_unnamed,
+"Школа №1505 ""Преображенская""",school,,,37.7354515,55.8039734,22.0,1833.7,https://yandex.com/maps/org/podrazdeleniye_pugachevskaya_7_gbou_gimnaziya_1505/144031261344/,found,Школа___1505_Преображенская__учебный_корпус___1_20260305_184022.json
+Юрта,restaurant,,,37.6995058,55.795594,22.0,1833.8,https://yandex.com/maps/org/yurta/216289541178/,found,Юрта_20260311_131518.json
+,,,playground,37.7200222,55.81663394999999,22.0,1834.4,,skipped_unnamed,
+2-й Электрозаводский переулок,,,,37.7068474,55.7899651,22.0,1835.5,,skipped_street,
+,,,playground,37.70444553553116,55.81543604031306,22.1,1835.5,,skipped_unnamed,
+,,,playground,37.6996205,55.7950753,22.0,1835.7,,skipped_unnamed,
+5-й проезд Подбельского,,,,37.7256633,55.8165172,22.2,1835.8,,skipped_street,
+,,,playground,37.72780314999999,55.8142161,22.0,1836.2,,skipped_unnamed,
+,,,pitch,37.69971237387541,55.80620662311713,22.1,1837.3,,skipped_unnamed,
+,,,pitch,37.70809944336349,55.7902186278419,22.1,1837.4,,skipped_unnamed,
+5-й проезд Подбельского,,,,37.7258136,55.8164649,22.1,1838.6,,skipped_street,
+Даблби,cafe,,,37.7057815,55.7916749,22.1,1841.3,https://yandex.com/maps/org/dablbi/177025939495/,found,Даблби_20260311_131540.json
+,,,playground,37.71741319700319,55.81681198030946,22.1,1842.1,,skipped_unnamed,
+Твой врач,dentist,,,37.6994419,55.7956644,22.1,1842.4,https://yandex.com/maps/org/tvoy_vrach/1369553980/,found,Твой_Врач_20260311_131606.json
+Агропромкредит,bank,,,37.7066929,55.789897,22.1,1844.7,https://yandex.com/maps/org/agropromkredit/33842640944/,found,Агропромкредит_20260311_131625.json
+,,,playground,37.7083563,55.7901935,22.2,1848.9,,skipped_unnamed,
+Трамвайное депо имени Русакова,,,,37.6994812,55.7944403,22.2,1850.1,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260305_185503.json
+Трамвайное депо имени Русакова,,,,37.699538,55.79428,22.2,1851.7,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260311_131652.json
+Coffee Point,cafe,,,37.7060383,55.7917942,22.3,1855.2,https://yandex.com/maps/org/coffee_point/76281812716/,found,Coffee_Point_20260311_131710.json
+Intimo-shop,,clothes,,37.6996342,55.7960009,22.3,1857.3,https://yandex.com/maps/org/intimo_shop/1082693778/,found,Intimo-shop_20260311_131736.json
+,,,pitch,37.6973388,55.80413780000001,22.4,1859.8,,skipped_unnamed,
+Пятёрочка,,supermarket,,37.71557864836483,55.78883050782776,22.3,1860.2,https://yandex.com/maps/org/pyatyorochka/28482859471/,found,Пятёрочка_20260305_184439.json
+Улица Преображенский Вал,,,,37.7165569,55.7885635,22.4,1863.6,,skipped_street,
+,,,pitch,37.7351091079965,55.80489900018579,22.4,1866.5,,skipped_unnamed,
+Ашлянфу,cafe,deli,,37.698776,55.7947681,22.4,1866.8,https://yandex.com/maps/org/ashlyanfu_1/105493110058/,found,Ашлянфу___1_20260311_131858.json
+Школа № 1505 «Преображенская»,school,,,37.72576293762943,55.79171305910593,22.4,1867.8,https://yandex.com/maps/org/podrazdeleniye_pugachevskaya_7_gbou_gimnaziya_1505/144031261344/,found,Школа___1505_Преображенская__учебный_корпус___1_20260305_184324.json
+Молоко,,convenience,,37.708859,55.7899477,22.4,1867.8,https://yandex.com/maps/org/starozhilovskiy_molochny_kombinat/183990355335/,found,Старожиловский_молочный_комбинат_20260305_184533.json
+,,,playground,37.726196,55.81490879999999,22.5,1867.9,,skipped_unnamed,
+Улица Преображенский Вал,,,,37.7166785,55.7885228,22.5,1869.3,,skipped_street,
+Пятёрочка,,supermarket,,37.7275188,55.8144128,22.4,1869.4,https://yandex.com/maps/org/pyatyorochka/12837146684/,found,Пятёрочка_20260305_182101.json
+,,,pitch,37.72580307865245,55.79303553535008,22.4,1869.7,,skipped_unnamed,
+,kindergarten,,,37.73257681325472,55.81358203319844,22.5,1871.5,https://yandex.com/maps/org/school_1360/173289039053/,found,Школа___1360__корпус___17_Лукоморье_20260305_183754.json
+,,,track,37.73569736349738,55.80494905205947,22.5,1871.8,,skipped_unnamed,
+,,,pitch,37.72887503555277,55.814238496330255,22.5,1873.5,,skipped_unnamed,
+Трамвайное депо имени Русакова,,,,37.6994592,55.7945373,22.5,1874.7,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260305_185801.json
+,,,,37.7351473,55.813253,22.5,1875.9,,skipped_unnamed,
+,atm,,,37.6991081,55.7958386,22.6,1880.4,https://yandex.com/maps/org/t_bank/131297136636/,found,Т-Банк_20260311_131916.json
+,,,playground,37.6919557,55.7981194,22.6,1881.1,,skipped_unnamed,
+,,,track,37.70784626879378,55.8169420763795,22.6,1882.7,,skipped_unnamed,
+,,,pitch,37.70784572191632,55.81694330734084,22.6,1882.7,,skipped_unnamed,
+Детская городская поликлиника №28 Филиал №2,clinic,,,37.71305643086124,55.81688923914998,22.6,1883.3,https://yandex.com/maps/org/children_city_polyclinic_28/1690472141/,found,Детская_городская_поликлиника___28_20260305_183329.json
+Трамвайное депо имени Русакова,,,,37.6995924,55.79456705,22.6,1883.6,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260311_131943.json
+,,,playground,37.69280906801137,55.79784881108903,22.6,1883.7,,skipped_unnamed,
+Волшебный корабль,community_centre,,,37.7318063,55.7951507,22.6,1884.0,https://yandex.com/maps/org/volshebniy_korabl/1018436822/,found,Волшебный_корабль_20260311_132005.json
+,,,playground,37.70464743791938,55.81629759703654,22.6,1884.6,,skipped_unnamed,
+,,,playground,37.70574613452977,55.81690243166,22.7,1887.6,,skipped_unnamed,
+Школа №1505 Дошкольное отделение,kindergarten,,,37.72787998848207,55.79290425095565,22.7,1888.0,https://yandex.com/maps/org/shkola_1505_preobrazhenskaya_doshkolnoye_otdeleniye_2/1026646783/,found,Школа___1505_Преображенская__дошкольное_отделение__20260305_184700.json
+,,,playground,37.725500979519616,55.7908787934189,22.7,1889.0,,skipped_unnamed,
+Майский просек,,,,37.6889338,55.8028478,22.8,1890.2,,not_found,
+,,,playground,37.70238229152276,55.81572090136757,22.8,1891.6,,skipped_unnamed,
+Академия «Спартак» по футболу имeни Ф. Ф. Черенкова,,,sports_centre,37.6968876983972,55.80457863696473,22.8,1891.9,https://yandex.com/maps/org/cherenkov_academy_stadium/66516348986/,found,Академия_Спартак_по_футболу_имени_Ф_Ф__Черенкова_20260311_132115.json
+Трамвайное депо имени Русакова,,,,37.6997215,55.7946165,22.7,1892.7,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260305_185854.json
+,,,pitch,37.695111,55.8124147,22.7,1894.0,,skipped_unnamed,
+,,,playground,37.696748,55.7961946,22.7,1894.7,,skipped_unnamed,
+,,,playground,37.7265327949673,55.81619879612255,22.8,1896.7,,skipped_unnamed,
+,,,pitch,37.7255742,55.7908095,22.8,1897.6,,skipped_unnamed,
+Майский просек,,,,37.6888615,55.8028831,22.8,1898.1,,not_found,
+03 Life,pharmacy,,,37.7288699,55.7932129,22.8,1899.1,https://yandex.com/maps/org/03life/1833647694/,found,03life_20260311_132141.json
+,,,pitch,37.71553170576952,55.81729073050891,22.8,1899.7,,skipped_unnamed,
+Метро «Бульвар Рокоссовского»,,,,37.7353655,55.8131567,22.9,1900.8,,skipped_street,
+Gold's gym,,,sports_centre,37.7050486,55.7904773,22.8,1901.8,https://yandex.com/maps/org/gold_gym/1023507449/,found,Gold_s_Gym_20260311_132233.json
+Роко кофе,fast_food,,,37.7306158,55.8145739,22.8,1902.0,https://yandex.com/maps/org/roco_bay/172686243678/,found,Роко_Бэй_20260311_132313.json
+CMD,doctors,,,37.7304907,55.8145039,22.8,1902.0,https://yandex.com/maps/org/cmd_tsentr_molekulyarnoy_diagnostiki/47444300137/,found,Cmd___центр_Молекулярной_Диагностики_20260311_132353.json
+,,,playground,37.69087079297777,55.79864492488743,22.8,1902.1,,skipped_unnamed,
+,,,pitch,37.699006100000005,55.8066535,22.9,1904.3,,skipped_unnamed,
+,pharmacy,,,37.7156297,55.7886546,22.9,1910.2,https://yandex.com/maps/org/stolichki/160289576695/,found,Столички_20260311_132416.json
+Детский сад №35,kindergarten,,,37.72192076268623,55.81718887138207,23.0,1910.9,https://yandex.com/maps/org/shkola_1360_korpus_9_teremok/1119745635/,found,Школа___1360__корпус___9_Теремок_20260305_183725.json
+,,,,37.7351292,55.81349,22.9,1911.9,,skipped_unnamed,
+,,,pitch,37.69473970000001,55.79615135000001,22.9,1912.1,,skipped_unnamed,
+Школа № 1690,school,,,37.725167849712605,55.79267342269959,23.0,1914.0,https://yandex.com/maps/org/podrazdeleniye_pugachevskaya_7_gbou_gimnaziya_1505/144031261344/,found,Школа___1505_Преображенская__учебный_корпус___1_20260305_184925.json
+Майский просек,,,,37.6884912,55.8026189,23.0,1914.6,,not_found,
+Пятёрочка,,supermarket,,37.6981071,55.7947044,23.0,1914.8,https://yandex.com/maps/org/pyatyorochka/10514687732/,found,Пятёрочка_20260305_190347.json
+Преображенец,arts_centre,,,37.7289477,55.7930787,23.0,1914.9,https://yandex.com/maps/org/okts_vao_territorialnoye_upravleniye_preobrazhenskoye/94417605859/,found,ОКЦ_ВАО__Территориальное_управление_Преображенское_20260311_132443.json
+,,,pitch,37.736519,55.8044158,23.0,1916.1,,skipped_unnamed,
+Майский просек,,,,37.6884294,55.8026176,23.1,1916.8,,not_found,
+,,,playground,37.73654048297144,55.798814847661525,23.0,1919.1,,skipped_unnamed,
+Трамвайное депо имени Русакова,,,,37.6982848,55.7943627,23.0,1919.9,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260305_190512.json
+,,,pitch,37.720391569416776,55.816829820936746,23.1,1922.1,,skipped_unnamed,
+,,,playground,37.69505894857188,55.79603328092386,23.1,1924.4,,skipped_unnamed,
+Bloomgym,,,fitness_centre,37.7290415,55.7929861,23.1,1926.5,https://yandex.com/maps/org/bloomgym/43168175470/,found,Bloomgym_20260311_132518.json
+5-й проезд Подбельского,,,,37.725986,55.8170884,23.2,1927.0,,skipped_street,
+,,convenience,,37.696806,55.7958728,23.1,1928.1,https://yandex.com/maps/org/convenience_food_technology/1126923865/,found,Convenience_food_technology_20260305_190542.json
+,,,pitch,37.72480395,55.7928965,23.1,1928.2,,skipped_unnamed,
+5-й проезд Подбельского,,,,37.7266525,55.816937,23.2,1929.0,,skipped_street,
+,,,track,37.72478119137132,55.79290755551867,23.1,1929.2,,skipped_unnamed,
+Ивановский трикотаж,,clothes,,37.7348547,55.8135613,23.2,1930.5,https://yandex.com/maps/org/ivanovskiy_trikotazh/154512438629/,found,Ивановский_трикотаж_20260311_132535.json
+СушиStore,fast_food,,,37.7308441,55.8147218,23.2,1931.1,https://yandex.com/maps/org/sushistore/186127039388/,found,СушиСтор_20260311_132643.json
+,,,playground,37.691149191332215,55.798025293218274,23.2,1931.5,,skipped_unnamed,
+Трамвайное депо имени Русакова,,,,37.6981095,55.7943172,23.2,1931.7,https://yandex.com/maps/org/mosgortrans_tramvaynoye_depo_imeni_rusakova/1103599685/,found,Трамвайное_депо_имени_Русакова_20260311_132711.json
+Метро «Бульвар Рокоссовского»,,,,37.7350218,55.812940100000006,23.3,1933.1,,skipped_street,
+&coffee,cafe,,,37.7089781,55.7893716,23.3,1936.1,https://yandex.com/maps/org/stars_coffee/159246427962/,found,Stars_Coffee_20260311_132802.json
+5-й проезд Подбельского,,,,37.725829700000006,55.81709655,23.3,1936.2,,skipped_street,
+Метро «Бульвар Рокоссовского»,,,,37.7349366,55.812990600000006,23.3,1938.0,,skipped_street,
+Городская аптека,pharmacy,,,37.7347845,55.8136261,23.3,1938.5,https://yandex.com/maps/org/apteka/1106981173/,found,Аптека_20260311_132836.json
+Детский сад №1475,kindergarten,,,37.7301657710466,55.81491525032434,23.3,1938.7,https://yandex.com/maps/org/detsky_sad_1475/1019191602/,found,Центр_развития_ребенка-детский_сад___1475_20260305_184119.json
+,,,pitch,37.68744905,55.80029029999999,23.3,1939.3,,skipped_unnamed,
+Клевер,veterinary,,,37.6953726,55.8138627,23.3,1940.1,https://yandex.com/maps/org/clever/64384546977/,found,Клевер_20260311_132902.json
+5-й проезд Подбельского,,,,37.7243432,55.8171666,23.3,1940.7,,skipped_street,
+,,,playground,37.6980177,55.795158,23.3,1942.5,,skipped_unnamed,
+5-й проезд Подбельского,,,,37.7243839,55.8172306,23.4,1943.6,,skipped_street,
+,,,pitch,37.69872805183807,55.80484133109732,23.4,1943.6,,skipped_unnamed,
+Детский сад №564,kindergarten,,,37.72678346700952,55.815664261614494,23.4,1943.7,https://yandex.com/maps/org/shkola_1080_doshkolnoye_otdeleniye_7/88534893509/,found,Школа___1080__дошкольное_отделение___7_20260305_184047.json
+,,,playground,37.68933465,55.798162,23.3,1944.1,,skipped_unnamed,
+5-й проезд Подбельского,,,,37.72693855,55.816880350000005,23.4,1947.8,,skipped_street,
+,,,pitch,37.69853526964062,55.81406333141378,23.4,1948.0,,skipped_unnamed,
+Едофф,,convenience,,37.7100869,55.7884973,23.4,1950.2,https://yandex.com/maps/org/yedoff/1029607033/,found,Едофф_20260305_185634.json
+Будь здоров,pharmacy,,,37.7311841,55.8148995,23.4,1951.4,https://yandex.com/maps/org/bud_zdorov/7927078051/,found,Будь_Здоров__20260311_132922.json
+Мануальный терапевт Жаров Валентин Александрович,doctors,,,37.6984766,55.7948331,23.4,1951.4,https://yandex.com/maps/org/manualny_terapevt_ya_bolen_ru/1727510162/,found,Мануальный_терапевт_ya-bolen_ru_20260311_132949.json
+Останкино,,butcher,,37.7346396,55.813709,23.4,1951.5,https://yandex.com/maps/org/ostankino_television_technical_center/1077173834/,found,Телевизионный_технический_центр_Останкино_20260311_133117.json
+,,,playground,37.72267003333334,55.81673029999999,23.5,1951.8,,skipped_unnamed,
+,,,playground,37.736593822456896,55.79803162499082,23.4,1952.1,,skipped_unnamed,
+Эверест,,supermarket,,37.7143816,55.8177338,23.5,1954.2,https://yandex.com/maps/org/everest/238268748040/,found,Эверест_20260305_184206.json
+Гастроном,,convenience,,37.7112913,55.8173869,23.5,1954.2,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/243926522212/,found,КуулКлевер_МясновЪ_Отдохни_20260305_184250.json
+,,,park,37.713460381482165,55.81769016701719,23.5,1954.6,,skipped_unnamed,
+Суши Wok,fast_food,,,37.7316412,55.8146538,23.5,1954.6,https://yandex.com/maps/org/sushi_wok/1787805273/,found,Суши_Wok_20260311_133217.json
+Магнит,,supermarket,,37.7379082,55.7994091,23.5,1955.2,https://yandex.com/maps/org/magnit/99809868413/,found,Магнит_20260305_185542.json
+Кислород,pharmacy,,,37.7380297,55.7992435,23.5,1955.3,https://yandex.com/maps/org/pharmacy/44241023316/,found,Кислород_20260311_133236.json
+,veterinary,,,37.7380422,55.7991959,23.5,1955.3,https://yandex.com/maps/org/multidisciplinary_veterinary_center/36838963086/,found,Многопрофильный_Ветеринарный_центр_20260311_133310.json
+,,,playground,37.71298748116217,55.78835163324214,23.5,1955.8,,skipped_unnamed,
+Бургер Кинг,fast_food,,,37.7337509,55.8139968,23.5,1956.7,https://yandex.com/maps/org/burger_king/17708396137/,found,Бургер_Кинг_20260311_133433.json
+,,,pitch,37.73329995,55.79498625,23.5,1957.9,,skipped_unnamed,
+,,,playground,37.7101242682242,55.817445158416064,23.5,1959.2,,skipped_unnamed,
+Детский сад №367,kindergarten,,,37.70065560115224,55.81544634285513,23.6,1961.2,https://yandex.com/maps/org/school_1360/1070781216/,found,Школа___1360__корпус___11_Непоседы_20260305_184344.json
+Бистро,fast_food,,,37.7365914,55.8126065,23.6,1964.2,https://yandex.com/maps/org/burger_king/17708396137/,found,Бургер_Кинг_20260311_133556.json
+,,,track,37.73573463410016,55.80488734250775,23.6,1967.0,,skipped_unnamed,
+,,,playground,37.7371947,55.8041869,23.6,1967.4,,skipped_unnamed,
+,,,pitch,37.73570817434147,55.80491830828416,23.6,1968.7,,skipped_unnamed,
+,atm,,,37.7080389,55.7891802,23.6,1970.1,https://yandex.com/maps/org/t_bank/217711506257/,found,Т-Банк_20260311_133613.json
+,,,playground,37.729363273123575,55.81514520297749,23.6,1970.6,,skipped_unnamed,
+,,,playground,37.69841246666667,55.8145295,23.7,1971.5,,skipped_unnamed,
+,,convenience,,37.7013834,55.8164947,23.7,1971.7,https://yandex.com/maps/org/smeshannyye_tovary/114786180219/,found,Смешанные_товары_20260305_184511.json
+СДМ банк,bank,,,37.7080607,55.7891642,23.7,1971.8,https://yandex.com/maps/org/sdm_bank/236890960831/,found,СДМ-банк_20260311_133634.json
+5-й проезд Подбельского,,,,37.7256636,55.8172613,23.7,1972.0,,skipped_street,
+,cafe,,,37.7325016,55.7948327,23.7,1973.2,https://yandex.com/maps/org/dodo_pizza/240832854365/,found,Додо_Пицца_20260311_133800.json
+Аптека Эконом,pharmacy,,,37.7318078,55.814746,23.7,1976.5,https://yandex.com/maps/org/ekonom/98331562145/,found,Эконом_20260311_133824.json
+Quick Shop,,convenience,,37.7298757,55.7933441,23.8,1977.8,https://yandex.com/maps/org/quick_shop/36631384710/,found,Quick_shop_20260305_185823.json
+Метро «Бульвар Рокоссовского»,,,,37.7345117,55.8127106,23.8,1978.8,,skipped_street,
+,cafe,,,37.7086401,55.7889772,23.8,1978.9,https://yandex.com/maps/org/vey_vo/65922762640/,found,Вей_ВО_20260311_133854.json
+Школа №390,school,,,37.71584581728455,55.817664097798406,23.8,1980.0,https://yandex.com/maps/org/school_1360/23853663793/,found,Школа___1360__школьный_корпус___5_20260305_184600.json
+5-й проезд Подбельского,,,,37.7257177,55.8173228,23.8,1981.4,,skipped_street,
+Лёд и пар,cafe,,,37.7342906,55.8138928,23.8,1981.4,https://yandex.com/maps/org/lyod_i_par/35763923021/,found,Лёд_и_Пар_20260311_133932.json
+Школа №1505 Дошкольные группы,kindergarten,,,37.73644467740628,55.79747734720049,23.8,1983.8,https://yandex.com/maps/org/shkola_1505_preobrazhenskaya_doshkolnoye_otdeleniye_7/1055396652/,found,Школа___1505_Преображенская__дошкольное_отделение__20260305_185918.json
+Sub Cafe,cafe,,,37.7299911,55.7933456,23.9,1985.0,https://yandex.com/maps/org/sub_cafe/196014577182/,found,Sub_Cafe_20260311_133951.json
+,,,playground,37.72648142184582,55.79127407102732,23.9,1989.6,,skipped_unnamed,
+ВкусВилл,,convenience,,37.7021822,55.8165464,24.0,1990.1,https://yandex.com/maps/org/vkusvill/225776393108/,found,ВкусВилл_20260305_184634.json
+,,,pitch,37.70333809601006,55.816412369345,23.9,1991.4,,skipped_unnamed,
+,,,playground,37.73404703333333,55.7952233,23.9,1991.8,,skipped_unnamed,
+Богородский храм,,,,37.6953421,55.8146857,23.9,1992.5,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260305_190442.json
+Метро «Бульвар Рокоссовского»,,,,37.7342796,55.8140775,23.9,1992.7,,skipped_street,
+Метро «Бульвар Рокоссовского»,,,,37.7339047,55.8141676,23.9,1993.2,,skipped_street,
+Столички,pharmacy,,,37.6884323,55.7977667,23.9,1993.5,https://yandex.com/maps/org/stolichki/1782191637/,found,Столички_20260311_134020.json
+,,,playground,37.7031518,55.8163835,24.0,1993.7,,skipped_unnamed,
+,,,playground,37.73163986600218,55.793931296511424,24.0,1993.9,,skipped_unnamed,
+"Школа №1505 ""Преображенская""",school,,,37.737962,55.8008166,23.9,1993.9,https://yandex.com/maps/org/gbou_g_moskvy_shkola_1505_preobrazhenskaya/129945181555/,found,ГБОУ_г__Москвы_школа_1505_Преображенская_20260305_185948.json
+Ваша № 1,pharmacy,,,37.714187,55.8178668,24.0,1994.1,https://yandex.com/maps/org/vasha_1/157544574182/,found,Ваша___1_20260311_134047.json
+,,,playground,37.723379,55.81736300000001,24.0,1994.2,,skipped_unnamed,
+,,,,37.7355795,55.8141588,24.0,1996.3,,skipped_unnamed,
+,,,,37.7320958,55.8150394,24.0,1997.7,,skipped_unnamed,
+Trattoria Stefano,restaurant,,,37.7023229,55.8165623,24.1,1997.8,https://yandex.com/maps/org/trattoria_stefano/130160709762/,found,Траттория_Стефано_20260311_134152.json
+Панин и К,,supermarket,,37.7335659,55.8140499,24.0,1999.1,https://yandex.com/maps/org/firma_panin_i_ko/113911783589/,found,Фирма_Панин_и_Ко_20260305_185238.json
+,,,playground,37.708544462203385,55.8169176511695,24.0,2000.2,,skipped_unnamed,
+Метро «Бульвар Рокоссовского»,,,,37.733997,55.8142266,24.0,2002.2,,skipped_street,
+ВкусВилл,,convenience,,37.7335786,55.8141166,24.1,2003.8,https://yandex.com/maps/org/vkusvill/24922339057/,found,ВкусВилл_20260305_185312.json
+Богородский храм,,,,37.6952626,55.8147518,24.0,2003.8,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260311_134244.json
+МИРЭА - Российский технологический университет,,,,37.6987027,55.7932275,24.1,2006.2,https://yandex.com/maps/org/russian_technological_university_mirea/85018294236/,found,Российский_технологический_университет_МИРЭА_20260305_192518.json
+,,,playground,37.69833437185181,55.81480561382429,24.1,2006.8,,skipped_unnamed,
+РЖД Арена,,,,37.7394903,55.800267,24.1,2008.4,https://yandex.com/maps/org/rzd_arena/1013976871/,found,РЖД_Арена_20260305_190134.json
+РЖД Арена,,,,37.7394329,55.8003716,24.1,2008.8,https://yandex.com/maps/org/rzd_arena/1013976871/,found,РЖД_Арена_20260311_134433.json
+,atm,,,37.7334823,55.814135,24.1,2009.5,https://yandex.com/maps/org/t_bank/221943839596/,found,Т-Банк_20260311_134459.json
+Куулклевер,,convenience,,37.7106303,55.8177244,24.2,2010.1,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/243926522212/,found,КуулКлевер_МясновЪ_Отдохни_20260305_184850.json
+"Конечная автобусная станция ""Бульвар Рокоссовского""",,,,37.73706462855142,55.81319990639128,24.2,2010.8,,skipped_street,
+МясновЪ,,convenience,,37.7105901,55.8177432,24.2,2013.4,https://yandex.com/maps/org/kuulklever_myasnov_otdokhni/243926522212/,found,КуулКлевер_МясновЪ_Отдохни_20260305_185024.json
+Игральная улица,,,,37.7155937,55.8181545,24.2,2014.4,,skipped_street,
+,,,playground,37.72132745,55.81753245,24.2,2016.4,,skipped_unnamed,
+Игральная улица,,,,37.7155343,55.8181862,24.3,2019.1,,skipped_street,
+,,,pitch,37.7322939,55.8144687,24.3,2021.4,,skipped_unnamed,
+,,,playground,37.728633900000005,55.79188705,24.3,2023.2,,skipped_unnamed,
+Улица Измайловский Вал,,,,37.7170539,55.787147950000005,24.3,2024.1,,skipped_street,
+Сбербанк,bank,,,37.7026158,55.8166389,24.4,2024.6,https://yandex.com/maps/org/sberbank/1396706379/,found,СберБанк_20260311_134535.json
+Улица Измайловский Вал,,,,37.7171421,55.7871881,24.3,2026.8,,skipped_street,
+"Детский молодежный центр ""Сокольники""",community_centre,,,37.6871542,55.7978245,24.3,2027.4,https://yandex.com/maps/org/okts_vao_territorialnoye_upravleniye_sokolniki/81075567150/,found,ОКЦ_ВАО__Территориальное_управление_Сокольники_20260311_134553.json
+Горздрав,pharmacy,,,37.7104208,55.81784,24.4,2028.4,https://yandex.com/maps/org/gorzdrav/212514464749/,found,Горздрав_20260311_134622.json
+,,,playground,37.70040527528874,55.81624887637506,24.4,2028.6,,skipped_unnamed,
+Детский сад №367,kindergarten,,,37.7037691,55.8168407,24.4,2029.2,https://yandex.com/maps/org/school_1360/1070781216/,found,Школа___1360__корпус___11_Непоседы_20260305_185217.json
+"Детский молодежный центр ""Сокольники""",community_centre,,,37.694305,55.795897,24.3,2029.3,https://yandex.com/maps/org/okts_vao_territorialnoye_upravleniye_sokolniki/1241408253/,found,ОКЦ_ВАО__Территориальное_управление_Сокольники_20260311_134640.json
+МИРЭА - Российский технологический университет,,,,37.6986175,55.7932612,24.4,2029.9,https://yandex.com/maps/org/russian_technological_university_mirea/85018294236/,found,Российский_технологический_университет_МИРЭА_20260311_134718.json
+Улица Измайловский Вал,,,,37.7171857,55.78716035,24.4,2030.4,,skipped_street,
+,,,playground,37.68976234931245,55.79759637409795,24.4,2032.3,,skipped_unnamed,
+Богородское,,,,37.7006522,55.8165986,24.5,2033.5,,not_found,
+,,,playground,37.7373451,55.7978903,24.4,2035.1,,skipped_unnamed,
+Богородский храм,,,,37.694297,55.8148462,24.5,2037.6,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260305_191043.json
+МИРЭА - Российский технологический университет,,,,37.6984289,55.7929387,24.5,2037.9,https://yandex.com/maps/org/russian_technological_university_mirea/85018294236/,found,Российский_технологический_университет_МИРЭА_20260311_134757.json
+,,,playground,37.73898153131604,55.79923738729,24.5,2039.0,,skipped_unnamed,
+Богородский храм,,,,37.696003700000006,55.8149905,24.5,2041.5,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260311_134848.json
+,,,pitch,37.7290557,55.79188124999999,24.5,2041.8,,skipped_unnamed,
+МИРЭА - Российский технологический университет,,,,37.6983684,55.7929629,24.5,2042.3,https://yandex.com/maps/org/russian_technological_university_mirea/85018294236/,found,Российский_технологический_университет_МИРЭА_20260305_193244.json
+Богородский храм,,,,37.6943935,55.8149033,24.5,2043.2,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260311_134940.json
+Богородский храм,,,,37.6941724,55.8148527,24.5,2043.8,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260305_190919.json
+One Price Coffee,fast_food,,,37.733194,55.814445,24.6,2046.4,https://yandex.com/maps/org/one_price_coffee/15423397441/,found,One_Price_Coffee_20260311_135009.json
+Богородское,,,,37.7006106,55.8166403,24.6,2047.0,,not_found,
+Богородское,,,,37.7011362,55.8170058,24.7,2048.5,,not_found,
+Пятёрочка,,supermarket,,37.7132966,55.8183129,24.6,2048.5,https://yandex.com/maps/org/pyatyorochka/1511028248/,found,Пятёрочка_20260305_185433.json
+Южный Хапиловский сквер,,,park,37.71542659515861,55.78742786908234,24.6,2050.2,https://yandex.com/maps/org/yuzhny_khapilovsky_public_garden/22818682059/,found,Южный_Хапиловский_сквер_20260305_190950.json
+Магнит,,supermarket,,37.7095319,55.8176769,24.6,2050.7,https://yandex.com/maps/org/magnit/221523443558/,found,Магнит_20260305_185350.json
+Богородский храм,,,,37.6960486,55.8150507,24.6,2052.4,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260305_191321.json
+храм Преображения Господня,place_of_worship,,,37.69601681551126,55.81462346304023,24.6,2052.5,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260311_135101.json
+СДЭК,post_office,,,37.6957735,55.794353,24.6,2052.6,https://yandex.com/maps/org/cdek/209083245443/,found,CDEK_20260311_135131.json
+Альдента,,convenience,,37.7287939,55.8158573,24.7,2055.2,https://yandex.com/maps/org/al_denta/134068053732/,found,Альдента_20260305_185611.json
+,,,pitch,37.7373344,55.7980833,24.7,2056.1,,skipped_unnamed,
+Богородский храм,,,,37.6939936,55.8148875,24.7,2056.1,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260305_191418.json
+Богородский храм,,,,37.6939671,55.8148728,24.7,2056.4,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260305_191418.json
+,,,playground,37.7371239112512,55.7965922448287,24.7,2058.8,,skipped_unnamed,
+City Football Moscow,,,sports_centre,37.688235598648376,55.79959251926572,24.8,2058.8,https://yandex.com/maps/org/cityfootball/1809670236/,found,CityFootball_20260311_135221.json
+,,,playground,37.7147314,55.818352,24.7,2059.0,,skipped_unnamed,
+Мед Эксперт,doctors,,,37.7330583,55.8145286,24.7,2059.1,https://yandex.com/maps/org/medexpert/59353281917/,found,Медэксперт_20260311_135304.json
+Богородский храм,,,,37.6939407,55.8148534,24.7,2060.2,https://yandex.com/maps/org/church_of_the_transfiguration_of_the_savior/1189288916/,found,Храм_Преображения_Господня_в_Богородском_20260305_191530.json
+Детская одежда,,clothes,,37.7332392,55.8142282,24.7,2060.4,https://yandex.com/maps/org/gloria_jeans/159941276267/,found,Gloria_Jeans_20260311_135328.json
+,,,pitch,37.68857475,55.7997846,24.9,2060.6,,skipped_unnamed,
+Метро «Бульвар Рокоссовского»,,,,37.7333222,55.8145956,24.7,2061.0,,skipped_street,
+,,,pitch,37.73772775,55.7969542,24.8,2062.1,,skipped_unnamed,
+РЖД Арена,,,,37.7396091,55.7999479,24.8,2063.2,https://yandex.com/maps/org/rzd_arena/1013976871/,found,РЖД_Арена_20260305_191229.json
+Старый город,cafe,,,37.7333404,55.8141313,24.8,2063.4,,not_found,
+Игральная улица,,,,37.7155428,55.8184809,24.8,2063.6,,skipped_street,
+,,,pitch,37.68754250835309,55.79976877342289,24.9,2064.0,,skipped_unnamed,
+,,,pitch,37.687133844392186,55.79754783764662,24.8,2064.1,,skipped_unnamed,
+Перекрёсток,,supermarket,,37.7379332,55.8124745,24.8,2064.5,https://yandex.com/maps/org/perekryostok/232538400274/,found,Перекрёсток_20260305_190315.json
+Игральная улица,,,,37.7162437,55.818297,24.8,2065.5,,skipped_street,
+Игральная улица,,,,37.7156669,55.8185109,24.8,2065.7,,skipped_street,
+BeEko.ru,,convenience,,37.7259812,55.8180324,24.8,2066.7,https://yandex.com/maps/org/beeko/82366257154/,found,Beeko_20260305_185705.json
+Улица Короленко,,,,37.6861749,55.7995479,24.9,2067.1,,skipped_street,
+3-й проезд Подбельского,,,,37.7210193,55.8181211,24.8,2067.4,,skipped_street,
+,,,pitch,37.73361328375894,55.79508093273341,24.9,2067.7,,skipped_unnamed,
+РЖД Арена,,,,37.7396323,55.7999067,24.8,2068.4,https://yandex.com/maps/org/rzd_arena/1013976871/,found,РЖД_Арена_20260305_191229.json
+,atm,,,37.737999,55.8124877,24.9,2068.5,https://yandex.com/maps/org/sberbank/23923196256/,found,СберБанк_20260311_135345.json
+Вита Экспресс,pharmacy,,,37.7328578,55.8146615,24.8,2068.6,https://yandex.com/maps/org/vita_express/15540330666/,found,Вита_Экспресс_20260311_135409.json
+Метро «Бульвар Рокоссовского»,,,,37.7333981,55.8146459,24.8,2069.0,,skipped_street,
+Московский кредитный банк,bank,,,37.7328041,55.8146207,24.8,2069.2,https://yandex.com/maps/org/moskovskiy_kreditny_bank/1366917047/,found,Московский_кредитный_банк_20260311_135627.json
+Горздрав,pharmacy,,,37.732253,55.8155841,24.9,2069.8,https://yandex.com/maps/org/gorzdrav/1140973321/,found,Горздрав_20260311_135653.json
+Игральная улица,,,,37.7162768,55.8183239,24.9,2069.9,,skipped_street,
+Синичкин сквер,,,park,37.72727577364542,55.81796594656837,24.9,2074.5,https://yandex.com/maps/org/sinichkin_garden_square/118316415392/,found,Синичкин_сквер_20260305_185731.json
+Психиатрическая больница №4 им. В.А. Гиляровского,hospital,,,37.70026700275557,55.792305373706256,24.9,2074.8,https://yandex.com/maps/org/p_b_gannushkin_psychiatric_clinical_hospital_4_v_a_gilyarovsky_psychiatric_hospital/93570631864/,found,Психиатрическая_клиническая_больница___4_имени_П_Б_20260311_135724.json
+Улица Короленко,,,,37.6860464,55.7997633,25.0,2076.6,,skipped_street,
+ВТБ,bank,,,37.7321522,55.8156135,25.0,2076.9,https://yandex.com/maps/org/vtb_bank/1486115940/,found,Банк_ВТБ_20260311_135814.json
+,,,pitch,37.68700380592769,55.79734203030348,24.9,2077.5,,skipped_unnamed,
+Смакбери,fast_food,,,37.7404037,55.8096702,24.9,2078.4,https://yandex.com/maps/org/smakbery/11770693093/,found,Смакбери_20260311_135844.json
+Лента,,supermarket,,37.6940853,55.8151948,24.9,2078.5,https://yandex.com/maps/org/super_lenta/235705116946/,found,Супер_Лента_20260305_191619.json
+,,,,37.7329441,55.815378,25.0,2078.6,,skipped_unnamed,
+,atm,,,37.695991,55.7937,24.9,2079.0,https://yandex.com/maps/org/t_bank/131297136636/,found,Т-Банк_20260311_135901.json
+Улица Короленко,,,,37.6862497,55.7997112,25.0,2079.1,,skipped_street,
+Метро «Бульвар Рокоссовского»,,,,37.7342433,55.8142659,25.0,2079.1,,skipped_street,
+,,,playground,37.69901080282339,55.81564376943985,25.0,2079.7,,skipped_unnamed,
+Метро «Бульвар Рокоссовского»,,,,37.7341723,55.8142139,25.0,2080.0,,skipped_street,
+Метро «Бульвар Рокоссовского»,,,,37.7342126,55.8142355,25.0,2080.1,,skipped_street,
+"Центр образования №1404 ""Гамма""",school,,,37.688216484561394,55.80389406999194,25.0,2080.5,https://yandex.com/maps/org/shkola_1404_gamma_korpus_1/1091229572/,found,Школа___1404_Гамма__корпус___1_20260305_193546.json
+Улица Короленко,,,,37.6861978,55.7996086,25.0,2080.9,,skipped_street,
+,atm,,,37.6959023,55.7937287,25.0,2085.9,https://yandex.com/maps/org/t_bank/131297136636/,found,Т-Банк_20260311_135918.json
+Метро «Бульвар Рокоссовского»,,,,37.7343437,55.8141158,25.0,2086.6,,skipped_street,
+,,,pitch,37.72921775,55.81706725,25.1,2088.0,,skipped_unnamed,
+,,,playground,37.7358752,55.7956905,25.1,2088.1,,skipped_unnamed,
+Улица Короленко,,,,37.6859978,55.7992863,25.1,2089.0,,skipped_street,
+Улица Короленко,,,,37.6859668,55.7992914,25.1,2089.5,,skipped_street,
+,,,playground,37.6930913,55.7952713,25.1,2090.1,,skipped_unnamed,
+,,,playground,37.68672507233513,55.79732987756703,25.1,2090.5,,skipped_unnamed,
+Горздрав,pharmacy,,,37.7382678,55.8126283,25.2,2091.3,https://yandex.com/maps/org/gorzdrav/134626063793/,found,Горздрав_20260311_135938.json
+,,,playground,37.69950657079457,55.81511404806832,25.1,2093.9,,skipped_unnamed,
+,atm,,,37.6938975,55.8152996,25.1,2094.9,https://yandex.com/maps/org/t_bank/158186844853/,found,Т-Банк_20260311_140007.json
+,,,playground,37.6946621,55.7949055,25.2,2096.1,,skipped_unnamed,
+Школа №378,school,,,37.69650115618645,55.79490314146962,25.2,2096.9,https://yandex.com/maps/org/shkola_378_s_uglublennym_izucheniyem_matematiki/1061305142/,found,Школа___378_с_углубленным_изучением_математики_20260305_193608.json
+Улица Измайловский Вал,,,,37.7172845,55.7864856,25.2,2099.2,,skipped_street,
+,,,pitch,37.7362105,55.7955895,25.2,2099.6,,skipped_unnamed,
+,,,playground,37.6952571,55.7946251,25.2,2099.6,,skipped_unnamed,
+Школа №1505 (начальное),school,,,37.73848476027288,55.79696601393288,25.2,2099.9,https://yandex.com/maps/org/shkola_1505_preobrazhenskaya_uchebny_korpus_8/1041283041/,found,Школа___1505_Преображенская__учебный_корпус___8_20260305_192341.json
+,,,playground,37.727795498647886,55.81822917674284,25.2,2100.0,,skipped_unnamed,
+1-й Электрозаводский переулок,,,,37.7062386,55.7875349,25.2,2103.2,,skipped_street,
+1-й Электрозаводский переулок,,,,37.7060973,55.7875511,25.2,2103.4,,skipped_street,
+Метро «Бульвар Рокоссовского»,,,,37.73277485,55.8152451,25.3,2104.0,,skipped_street,
+Игральная улица,,,,37.7163758,55.8188098,25.3,2106.2,,skipped_street,
+А5,pharmacy,,,37.6938413,55.8153763,25.3,2106.4,https://yandex.com/maps/org/a5/9239002477/,found,А5_20260311_140058.json
+,,,pitch,37.71963675,55.81872195,25.3,2106.9,,skipped_unnamed,
+Метро «Бульвар Рокоссовского»,,,,37.7327079,55.8152431,25.4,2107.5,,skipped_street,
+Магнит у дома,,supermarket,,37.7243078,55.8179578,25.3,2107.7,https://yandex.com/maps/org/magnit/48260511891/,found,Магнит_20260305_190219.json
+Ланинский переулок,,,,37.7052788,55.8189526,25.3,2108.2,,skipped_street,
+3-й проезд Подбельского,,,,37.72089845000001,55.8179956,25.3,2108.9,,skipped_street,
+Улица Короленко,,,,37.685629,55.7994033,25.4,2109.2,,skipped_street,
+Большая Оленья улица,,,,37.691791,55.8054543,25.4,2109.3,,skipped_street,
+Ланинский переулок,,,,37.7049725,55.8188083,25.4,2109.7,,skipped_street,
+Вита Экспресс,pharmacy,,,37.7383563,55.8119934,25.4,2110.3,https://yandex.com/maps/org/vita_express/209195661492/,found,Вита_Экспресс_20260311_140128.json
+Государственный научный центр дерматовенерологии и косметологии,hospital,,,37.69215402498233,55.79665203297547,25.3,2111.0,https://yandex.com/maps/org/state_scientific_center_for_dermatovenereology_and_cosmetology/84491563389/,found,Государственный_научный_центр_дерматовенерологии_и_20260311_140734.json
+Библиотека 76 им М.Ю. Лермонтова,library,,,37.6876396,55.7973757,25.3,2111.2,https://yandex.com/maps/org/library_named_after_m_u_lermontov/1309160380/,found,Библиотека___76_имени_М__Ю__Лермонтова_20260311_140836.json
+,,,pitch,37.71060195,55.78678605,25.4,2111.2,,skipped_unnamed,
+Игральная улица,,,,37.7162848,55.8188499,25.4,2112.1,,skipped_street,
+Хинкали-Гали,cafe,,,37.7102243,55.8185205,25.4,2112.1,https://yandex.com/maps/org/hinkali_gali_/47310447762/,found,Хинкали-Gали__20260311_141430.json
+,,,playground,37.7137201,55.8187628,25.4,2112.4,,skipped_unnamed,
+Центральный военный клинический госпиталь,hospital,,,37.694555605098685,55.807276467305,25.4,2113.0,https://yandex.com/maps/org/mandryka_central_military_clinical_hospital/1143243631/,found,Центральный_военный_клинический_госпиталь_имени_П__20260311_141503.json
+,,,playground,37.73789079169976,55.79660182913569,25.4,2113.2,,skipped_unnamed,
+,,,playground,37.70272543785721,55.81765445272271,25.4,2113.5,,skipped_unnamed,
+,,,pitch,37.68850033332931,55.80416900537767,25.4,2113.8,,skipped_unnamed,
+Улица Измайловский Вал,,,,37.717164,55.7863392,25.4,2114.2,,skipped_street,
+Бульвар Рокоссовского,,,,37.73434001400058,55.81468234616359,25.4,2116.0,,skipped_street,
+Бульвар Рокоссовского,,,,37.73434,55.8146824,25.4,2116.0,,skipped_street,
+Ланинский переулок,,,,37.7049436,55.8188569,25.4,2116.8,,skipped_street,
+,,,playground,37.6934052,55.795027,25.4,2118.2,,skipped_unnamed,
+Ланинский переулок,,,,37.7052606,55.8189923,25.5,2119.5,,skipped_street,
+,,,pitch,37.68800606802812,55.80029406514396,25.6,2120.4,,skipped_unnamed,
+Бульвар Рокоссовского,,,,37.7343854,55.8147348,25.4,2120.7,,skipped_street,
+Бульвар Рокоссовского,,,,37.7342937,55.8146309,25.5,2121.0,,skipped_street,
+Улица Короленко,,,,37.6854805,55.7994587,25.5,2122.5,,skipped_street,
+,,,pitch,37.687537224466425,55.79989260210621,25.6,2125.6,,skipped_unnamed,
+,,,pitch,37.68828460722342,55.80029592525445,25.7,2126.9,,skipped_unnamed,
+,atm,,,37.6956475,55.7936865,25.5,2128.8,https://yandex.com/maps/org/t_bank/131297136636/,found,Т-Банк_20260311_141521.json
+Ивантеевская улица,,,,37.7212914,55.8187663,25.6,2130.0,,skipped_street,
+Дикси,,supermarket,,37.7052222,55.8191883,25.6,2131.7,https://yandex.com/maps/org/dixy/175607464545/,found,Дикси_20260305_190616.json
+Большая Оленья улица,,,,37.6917199,55.8054757,25.7,2132.1,,skipped_street,
+Консультационно-диагностический центр №2,hospital,,,37.69710855046817,55.81519281483806,25.6,2132.8,https://yandex.com/maps/org/konsultativno_diagnosticheskiy_centr_2/1298406291/,found,Консультативно-диагностический_центр___2_20260311_141644.json
+Столички,pharmacy,,,37.6957086,55.8157294,25.6,2134.0,https://yandex.com/maps/org/stolichki/179597631986/,found,Столички_20260311_141707.json
+3-й проезд Подбельского,,,,37.7217525,55.8182949,25.7,2134.9,,skipped_street,
+1-й Электрозаводский переулок,,,,37.7059901,55.7872552,25.6,2137.0,,skipped_street,
+Ивантеевская улица,,,,37.7213434,55.8188008,25.7,2137.3,,skipped_street,
+,,,pitch,37.68772755,55.8002922,25.8,2137.8,,skipped_unnamed,
+Noris Stom,dentist,,,37.6973172,55.7924245,25.7,2141.2,https://yandex.com/maps/org/noris_medical/1013835649/,found,Noris_stom_20260311_141725.json
+РЖД Арена,,,,37.7400048,55.8001011,25.7,2141.3,https://yandex.com/maps/org/rzd_arena/1013976871/,found,РЖД_Арена_20260311_141915.json
+Магнолия,,supermarket,,37.6904372,55.7964903,25.7,2141.4,https://yandex.com/maps/org/magnoliya/1249228643/,found,Магнолия_20260305_193905.json
+1-й Электрозаводский переулок,,,,37.7058238,55.7872737,25.7,2141.8,,skipped_street,
+Универсам,,convenience,,37.7050862,55.819256,25.7,2141.9,https://yandex.com/maps/org/vkusvill/74955105155/,found,ВкусВилл_20260305_190647.json
+,,,pitch,37.688564825897146,55.79992209790376,25.9,2143.0,,skipped_unnamed,
+Астор,,convenience,,37.7109877,55.8187793,25.8,2143.1,https://yandex.com/maps/org/astor/1779462193/,found,Астор_20260305_190716.json
+РЖД Арена,,,,37.7399064,55.800203,25.7,2143.9,https://yandex.com/maps/org/rzd_arena/1013976871/,found,РЖД_Арена_20260305_193033.json
+,,,pitch,37.68856312474579,55.80029780960455,25.9,2144.3,,skipped_unnamed,
+ВАО Дент,dentist,,,37.7237624,55.8181087,25.8,2145.7,https://yandex.com/maps/org/v_dent/1010868110/,found,ВАО_Дент_20260311_141944.json
+,,,playground,37.71500348439229,55.78638846865303,25.8,2146.9,,skipped_unnamed,
+Кофе муз,cafe,,,37.706766,55.787513,25.8,2147.9,https://yandex.com/maps/org/coffee_moose/120712059925/,found,Coffee_Moose_20260311_142002.json
+Ивантеевская улица,,,,37.7209602,55.8188768,25.8,2148.0,,skipped_street,
+3-й проезд Подбельского,,,,37.72199015,55.81825334999999,25.8,2150.3,,skipped_street,
+Инвитро,doctors,,,37.730189,55.8161398,25.8,2150.6,https://yandex.com/maps/org/invitro/1161916820/,found,Invitro_20260311_142227.json
+Пятёрочка,,supermarket,,37.7151416,55.8192048,25.8,2150.9,https://yandex.com/maps/org/pyatyorochka/139307598078/,found,Пятёрочка_20260305_190758.json
+,,,pitch,37.7279768,55.81846799999999,25.9,2151.5,,skipped_unnamed,
+Ивантеевская улица,,,,37.7210184,55.8189102,25.9,2153.4,,skipped_street,
+Товары для детей,,toys,,37.7302614,55.8161202,25.9,2155.6,https://yandex.com/maps/org/detskij_mir/163838290661/,found,Детский_мир_20260311_142308.json
+Планета фитнес,,,fitness_centre,37.6917255,55.7952089,25.9,2156.5,https://yandex.com/maps/org/planeta_fitnes/1082720663/,found,Планета_Фитнес_20260311_142329.json
+"Школа №1360, дошкольное отделение ""Росинка""",kindergarten,,,37.7172068605034,55.81861019539947,25.9,2158.4,https://yandex.com/maps/org/school_1360/1131779814/,found,Школа___1360__корпус___13_Росинка_20260305_190824.json
+4-й проезд Подбельского,,,,37.7287009,55.8185064,25.9,2159.4,,skipped_street,
+Додо Пицца,fast_food,,,37.7410734,55.8000749,25.9,2160.0,https://yandex.com/maps/org/dodo_pizza/240832854365/,found,Додо_Пицца_20260311_143002.json
+,,,playground,37.70467632506778,55.81854360571816,26.0,2161.2,,skipped_unnamed,
+,,,pitch,37.68884165,55.80029969999999,26.1,2161.7,,skipped_unnamed,
+,,,playground,37.69505203365309,55.81568885731296,26.0,2162.7,,skipped_unnamed,
+,,,playground,37.71666434644269,55.81928544391611,26.0,2164.6,,skipped_unnamed,
+Пятёрочка,,supermarket,,37.6890841,55.7963599,26.1,2171.3,https://yandex.com/maps/org/pyatyorochka/7450692644/,found,Пятёрочка_20260305_194224.json
+Клиника кошек,veterinary,,,37.6917856,55.7954029,26.1,2171.6,https://yandex.com/maps/org/klinika_koshek/139876806658/,found,Клиника_Кошек_20260311_143445.json
+Богородское,,,,37.7010371,55.8171636,26.1,2172.5,,not_found,
+"ООО ""СитиМед""",doctors,,,37.7316803,55.8161598,26.1,2172.6,https://yandex.com/maps/org/sitimed/44393613808/,found,Ситимед_20260311_143726.json
+,,,pitch,37.71569025,55.78642735,26.1,2175.7,,skipped_unnamed,
+"Школа №1360, дошкольное отделение",kindergarten,,,37.73950063209791,55.81178345843024,26.2,2176.1,https://yandex.com/maps/org/school_1360/1031777632/,found,Школа___1360__корпус___8_Игрушка_20260305_192544.json
+,,,playground,37.716677672488416,55.785999626023504,26.1,2176.6,,skipped_unnamed,
+Продукты из Италии,,convenience,,37.6915679,55.7957887,26.1,2176.8,https://yandex.com/maps/org/conad/191547938084/,found,Conad_20260305_194146.json
+,,,playground,37.716007100000006,55.7862764,26.2,2179.4,,skipped_unnamed,
+Горздрав,pharmacy,,,37.6943305,55.8155943,26.2,2181.8,https://yandex.com/maps/org/gorzdrav/65272540948/,found,Горздрав_20260311_143746.json
+,,convenience,,37.6968814,55.7920997,26.2,2182.3,https://yandex.com/maps/org/convenience_food_technology/1126923865/,found,Convenience_food_technology_20260305_194256.json
+Большая Оленья улица,,,,37.6915524,55.8058679,26.3,2182.7,,skipped_street,
+Майский просек,,,,37.6848626,55.8027282,26.3,2183.0,,not_found,
+Большая Оленья улица,,,,37.6914954,55.8058497,26.3,2183.2,,skipped_street,
+Александр+,,supermarket,,37.7223822,55.8187502,26.2,2184.1,,not_found,
+,,,playground,37.70031145563583,55.81734446791744,26.3,2184.9,,skipped_unnamed,
+,,,playground,37.70904553333333,55.78700203333333,26.3,2190.2,,skipped_unnamed,
+,pharmacy,,,37.6917857,55.7963698,26.3,2191.2,https://yandex.com/maps/org/stolichki/1782191637/,found,Столички_20260311_143816.json
+,,,playground,37.71988994028728,55.8188923904906,26.4,2192.8,,skipped_unnamed,
+Майский просек,,,,37.6847275,55.8026956,26.4,2193.1,,not_found,
+,,,pitch,37.73469804222526,55.815591914909376,26.4,2197.2,,skipped_unnamed,
+,,,playground,37.70186044899621,55.81831431660355,26.4,2197.6,,skipped_unnamed,
+Чижик,,supermarket,,37.7175102,55.8193436,26.4,2199.2,https://yandex.com/maps/org/chizhik/28992320505/,found,Чижик_20260305_192309.json
+,,,playground,37.73977374852913,55.797636901773885,26.4,2199.8,,skipped_unnamed,
+Школа №374,school,,,37.697520894702734,55.81636799965495,26.4,2202.7,https://yandex.com/maps/org/gbou_shkola_374/200108510288/,found,ГБОУ_школа___374_20260305_193334.json
+"Центр образования №1404 ""Гамма""",kindergarten,,,37.68592321355631,55.79816230226522,26.5,2203.2,https://yandex.com/maps/org/shkola_1404_gamma_korpus_1/1091229572/,found,Школа___1404_Гамма__корпус___1_20260305_194401.json
+Виноград,,supermarket,,37.6919796,55.8155498,26.4,2204.1,https://yandex.com/maps/org/vinograd/169931104510/,found,Виноград_20260305_193828.json
+,,,playground,37.7062181,55.7868191,26.4,2204.3,,skipped_unnamed,
+,,,playground,37.7393369,55.8125109,26.5,2205.7,,skipped_unnamed,
+,,toys,,37.6918865,55.8155479,26.5,2208.1,https://yandex.com/maps/org/toyszone/98559068900/,found,ToysZone_20260311_143847.json
+,,,playground,37.72074268376019,55.81940796123076,26.6,2214.7,,skipped_unnamed,
+Дикси,,supermarket,,37.738815,55.7962105,26.6,2214.7,https://yandex.com/maps/org/dixy/1058337626/,found,Дикси_20260305_193658.json
+,,,playground,37.738854,55.8123336,26.7,2217.2,,skipped_unnamed,
+Улица Короленко — Социальный университет,,,,37.6932503,55.7938326,26.7,2221.6,,skipped_street,
+Дикси,,supermarket,,37.6938696,55.8160419,26.7,2221.6,https://yandex.com/maps/org/dixy/1192851063/,found,Дикси_20260305_194053.json
+Улица Короленко — Социальный университет,,,,37.6932849,55.7937532,26.7,2221.9,,skipped_street,
+Новая Спарта,,,fitness_centre,37.6946741,55.8162414,26.7,2222.2,https://yandex.com/maps/org/fitness_club_new_sparta/1078233469/,found,Фитнес_клуб_Новая_Спарта_20260311_143942.json
+,kindergarten,,,37.74391289153058,55.80970092435668,26.7,2222.9,https://yandex.com/maps/org/detskiy_sad/90619389012/,found,Детский_сад_20260305_193436.json
+,,,playground,37.74082148982261,55.79886335672198,26.7,2223.0,,skipped_unnamed,
+,,,playground,37.70754182756527,55.78700080273666,26.7,2223.6,,skipped_unnamed,
+,,,playground,37.69208386611241,55.79474789864259,26.7,2223.9,,skipped_unnamed,
+,,,playground,37.7058748,55.81939269999999,26.7,2224.0,,skipped_unnamed,
+,,,pitch,37.70112395348784,55.81853201191215,26.8,2225.2,,skipped_unnamed,
+,,,pitch,37.71450487794261,55.78607444777402,26.7,2225.7,,skipped_unnamed,
+,,,playground,37.71722555942407,55.819734270122886,26.8,2230.5,,skipped_unnamed,
+Стардог!s,fast_food,,,37.6912513,55.8141942,26.8,2231.7,https://yandex.com/maps/org/stardogs/5223090586/,found,Stardogs_20260311_144004.json
+Майский просек,,,,37.6846772,55.8032901,26.9,2232.8,,not_found,
+Библиотека № 74 ГБУК города Москвы ЦБС ВАО,library,,,37.7159451,55.8197386,26.8,2233.4,https://yandex.com/maps/org/library_74/1092635379/,found,ОКЦ_ВАО__библиотека___74_20260311_144102.json
+Северное сияние,veterinary,,,37.6886819,55.7960989,26.8,2236.1,https://yandex.com/maps/org/severnoe_siyanie/1080599766/,found,Северное_Сияние_20260311_144505.json
+Горздрав,pharmacy,,,37.739163,55.7962236,26.9,2236.4,https://yandex.com/maps/org/gorzdrav/4665386005/,found,Горздрав_20260311_144548.json
+,,,playground,37.685688685944456,55.79639714634593,26.8,2236.6,,skipped_unnamed,
+,,,playground,37.6900256,55.7964338,26.9,2238.2,,skipped_unnamed,
+Магнит,,supermarket,,37.7070281,55.8194762,26.9,2239.9,https://yandex.com/maps/org/magnit/144055749828/,found,Магнит_20260305_193148.json
+,,,playground,37.6848087,55.7968696,26.9,2240.0,,skipped_unnamed,
+,,,,37.7375409,55.8157303,26.9,2241.5,,skipped_unnamed,
+Ситимед,doctors,,,37.7167292,55.7855707,26.9,2242.1,https://yandex.com/maps/org/sitimed/44393613808/,found,Ситимед_20260311_144942.json
+Опытный,,bakery,,37.7386312,55.7958721,26.9,2242.6,,not_found,
+,,,playground,37.73249260830835,55.8170137605633,27.0,2242.8,,skipped_unnamed,
+,,,playground,37.685703200000006,55.800863750000005,27.0,2243.3,,skipped_unnamed,
+Веста,veterinary,,,37.708526,55.7864562,27.0,2244.9,,not_found,
+"Местная религиозная организация христиан веры евангельской ""Сердце Христа""",place_of_worship,,,37.6920649,55.7942682,27.0,2246.6,https://yandex.com/maps/org/religioznaya_organizatsiya_khristian_very_yevangelskoy_serdtse_khrista/1071297316/,found,Веры_Евангельской_Сердце_Христа_20260311_144959.json
+Горздрав,pharmacy,,,37.6933683,55.7934886,27.0,2246.8,https://yandex.com/maps/org/gorzdrav/118496557298/,found,Горздрав_20260311_145044.json
+Майский просек,,,,37.6844896,55.8032639,27.0,2247.1,,not_found,
+,,,,37.7374485,55.8159449,27.0,2249.8,,skipped_unnamed,
+,,,pitch,37.73190057271115,55.8167431309899,27.1,2251.2,,skipped_unnamed,
+Спартак академия,,,sports_centre,37.686540950311525,55.80297894135772,27.1,2252.8,https://yandex.com/maps/org/academy_spartak/1017626742/,found,Хоккейный_комплекс_академия_Спартак_20260311_145352.json
+Отделение связи №107564,post_office,,,37.6957464,55.8165367,27.0,2253.3,https://yandex.com/maps/org/otdeleniye_pochtovoy_svyazi_moskva_107564/1038844502/,found,Отделение_почтовой_связи___107564_20260311_145545.json
+,,,playground,37.70960243335609,55.81945390082169,27.1,2253.5,,skipped_unnamed,
+Доброном,,convenience,,37.7002578,55.8183777,27.1,2253.8,https://yandex.com/maps/org/dobronom/132326162177/,found,Центральный_офис_торговой_компании_Доброном_20260305_193310.json
+Лебяжье,cafe,,,37.68530838848613,55.80055874750108,27.2,2256.4,,not_found,
+Доктор с вами,doctors,,,37.7165964,55.7855678,27.1,2257.8,https://yandex.com/maps/org/clinic_doktor_s_vami/243542214411/,found,Доктор_с_Вами_20260311_145606.json
+,,convenience,,37.7231505,55.8192557,27.1,2258.0,https://yandex.com/maps/org/smeshannyye_tovary/114786180219/,found,Смешанные_товары_20260305_193406.json
+храм Казанской иконы Божией Матери,place_of_worship,,,37.69327208299069,55.8066774188313,27.2,2259.2,https://yandex.com/maps/org/cathedral_of_kazan_icon_of_our_lady/95724382605/,found,Собор_Казанской_иконы_Божией_Матери_20260311_145843.json
+СанМед-Восток,clinic,,,37.6925616,55.7943236,27.1,2259.7,https://yandex.com/maps/org/sanmed_vostok/1379197791/,found,Санмед-Восток_20260305_194636.json
+,,,playground,37.71875481478256,55.81927238124391,27.2,2259.9,,skipped_unnamed,
+,pharmacy,,,37.692685,55.794289,27.2,2265.3,https://yandex.com/maps/org/stolichki/138235747813/,found,Столички_20260311_145905.json
+,,,playground,37.70144985814435,55.818649232290895,27.2,2267.2,,skipped_unnamed,
+,,,playground,37.74061661940242,55.813656687400105,27.4,2269.2,,skipped_unnamed,
+Festa & Тесто,cafe,,,37.7103431,55.7853135,27.3,2270.3,https://yandex.com/maps/org/festa_testo/97355490728/,found,Festa_Тесто_20260311_150000.json
+Уральский банк реконструкции и развития,bank,,,37.7164943,55.785133,27.3,2272.3,https://yandex.com/maps/org/uralskiy_bank_rekonstruktsii_i_razvitiya/119983474572/,found,Уральский_банк_реконструкции_и_развития_20260311_150027.json
+Университетская клиника,clinic,,,37.6947935,55.7929429,27.3,2274.8,https://yandex.com/maps/org/mnogoprofilnaya_klinika_rgsu/16818569663/,found,Многопрофильная_клиника_РГСУ_20260305_194756.json
+Topstretching,,,sports_centre,37.717537,55.7849973,27.3,2275.5,https://yandex.com/maps/org/ts_fitness/170624523353/,found,TS_Fitness_20260311_150205.json
+,,,playground,37.71508687346768,55.78589477802546,27.3,2276.0,,skipped_unnamed,
+Лось и Кофе,cafe,,,37.6912104,55.8159779,27.4,2279.2,https://yandex.com/maps/org/los_i_kofe/241081465037/,found,Лось_и_Кофе_20260311_150332.json
+ЦМРТ,clinic,,,37.6923262,55.7937433,27.4,2279.9,https://yandex.com/maps/org/cmrt/77758023641/,found,ЦМРТ_20260305_194914.json
+,,,pitch,37.69778095,55.80693014999999,27.4,2280.8,,skipped_unnamed,
+Зайцев+,veterinary,,,37.7084872,55.7859338,27.4,2281.2,https://yandex.com/maps/org/zaytsev_/89450384557/,found,Зайцев__20260311_150409.json
+,,convenience,,37.7166468,55.8201556,27.4,2281.5,https://yandex.com/maps/org/smeshannyye_tovary/114786180219/,found,Смешанные_товары_20260305_193511.json
+,veterinary,,,37.7018166,55.8188764,27.4,2281.7,https://yandex.com/maps/org/vash_dobry_doktor/1235218434/,found,Ваш_Добрый_Доктор_20260311_150550.json
+,,,playground,37.73983143471093,55.814291833960375,27.5,2281.9,,skipped_unnamed,
+Пироги Бабы Яги,,bakery,,37.7102659,55.78799,27.4,2282.3,https://yandex.com/maps/org/pirogi_baby_yagi/172009379100/,found,Пироги_Бабы_Яги_20260311_150646.json
+1-й проезд Подбельского,,,,37.7181442,55.8200606,27.4,2283.9,,skipped_street,
+,,,playground,37.7402231,55.8119275,27.5,2286.2,,skipped_unnamed,
+,pharmacy,,,37.7020827,55.8190975,27.5,2286.9,https://yandex.com/maps/org/stolichki/179597631986/,found,Столички_20260311_150721.json
+,school,,,37.689584468607016,55.806236252762616,27.5,2289.1,https://yandex.com/maps/org/shkola_1404_gamma_korpus_1/1091229572/,found,Школа___1404_Гамма__корпус___1_20260305_195010.json
+Придворный лекарь,pharmacy,,,37.6901248,55.7954966,27.5,2289.2,https://yandex.com/maps/org/health_improving_center_imperial_physician/114768109032/,found,Придворный_лекарь_20260311_150803.json
+1-й проезд Подбельского,,,,37.7180591,55.8201036,27.5,2289.5,,skipped_street,
+Pho Ba Dinh,restaurant,,,37.6913384,55.8159167,27.5,2289.7,https://yandex.com/maps/org/ba_dinh/216182078605/,found,Ba_Dinh_20260311_150935.json
+,,,pitch,37.74035987305115,55.81388220019216,27.6,2290.4,,skipped_unnamed,
+Гелена,cafe,,,37.7233386,55.819211,27.5,2291.0,https://yandex.com/maps/org/gelena/1678249759/,found,Гелена_20260311_151050.json
+Like Vet,veterinary,,,37.7337617,55.792904,27.5,2291.6,https://yandex.com/maps/org/likevet/91897352800/,found,ЛюбоВет_20260311_151233.json
+Первая свежесть,,butcher,,37.6926702,55.793333,27.5,2293.6,https://yandex.com/maps/org/first_fresh/108821635112/,found,Первая_свежесть_20260311_151301.json
+,,,playground,37.7401426,55.8118069,27.6,2295.7,,skipped_unnamed,
+Camera Obscura,cafe,,,37.7175343,55.7848057,27.6,2296.5,https://yandex.com/maps/org/camera_obscura/102943770466/,found,Camera_Obscura_20260311_151350.json
+СДЭК,post_office,,,37.6964253,55.8166793,27.6,2298.4,https://yandex.com/maps/org/cdek/159521666473/,found,CDEK_20260311_151438.json
+,,,pitch,37.6848815,55.79748639999999,27.7,2298.9,,skipped_unnamed,
+Погонный проезд,,,,37.7098304,55.819713,27.6,2300.7,,skipped_street,
+Ригла,pharmacy,,,37.6925565,55.7933174,27.6,2300.9,https://yandex.com/maps/org/rigla/1341354982/,found,Ригла_20260311_151514.json
+Погонный проезд,,,,37.7102216,55.8196987,27.7,2301.5,,skipped_street,
+Улица Короленко — Социальный университет,,,,37.6924806,55.7933883,27.6,2303.3,,skipped_street,
+,,,playground,37.6959372,55.7916735,27.6,2303.3,,skipped_unnamed,
+Улица Короленко — Социальный университет,,,,37.6923984,55.7934568,27.7,2306.3,,skipped_street,
+,,,playground,37.68597879121408,55.79576323143323,27.7,2307.1,,skipped_unnamed,
+Дом культуры РГСУ,community_centre,,,37.69499384165871,55.79266089413489,27.7,2308.3,https://yandex.com/maps/org/palace_of_culture_of_the_russian_state_social_university/1232002627/,found,РГСУ__Дворец_культуры_20260311_151618.json
+храм Святителя Тихона Задонского,place_of_worship,,,37.683082429047445,55.801781201920114,27.8,2308.3,https://yandex.com/maps/org/khram_svyatitelya_tikhona_zadonskogo_na_shiryayevom_pole_v_sokolnikakh/1090889225/,found,Церковь_святителя_Тихона__епископа_Воронежского__З_20260311_151651.json
+даЕДА,restaurant,,,37.6907921,55.8161718,27.7,2308.3,https://yandex.com/maps/org/daeda/149555301328/,found,ДАеДА_20260311_151719.json
+Погонный проезд,,,,37.7101928,55.8197433,27.7,2308.7,,skipped_street,
+Атак,,supermarket,,37.7356846,55.8170191,27.8,2310.1,https://yandex.com/maps/org/atak/175060534055/,found,Атак_20260305_193800.json
+,,convenience,,37.7332574,55.7927163,27.8,2312.0,https://yandex.com/maps/org/convenience_food_technology/1126923865/,found,Convenience_food_technology_20260305_194428.json
+РГСУ,,,,37.6947483,55.7925855,27.8,2312.7,https://yandex.com/maps/org/rossiyskiy_gosudarstvenny_sotsialny_universitet/1291812034/,found,Российский_государственный_социальный_университет_20260311_151757.json
+,,,playground,37.710972620909736,55.82016875409549,27.8,2312.7,,skipped_unnamed,
+Перекресток Экспресс,,convenience,,37.6923727,55.7932867,27.8,2312.9,https://yandex.com/maps/org/perekrestok_ekspress/1025976514/,found,Перекресток-Экспресс_20260305_195217.json
+,,,playground,37.7403572,55.8107203,27.8,2313.3,,skipped_unnamed,
+,,,playground,37.73404599598648,55.79253696519089,27.8,2314.3,,skipped_unnamed,
+Фа Минор,cafe,,,37.7168118,55.8202663,27.8,2315.5,https://yandex.com/maps/org/fa_minor/1789198803/,found,Фа_Минор_20260311_151956.json
+,,convenience,,37.7176443,55.7846398,27.8,2315.8,https://yandex.com/maps/org/convenience_food_technology/1126923865/,found,Convenience_food_technology_20260305_194502.json
+1-й проезд Подбельского,,,,37.718976,55.8198974,27.8,2316.0,,skipped_street,
+,,,playground,37.7403009,55.8108228,27.8,2316.7,,skipped_unnamed,
+,,,playground,37.684922357645405,55.79607026521065,27.8,2318.6,,skipped_unnamed,
+Отделение связи №107150,post_office,,,37.7255559,55.8194108,27.9,2319.0,https://yandex.com/maps/org/otdeleniye_pochtovoy_svyazi_moskva_107150/1329791000/,found,Отделение_почтовой_связи___107150_20260311_152131.json
+,,,park,37.74345712043493,55.80013752382011,27.8,2319.5,,skipped_unnamed,
+Спортивный центр МГУПИ,,,sports_centre,37.70262355890317,55.79324733273465,27.9,2321.2,https://yandex.com/maps/org/sports_palace_of_rtu_mirea/1095274754/,found,Дворец_спорта_РТУ_МИРЭА_20260311_152235.json
+1-й проезд Подбельского,,,,37.7190492,55.8199483,27.9,2322.1,,skipped_street,
+,,,playground,37.693259563578415,55.81648619582009,27.9,2322.9,,skipped_unnamed,
+Толстяк,,clothes,,37.7176644,55.7845697,27.9,2323.7,https://yandex.com/maps/org/tolstyak2005_ru/71156048684/,found,Толстяк_20260311_152259.json
+,,,playground,37.68283222540605,55.80121735355494,28.0,2324.5,,skipped_unnamed,
+,,,playground,37.69637625048927,55.7907630334044,27.9,2324.8,,skipped_unnamed,
+РГСУ,,,,37.6946179,55.7925663,27.9,2325.4,https://yandex.com/maps/org/rossiyskiy_gosudarstvenny_sotsialny_universitet/1291812034/,found,Российский_государственный_социальный_университет_20260305_195310.json
+,,,playground,37.74279735,55.800049650000005,27.9,2326.6,,skipped_unnamed,
+,,,playground,37.74129957487524,55.81357717395674,28.1,2327.2,,skipped_unnamed,
+МДЦ-С,doctors,,,37.7146545,55.7856417,28.0,2328.7,https://yandex.com/maps/org/special/1305987189/,found,Специальный_20260311_152546.json
+Площадь Журавлёва,,,,37.7040147,55.78598,27.9,2328.9,,skipped_street,
+Ригла,pharmacy,,,37.696878,55.816796,28.0,2329.6,https://yandex.com/maps/org/rigla/1352086823/,found,Ригла_20260311_152633.json
+,,,park,37.7183507568888,55.78471268374804,28.0,2331.1,,skipped_unnamed,
+,,,playground,37.68927455,55.79512689999999,28.0,2333.2,,skipped_unnamed,
+Площадь Журавлёва,,,,37.7040628,55.7859405,28.0,2334.8,,skipped_street,
+Магнолия,,convenience,,37.6908239,55.7938727,28.1,2338.2,https://yandex.com/maps/org/magnoliya/1052384512/,found,Магнолия_20260305_195422.json
+Частный детский сад «Олимпик»,kindergarten,,,37.689627121030256,55.80681689144536,28.1,2339.2,https://yandex.com/maps/org/akademicheskaya_gimnaziya/1020325271/,found,Академическая_гимназия_20260305_195519.json
+Вегус,,butcher,,37.732412,55.7908633,28.1,2339.4,https://yandex.com/maps/org/vegus/1094808606/,found,Вегус_20260311_152756.json
+,,,pitch,37.68541327610527,55.80623103374053,28.1,2339.9,,skipped_unnamed,
+Likevet,veterinary,,,37.7331609,55.7919314,28.1,2340.4,https://yandex.com/maps/org/likevet/91897352800/,found,ЛюбоВет_20260311_152938.json
+Атак,,supermarket,,37.7352905,55.8167456,28.2,2341.0,https://yandex.com/maps/org/atak/175060534055/,found,Атак_20260305_194009.json
+,,,pitch,37.74357317401998,55.80259065598064,28.1,2341.6,,skipped_unnamed,
+Малая Семёновская улица,,,,37.7146613,55.7853363,28.2,2344.0,,skipped_street,
+apteka.ru,pharmacy,,,37.6927912,55.8168986,28.2,2347.8,https://yandex.com/maps/org/apteka_ru/10085454162/,found,Apteka__ru__склад_20260311_153055.json
+,,,playground,37.695774219416975,55.81701962065764,28.2,2349.3,,skipped_unnamed,
+,cafe,,,37.6913358,55.8156949,28.2,2349.6,https://yandex.com/maps/org/los_i_kofe/241081465037/,found,Лось_и_Кофе_20260311_153409.json
+Московская ярмарка увлечений,,mall,,37.69125098360754,55.81566949936999,28.2,2349.6,https://yandex.com/maps/org/moskovskaya_yarmarka_uvlecheny/96348380911/,found,Московская_ярмарка_увлечений_20260311_153513.json
+,,,playground,37.6933743,55.7928655,28.2,2349.8,,skipped_unnamed,
+,,,pitch,37.704739480177885,55.82090721691512,28.2,2349.9,,skipped_unnamed,
+Погонный проезд,,,,37.709803,55.8197656,28.3,2351.2,,skipped_street,
+"Улица Матросская Тишина, 15",,,,37.6955297,55.7906335,28.2,2351.9,,skipped_street,
+Школа №365,school,,,37.72886729518217,55.81734894027423,28.3,2353.1,https://yandex.com/maps/org/secondary_school_365_named_after_hero_of_the_soviet_union_m_p_krasnolutsky/15100447063/,found,Средняя_общеобразовательная_школа___365_имени_Геро_20260305_194124.json
+DHL Express Easy,post_office,,,37.7354729,55.8168059,28.3,2353.5,https://yandex.com/maps/org/dhl_express_easy/60269129268/,found,DHL_Express_Easy_20260311_153541.json
+,,,pitch,37.69093496169245,55.79438120856892,28.3,2354.5,,skipped_unnamed,
+"Улица Матросская Тишина, 15",,,,37.6954073,55.7906874,28.3,2356.0,,skipped_street,
+Gulliver Toys,,toys,,37.7099588,55.7845553,28.3,2356.8,https://yandex.com/maps/org/gulliver_toys/208200756333/,found,Gulliver_Toys_20260311_153605.json
+,,,pitch,37.74219587633644,55.79713754148138,28.3,2358.6,,skipped_unnamed,
+Только сами,community_centre,,,37.7258783,55.7872745,28.3,2358.6,https://yandex.com/maps/org/tolko_sami/46152010587/,found,Только_Сами_20260311_153633.json
+Метро «Черкизовская»,,,,37.7449779,55.801277,28.3,2361.0,,not_found,
+Метро «Семёновская»,,,,37.7179598,55.784149,28.4,2362.6,,not_found,
+Малая Семёновская улица,,,,37.7147879,55.7852349,28.4,2362.9,,skipped_street,
+,atm,,,37.71776,55.784199,28.4,2365.1,https://yandex.com/maps/org/t_bank/183214160932/,found,Т-Банк_20260311_153654.json
+,,,playground,37.72434825367817,55.8193861168505,28.4,2365.2,,skipped_unnamed,
+,,,playground,37.6902408373413,55.79472560261664,28.4,2366.1,,skipped_unnamed,
+Детский мир,,baby_goods,,37.735938,55.816923,28.5,2366.4,https://yandex.com/maps/org/detskij_mir/163838290661/,found,Детский_мир_20260311_153804.json
+,,,playground,37.69561859966828,55.79050254975608,28.4,2366.7,,skipped_unnamed,
+,,,playground,37.7423049,55.7972987,28.4,2366.7,,skipped_unnamed,
+Малая Семёновская улица,,,,37.7146866,55.7852533,28.5,2368.8,,skipped_street,
+Дом плавания МОЦВС,,,sports_centre,37.730755761321824,55.788700048228,28.4,2369.5,https://yandex.com/maps/org/formula_vody/1057488653/,found,Формула_воды_20260311_154202.json
+Пятёрочка,,supermarket,,37.6961946,55.8172881,28.4,2370.0,https://yandex.com/maps/org/pyatyorochka/1004159660/,found,Пятёрочка_20260305_194722.json
+,,,playground,37.740923586559575,55.79645784803336,28.5,2371.5,,skipped_unnamed,
+,,,playground,37.74221501359207,55.79775829480351,28.5,2372.0,,skipped_unnamed,
+Метро «Семёновская»,,,,37.717875,55.7841471,28.5,2372.2,,not_found,
+ВкусВилл,,convenience,,37.6920964,55.7931606,28.5,2372.4,https://yandex.com/maps/org/vkusvill/78206831942/,found,ВкусВилл_20260305_195643.json
+Пикассо,doctors,,,37.7188679,55.7845204,28.5,2374.5,https://yandex.com/maps/org/picasso/141255521025/,found,Пикассо_20260311_154250.json
+"Детский молодежный центр ""Сокольники""",community_centre,,,37.6960511,55.7904815,28.5,2374.7,https://yandex.com/maps/org/okts_vao_territorialnoye_upravleniye_sokolniki/1241408253/,found,ОКЦ_ВАО__Территориальное_управление_Сокольники_20260311_154313.json
+,,,playground,37.734107208374525,55.79232349817922,28.5,2375.7,,skipped_unnamed,
+Beauty Expert Clinics,clinic,,,37.6936935,55.7922571,28.5,2377.6,https://yandex.com/maps/org/beauty_expert/72109002629/,found,Бьюти_Эксперт_20260305_195853.json
+"Ярмарка ""Московские сезоны""",,greengrocer,,37.74463264208029,55.80200309182528,28.6,2380.6,https://yandex.com/maps/org/interregional_fair/217084514711/,found,Межрегиональная_ярмарка_20260311_154351.json
+ИП Волкова,,convenience,,37.6931337,55.8172363,28.6,2383.5,https://yandex.com/maps/org/ip_volkova/35676120368/,found,ИП_Волкова_20260305_195041.json
+Частная начальная школа «Галилей»,school,,,37.68938412699437,55.80648246839326,28.7,2384.8,https://yandex.com/maps/org/academ_school/196247442111/,found,Академическая_гимназия__начальная_школа_20260305_195935.json
+На заре,,clothes,,37.7176659,55.7839865,28.7,2387.5,https://yandex.com/maps/org/na_zare/41243372400/,found,На_Заре_20260311_154421.json
+"Школа 1795 ""Лосиноостровская"" Дошкольное отделение",kindergarten,,,37.69489049071845,55.81781410016737,28.7,2391.5,https://yandex.com/maps/org/shkola_1795_losinoostrovskaya_doshkolnyye_gruppy_4/1072088822/,found,Школа___1795_Лосиноостровская__дошкольные_группы___20260305_195155.json
+Сбербанк,bank,,,37.7189425,55.7843669,28.7,2392.0,https://yandex.com/maps/org/sberbank/1000927269/,found,СберБанк_20260311_154535.json
+2%fitness,,,fitness_centre,37.6939577,55.7922526,28.7,2392.2,https://yandex.com/maps/org/2_fitness/168998873839/,found,2__Fitness_20260311_154626.json
+Улица Короленко — Социальный университет,,,,37.6919335,55.7929569,28.7,2392.3,,skipped_street,
+Малая Остроумовская улица,,,,37.6911894,55.7932342,28.7,2393.8,,skipped_street,
+Детский сад №576,kindergarten,,,37.74348809268548,55.799306513078605,28.7,2394.1,https://yandex.com/maps/org/detskiy_sad_576/1056063753/,found,Детский_сад___576_20260305_194945.json
+El Caracol,cafe,,,37.709086,55.7852,28.8,2394.5,,not_found,
+,,,playground,37.69496395,55.791139500000014,28.8,2397.0,,skipped_unnamed,
+Метро «Черкизовская»,,,,37.7450232,55.8012025,28.8,2401.7,,not_found,
+,,,playground,37.7420121,55.8117421,28.8,2402.8,,skipped_unnamed,
+Эмпатия,doctors,,,37.7089943,55.7846227,28.9,2403.1,https://yandex.com/maps/org/empathy/102980500487/,found,Эмпатия_20260311_154846.json
+,kindergarten,,,37.69998610529346,55.81913504529492,28.9,2403.3,https://yandex.com/maps/org/teddyland/63050798911/,found,TeddyLand_20260305_194331.json
+Улица Короленко — Социальный университет,,,,37.6918732,55.7929348,28.8,2403.9,,skipped_street,
+"Сквер ""Дружба""",,,park,37.71087568224061,55.78469719895895,28.9,2407.3,https://yandex.com/maps/org/druzhba_public_garden/205736576504/,found,Небольшой_парк_20260305_195247.json
+Пятёрочка,,supermarket,,37.7427337,55.7980868,28.9,2407.5,https://yandex.com/maps/org/pyatyorochka/202709734255/,found,Пятёрочка_20260305_195122.json
+Богатырский мост,,,,37.6894256,55.8167067,28.9,2407.7,,not_found,
+Богатырский мост,,,,37.6894557,55.8167445,28.9,2407.8,,not_found,
+Чонг Донг,restaurant,,,37.7098662,55.7840978,29.0,2408.3,https://yandex.com/maps/org/chong_dong/2719419739/,found,Чонг_Донг_20260311_154927.json
+,,,pitch,37.715229881366334,55.82093666821262,29.0,2409.8,,skipped_unnamed,
+,,,playground,37.6875378,55.795067,28.9,2410.1,,skipped_unnamed,
+,,,playground,37.7420631,55.8107866,28.9,2410.2,,skipped_unnamed,
+Богатырский мост,,,,37.6894042,55.8166854,28.9,2410.5,,not_found,
+Малая Остроумовская улица,,,,37.690869,55.79317375,28.9,2411.7,,skipped_street,
+,,,playground,37.7443675,55.7996985,29.0,2413.6,,skipped_unnamed,
+,,,playground,37.68481577962111,55.79490874465076,29.0,2413.6,,skipped_unnamed,
+Охотничья улица,,,,37.6830401,55.7964431,29.0,2413.8,,skipped_street,
+Малая Остроумовская улица,,,,37.69093945,55.79311905,29.0,2413.9,,skipped_street,
+Метро «Черкизовская»,,,,37.7451312,55.8010779,29.0,2417.0,,not_found,
+,,,pitch,37.7419719,55.7968726,29.1,2418.1,,skipped_unnamed,
+"Стадион ""Связист""",,,sports_centre,37.68681981859127,55.80678612502831,29.1,2418.6,https://yandex.com/maps/org/svyazist/28166004921/,found,Связист_20260311_154948.json
+Do.Bro Coffee,fast_food,,,37.7416822,55.8119577,29.0,2419.3,https://yandex.com/maps/org/do_bro_coffee/81583610624/,found,Do_Bro_Coffee_20260311_155021.json
+Охотничья улица,,,,37.6828816,55.7964977,29.1,2422.9,,skipped_street,
+Метро «Черкизовская»,,,,37.7451796,55.8020608,29.1,2426.1,,not_found,
+Метро «Черкизовская»,,,,37.745178,55.8009926,29.1,2426.8,,not_found,
+Почта России,post_office,,,37.6893929,55.7945542,29.1,2426.9,https://yandex.com/maps/org/otdeleniye_pochtovoy_svyazi_moskva_107013/1258588189/,found,Отделение_почтовой_связи___107013_20260311_155053.json
+Охотничья улица,,,,37.6830001,55.7958539,29.1,2428.6,,skipped_street,
+Охотничья улица,,,,37.6829494,55.7958552,29.2,2429.2,,skipped_street,
+Школа №1362 дошкольный корпус,kindergarten,,,37.734315149972,55.791838339429226,29.2,2429.4,https://yandex.com/maps/org/shkola_1362_doshkolny_korpus/175775870048/,found,Школа___1362__дошкольный_корпус_20260305_195333.json
+,,,pitch,37.69749289377213,55.81836801439638,29.2,2430.0,,skipped_unnamed,
+Метро «Черкизовская»,,,,37.7450229,55.8020672,29.2,2431.3,,not_found,
+Охотничья улица,,,,37.6828937,55.7958677,29.2,2431.4,,skipped_street,
+Часовня Георгия Победоносца,place_of_worship,,,37.71860173391041,55.8210500330707,29.2,2431.8,https://yandex.com/maps/org/church_chapel_of_saint_george_the_victorious/1302775697/,found,Церковь-часовня_Георгия_Победоносца_20260311_155113.json
+Охотничья улица,,,,37.6828272,55.7958711,29.2,2432.0,,skipped_street,
+Спецодежда,,clothes,,37.6989952,55.7892161,29.2,2432.2,https://yandex.com/maps/org/soyuzspetsodezhda/1056720626/,found,Союзспецодежда_20260311_155439.json
+Малая Остроумовская улица,,,,37.6906143,55.7930579,29.2,2432.2,,skipped_street,
+Метро «Черкизовская»,,,,37.7453161,55.802062,29.2,2434.3,,not_found,
+,,,playground,37.71830873871144,55.82113717996219,29.2,2434.4,,skipped_unnamed,
+,,,,37.7444594,55.8027528,29.2,2434.4,,skipped_unnamed,
+Богатырский мост,,,,37.6891898,55.816942,29.2,2435.7,,not_found,
+Пятёрочка,,supermarket,,37.7003218,55.8200513,29.3,2438.1,https://yandex.com/maps/org/pyatyorochka/9741734025/,found,Пятёрочка_20260305_194546.json
+,,,playground,37.74194458640952,55.79668386131382,29.3,2439.1,,skipped_unnamed,
+,,,playground,37.73351235,55.79048530000001,29.3,2439.4,,skipped_unnamed,
+,,,playground,37.69383465,55.8171189,29.3,2440.9,,skipped_unnamed,
+,,,pitch,37.68665936979264,55.80697130173164,29.4,2441.1,,skipped_unnamed,
+Площадь Журавлёва,,,,37.7028376,55.7852207,29.3,2441.4,,skipped_street,
+Метро «Семёновская»,,,,37.7183772,55.7835164,29.4,2442.7,,not_found,
+Метро «Черкизовская»,,,,37.7449297,55.8020705,29.3,2442.8,,not_found,
+Площадь Журавлёва,,,,37.7027373,55.7852699,29.3,2442.8,,skipped_street,
+Метро «Семёновская»,,,,37.7183203,55.783506,29.4,2443.0,,not_found,
+,,,pitch,37.7051057,55.8219108,29.4,2444.7,,skipped_unnamed,
+Бульвар Рокоссовского,,,,37.7373343,55.8170306,29.3,2445.4,,skipped_street,
+Большой Матросский переулок,,,,37.6945351,55.7900485,29.3,2445.5,,skipped_street,
+Метро «Семёновская»,,,,37.7182944,55.7834231,29.4,2445.9,,not_found,
+Рублёвский,,butcher,,37.71906,55.7838793,29.4,2446.4,https://yandex.com/maps/org/rublyovskij/1154057798/,found,Рублёвский_20260311_155500.json
+Метро «Семёновская»,,,,37.7182424,55.7834066,29.5,2447.0,,not_found,
+Метро «Черкизовская»,,,,37.7451702,55.8022695,29.4,2449.4,,not_found,
+СШОР «Спартак»,training,,sports_centre,37.68228667278715,55.80399934666218,29.5,2449.4,https://yandex.com/maps/org/sportivnaya_shkola_akademiya_spartak_moskomsporta/208325695421/,found,Спортивная_школа_Академия_Спартак_Москомспорта_20260311_155523.json
+,,,playground,37.69142258675105,55.8169275561277,29.4,2449.5,,skipped_unnamed,
+Цюань-Шу,,,fitness_centre,37.6925683,55.8170093,29.4,2450.4,https://yandex.com/maps/org/martial_arts_club_chuan_shu/1170333766/,found,Цюань_Шу_20260311_155545.json
+Метро «Семёновская»,,,,37.7181754,55.7833993,29.5,2451.5,,not_found,
+,,,pitch,37.7109525,55.7840235,29.5,2451.5,,skipped_unnamed,
+Богатырский мост,,,,37.689255,55.8170206,29.4,2451.9,,not_found,
+Метро «Семёновская»,,,,37.7184837,55.783526,29.5,2452.1,,not_found,
+,,,playground,37.69431185939281,55.79164133308792,29.4,2453.0,,skipped_unnamed,
+Большой Матросский переулок,,,,37.6944367,55.7900904,29.4,2453.2,,skipped_street,
+,,,playground,37.69819189999999,55.81859980000001,29.5,2453.5,,skipped_unnamed,
+,,,pitch,37.68232294354517,55.80429257802295,29.5,2454.5,,skipped_unnamed,
+,atm,,,37.7446834,55.8026208,29.5,2454.7,https://yandex.com/maps/org/t_bank/193882236786/,found,Т-Банк_20260311_155603.json
+,cafe,,,37.7148809,55.7843516,29.5,2456.3,https://yandex.com/maps/org/tears_of_beatrice/116686119744/,found,Слёзы_Беатрис_20260311_155639.json
+Метро «Черкизовская»,,,,37.7453074,55.8022663,29.5,2457.0,,not_found,
+,,,pitch,37.6884671,55.80766295,29.6,2457.3,,skipped_unnamed,
+Cofix,fast_food,,,37.7189924,55.7837609,29.5,2458.8,https://yandex.com/maps/org/cofix/241381858935/,found,Cofix_20260311_155723.json
+,,,playground,37.69141714020675,55.792890067289065,29.5,2461.0,,skipped_unnamed,
+Маман,,bakery,,37.7191499,55.7837429,29.6,2462.2,https://yandex.com/maps/org/pekarnya_maman/66649543632/,found,МаМан_20260311_155815.json
+Охотничья улица,,,,37.6822329,55.7959006,29.6,2462.3,,skipped_street,
+Tezenis,,clothes,,37.719009,55.7837259,29.6,2462.7,https://yandex.com/maps/org/tezenis/1215371081/,found,Tezenis_20260311_155852.json
+Бульвар Рокоссовского,,,,37.7373556,55.8170453,29.6,2463.3,,skipped_street,
+Бульвар Рокоссовского,,,,37.7373761,55.8170621,29.6,2463.6,,skipped_street,
+,,,pitch,37.685225514446735,55.80689562913575,29.6,2464.1,,skipped_unnamed,
+Ткацкая улица,,,,37.7217236,55.7859157,29.6,2464.1,,skipped_street,
+Метро «Черкизовская»,,,,37.7450015,55.8022647,29.6,2464.2,,not_found,
+Метро «Черкизовская»,,,,37.7449217,55.8022641,29.6,2464.2,,not_found,
+Мечтатели,cafe,,,37.7098761,55.7835968,29.6,2464.7,https://yandex.com/maps/org/mechtateli/83245829095/,found,Мечтатели_20260311_160019.json
+Бульвар Рокоссовского,,,,37.73699611106427,55.81712356326867,29.6,2465.1,,skipped_street,
+"ГБОУ Школа №1530 ""Школа Ломоносова"" Дошкольные группы на Охотничьей",kindergarten,,,37.68470762215892,55.795620729275626,29.6,2465.5,https://yandex.com/maps/org/gbou_goroda_moskvy_gimnaziya_1530_shkola_lomonosova_do_1/1131138400/,found,Школа___1530_школа_Ломоносова__дошкольные_группы_20260311_160039.json
+,,,pitch,37.688241,55.80766835,29.7,2466.0,,skipped_unnamed,
+,atm,,,37.7448986,55.8026183,29.6,2466.8,https://yandex.com/maps/org/t_bank/193882236786/,found,Т-Банк_20260311_160056.json
+Шаги,arts_centre,,,37.7077463,55.7847512,29.6,2466.9,https://yandex.com/maps/org/klub_shagi/222452501655/,found,Шаги_20260311_160121.json
+,,,,37.745009,55.8027486,29.6,2468.8,,skipped_unnamed,
+Ткацкая улица,,,,37.7217427,55.7858405,29.7,2470.1,,skipped_street,
+OneBucksCoffee,fast_food,,,37.7191897,55.7836514,29.7,2472.7,https://yandex.com/maps/org/onebucks_coffee/47374543992/,found,OneBucksCoffee_20260311_160139.json
+,,,pitch,37.688008623957465,55.80767243884135,29.8,2474.7,,skipped_unnamed,
+Охотничья улица,,,,37.6820802,55.7959532,29.7,2475.6,,skipped_street,
+,,,pitch,37.74121225,55.8035821,29.7,2475.8,,skipped_unnamed,
+Вкусно — и точка,fast_food,,,37.7190475,55.7836022,29.7,2476.8,https://yandex.com/maps/org/vkusno_i_tochka/130505556254/,found,Вкусно___и_точка_20260311_160310.json
+Ставр,cafe,,,37.6929331,55.7918424,29.7,2478.9,https://yandex.com/maps/org/stavr/1245332595/,found,Ставр_20260311_160340.json
+Бульвар Рокоссовского,,,,37.73717545824037,55.817214508600514,29.8,2480.6,,skipped_street,
+Coffee moon,cafe,,,37.71906,55.7835618,29.8,2481.3,https://yandex.com/maps/org/coffee_moon/227626831520/,found,Coffee_Moon_20260311_160357.json
+,,,pitch,37.69848263331341,55.78953589999999,29.8,2481.6,,skipped_unnamed,
+,,,playground,37.7353062,55.7912721,29.8,2482.3,,skipped_unnamed,
+,,,pitch,37.687766393652495,55.807680325960575,29.9,2484.2,,skipped_unnamed,
+One Price Coffee,fast_food,,,37.7192965,55.7835554,29.8,2484.3,https://yandex.com/maps/org/one_price_coffee/71847786362/,found,One_Price_Coffee_20260311_160429.json
+Большой Матросский переулок,,,,37.694141,55.7897561,29.8,2486.3,,skipped_street,
+Богатырский мост,,,,37.68915555,55.8168819,29.9,2490.0,,not_found,
+"Теннисный центр ""Академия ""Спартак""",,,sports_centre,37.6823223675412,55.80481927150009,29.9,2490.2,https://yandex.com/maps/org/tennisny_tsentr_spartak/109398270822/,found,Теннисный_центр_Спартак_20260311_160617.json
+Бургер Кинг,fast_food,,,37.719085,55.7834817,29.9,2490.3,https://yandex.com/maps/org/burger_king/1665745650/,found,Бургер_Кинг_20260311_160824.json
+Большой Матросский переулок,,,,37.6942301,55.7897181,29.9,2490.6,,skipped_street,
+,,,pitch,37.6815179,55.80342135,30.0,2491.2,,skipped_unnamed,
+Детская поликлиника №52 Филиал 1,clinic,,,37.69473365660471,55.78967402823312,29.9,2493.1,https://yandex.com/maps/org/detskaya_poliklinika_52_filial_1/1123546642/,found,Детская_городская_поликлиника___52__филиал___1_20260311_161010.json
+Palla,cafe,,,37.6815887,55.804048,30.0,2495.4,https://yandex.com/maps/org/palla/237095937037/,found,Palla_20260311_161045.json
+Смешные цены,,clothes,,37.7190798,55.7834132,30.0,2497.8,https://yandex.com/maps/org/smeshnyye_tseny/205279935674/,found,Смешные_цены_20260311_161105.json
+Мосаптека,pharmacy,,,37.7191532,55.7834141,30.0,2498.4,https://yandex.com/maps/org/mosapteka/1683230034/,found,Мосаптека_20260311_161124.json
+Пышка,fast_food,,,37.7114697,55.7841812,30.0,2498.7,https://yandex.com/maps/org/pyshka/75791981573/,found,Эко_Пышка_20260311_161147.json
+Superapteka.ru,pharmacy,,,37.719327,55.78342,30.0,2499.4,https://yandex.com/maps/org/superapteka/180661130013/,found,Супераптека_20260311_161216.json
+CofeFest,cafe,,,37.694853,55.789833,30.0,2499.6,https://yandex.com/maps/org/cofefest/131310220777/,found,CofeFest_20260311_161247.json
+РЖД Арена,,,sports_centre,37.7401927705661,55.80459046064526,30.0,2503.7,https://yandex.com/maps/org/rzd_arena/1013976871/,found,РЖД_Арена_20260311_161446.json
