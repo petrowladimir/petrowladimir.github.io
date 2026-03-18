@@ -8,8 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@300;400;500;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <style>
 
 /* ═══ UNIFIED APP SHELL ═══ */
@@ -1527,7 +1527,7 @@ body {
 </div>
 
 <nav class="app-nav">
-  <div class="app-logo"><div class="dot"></div>РАЙОН·AI</div>
+  <div class="app-logo"><div class="dot"></div>МОЙ·РАЙОН</div>
   <div class="nav-tabs">
     <button class="nav-tab active" onclick="switchScreen('map')">🗺 Карта и дашборд</button>
     <button class="nav-tab" onclick="switchScreen('guide')">🧭 Гид по профилю</button>
@@ -1542,11 +1542,11 @@ body {
     </button>
     <button class="nav-tab" onclick="switchScreen('article')">📖 О районе</button>
   </div>
-  <div class="nav-right">
-    <button class="future-btn" onclick="switchScreen('constructor')">
-      <span class="fb-dot"></span> Конструктор оценки
-    </button>
-  </div>
+  <!-- <div class="nav-right"> -->
+    <!-- <button class="future-btn" onclick="switchScreen('constructor')"> -->
+      <!-- <span class="fb-dot"></span> Конструктор оценки -->
+    <!-- </button> -->
+  <!-- </div> -->
 </nav>
 
 <!-- MAP -->
@@ -1660,53 +1660,6 @@ body {
 </div>
 
 <!-- ARTICLE -->
-<div class="app-screen" id="screen-facts">
-  <div style="background:#0f172a;padding:16px 28px;border-bottom:1px solid rgba(255,255,255,.08)">
-    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px">
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">Все факты</div>
-      <div style="font-size:12px;color:rgba(255,255,255,.3)">Поиск, фильтрация, переход к отзывам и Яндекс.Картам</div>
-    </div>
-  </div>
-  <div class="main" style="padding:18px 24px 60px;max-width:1440px;margin:0 auto">
-    <div id="pane-facts">
-    <div class="frow">
-      <div class="sw"><span class="si">🔍</span><input type="text" id="fq" placeholder="Поиск по факту, объекту, цитате..." style="width:290px" oninput="rFacts()"></div>
-      <select id="fcat" onchange="rFacts()"><option value="">Все категории</option><option>food</option><option>healthcare</option><option>kids</option><option>sport</option><option>services</option><option>transport</option><option>parks</option><option>other</option></select>
-      <select id="fsub" onchange="rFacts()"><option value="">Все подкатегории</option><option>warning</option><option>practical_tip</option><option>hidden_gem</option><option>person</option><option>price</option><option>schedule</option><option>atmosphere</option><option>comparison</option></select>
-      <select id="fwow" onchange="rFacts()"><option value="0">Любой wow</option><option value="9">wow 9+</option><option value="8">wow 8+</option><option value="7">wow 7+</option></select>
-      <div style="display:flex;gap:4px">
-        <button class="sbtn on" id="sb0" onclick="sSort('wow')">↓ WOW</button>
-        <button class="sbtn" id="sb1" onclick="sSort('walk')">↓ Ходьба</button>
-        <button class="sbtn" id="sb2" onclick="sSort('poi')">A→Z</button>
-      </div>
-      <span class="rcnt" id="fcnt">—</span>
-    </div>
-    <div class="fgrid" id="fgrid"></div>
-  </div>
-  </div>
-</div>
-
-<!-- SUMMARIES -->
-<div class="app-screen" id="screen-summaries">
-  <div style="background:#0f172a;padding:16px 28px;border-bottom:1px solid rgba(255,255,255,.08)">
-    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px">
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">Объекты района</div>
-      <div style="font-size:12px;color:rgba(255,255,255,.3)">Обработанные POI с фактами, предупреждениями и отзывами</div>
-    </div>
-  </div>
-  <div class="main" style="padding:18px 24px 60px;max-width:1440px;margin:0 auto">
-    <div id="pane-summaries">
-    <div class="frow">
-      <div class="sw"><span class="si">🔍</span><input type="text" id="sq" placeholder="Поиск по объекту..." style="width:270px" oninput="rSumm()"></div>
-      <select id="scat" onchange="rSumm()"><option value="">Все категории</option></select>
-      <span class="rcnt" id="scnt">—</span>
-    </div>
-    <div class="slist" id="slist"></div>
-  </div>
-  </div>
-</div>
-
-<!-- CONSTRUCTOR -->
 <div class="app-screen" id="screen-article">
   <div class="tab-panel active" id="tab-article">
 
@@ -2243,6 +2196,53 @@ body {
 </div>
 
 <!-- FACTS -->
+<div class="app-screen" id="screen-facts">
+  <div style="background:#0f172a;padding:16px 28px;border-bottom:1px solid rgba(255,255,255,.08)">
+    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">Все факты</div>
+      <div style="font-size:12px;color:rgba(255,255,255,.3)">Поиск, фильтрация, переход к отзывам и Яндекс.Картам</div>
+    </div>
+  </div>
+  <div class="main" style="padding:18px 24px 60px;max-width:1440px;margin:0 auto">
+    <div id="pane-facts">
+    <div class="frow">
+      <div class="sw"><span class="si">🔍</span><input type="text" id="fq" placeholder="Поиск по факту, объекту, цитате..." style="width:290px" oninput="rFacts()"></div>
+      <select id="fcat" onchange="rFacts()"><option value="">Все категории</option><option>food</option><option>healthcare</option><option>kids</option><option>sport</option><option>services</option><option>transport</option><option>parks</option><option>other</option></select>
+      <select id="fsub" onchange="rFacts()"><option value="">Все подкатегории</option><option>warning</option><option>practical_tip</option><option>hidden_gem</option><option>person</option><option>price</option><option>schedule</option><option>atmosphere</option><option>comparison</option></select>
+      <select id="fwow" onchange="rFacts()"><option value="0">Любой wow</option><option value="9">wow 9+</option><option value="8">wow 8+</option><option value="7">wow 7+</option></select>
+      <div style="display:flex;gap:4px">
+        <button class="sbtn on" id="sb0" onclick="sSort('wow')">↓ WOW</button>
+        <button class="sbtn" id="sb1" onclick="sSort('walk')">↓ Ходьба</button>
+        <button class="sbtn" id="sb2" onclick="sSort('poi')">A→Z</button>
+      </div>
+      <span class="rcnt" id="fcnt">—</span>
+    </div>
+    <div class="fgrid" id="fgrid"></div>
+  </div>
+  </div>
+</div>
+
+<!-- SUMMARIES -->
+<div class="app-screen" id="screen-summaries">
+  <div style="background:#0f172a;padding:16px 28px;border-bottom:1px solid rgba(255,255,255,.08)">
+    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">Объекты района</div>
+      <div style="font-size:12px;color:rgba(255,255,255,.3)">Обработанные POI с фактами, предупреждениями и отзывами</div>
+    </div>
+  </div>
+  <div class="main" style="padding:18px 24px 60px;max-width:1440px;margin:0 auto">
+    <div id="pane-summaries">
+    <div class="frow">
+      <div class="sw"><span class="si">🔍</span><input type="text" id="sq" placeholder="Поиск по объекту..." style="width:270px" oninput="rSumm()"></div>
+      <select id="scat" onchange="rSumm()"><option value="">Все категории</option></select>
+      <span class="rcnt" id="scnt">—</span>
+    </div>
+    <div class="slist" id="slist"></div>
+  </div>
+  </div>
+</div>
+
+<!-- CONSTRUCTOR -->
 <div class="app-screen" id="screen-constructor">
   <div class="future-screen">
     <div class="future-icon">⚙️</div>
@@ -2298,14 +2298,6 @@ body {
 let aFacts=[], aSumm=[], prog={}, logL=[], csvP=[];
 let revCache={};
 
-function animateScoreBars() {
-  document.querySelectorAll('.art-score-fill').forEach(el => {
-    const w = el.style.width;
-    el.style.width = '0';
-    setTimeout(() => { el.style.width = w; }, 100);
-  });
-}
-
 function switchScreen(id) {
   document.querySelectorAll('.app-screen').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(b=>b.classList.remove('active'));
@@ -2327,10 +2319,7 @@ function switchScreen(id) {
     switchMapTab('map');
     if(window._map) setTimeout(()=>window._map.invalidateSize(),80);
   }
-  if(id==='article') {
-    switchMapTab('article');
-    setTimeout(animateScoreBars, 300);
-  }
+  if(id==='article') switchMapTab('article');
 }
 
 function parseCSV(txt){
@@ -2348,55 +2337,14 @@ function nu(u){return(u||'').replace(/\/+$/,'').toLowerCase();}
 function emptyH(ic,tx){return`<div class="empty" style="grid-column:1/-1"><div class="ei">${ic}</div><p>${tx}</p></div>`;}
 function v(id){return(ge(id)||{value:''}).value||'';}
 
-// Кэш содержимого zip-архива (заполняется при первой загрузке)
-let _zipCache = null;
-
-async function getZipContent() {
-  if (_zipCache) return _zipCache;
-  try {
-    const resp = await fetch('data.zip?_=' + Date.now());
-    if (!resp.ok) return null;
-    const zipData = await resp.arrayBuffer();
-    const zip = new JSZip();
-    _zipCache = await zip.loadAsync(zipData);
-    return _zipCache;
-  } catch(e) { return null; }
-}
-
-async function fetchJsonFile(filename) {
-  // Сначала пробуем как отдельный файл
-  try {
-    const r = await fetch(filename + '?_=' + Date.now());
-    if (r.ok) return await r.json();
-  } catch(e) {}
-  // Если не получилось — ищем в zip
-  try {
-    const zip = await getZipContent();
-    if (!zip) return null;
-    const entry = Object.keys(zip.files).find(n => n === filename || n.endsWith('/' + filename));
-    if (!entry) return null;
-    const str = await zip.files[entry].async('string');
-    return JSON.parse(str);
-  } catch(e) { return null; }
-}
-
 async function loadAllData(){
-  const factsData = await fetchJsonFile('facts_flat.json');
-  if (factsData) {
-    aFacts = factsData;
-    const el=ge('nav-facts-cnt');if(el)el.textContent=factsData.length;
-    const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=factsData.length;
-  }
-
-  const summData = await fetchJsonFile('poi_summaries.json');
-  if (summData) {
-    aSumm = summData;
-    const sc=ge('nav-summ-cnt');if(sc)sc.textContent=summData.length;
-  }
-
-  const progData = await fetchJsonFile('progress.json');
-  if (progData) prog = progData;
-
+  const jobs=[
+    ['facts_flat.json',    d=>{aFacts=d;const el=ge('nav-facts-cnt');if(el)el.textContent=d.length;
+      const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=d.length;}],
+    ['poi_summaries.json', d=>{aSumm=d;const sc=ge('nav-summ-cnt');if(sc)sc.textContent=d.length;}],
+    ['progress.json',      d=>prog=d],
+  ];
+  for(const[f,cb]of jobs){try{const r=await fetch(f+'?_='+Date.now());if(r.ok)cb(await r.json());}catch(e){}}
   try{const r=await fetch('poi_enriched.csv?_='+Date.now());if(r.ok)csvP=parseCSV(await r.text());}catch(e){}
   try{const r=await fetch('pipeline.log?_='+Date.now());if(r.ok)logL=parseLog(await r.text());}catch(e){}
 }
@@ -2411,30 +2359,11 @@ function updateGuideStats(){
 async function unifiedInit(){
   await loadAllData();
   updateGuideStats();
-  // Рендерим факты и объекты сразу после загрузки данных
-  // (на случай если пользователь уже переключился на эти вкладки)
-  rFacts();
-  rSumm();
-  // Обновляем счётчики в навбаре
-  const el=ge('nav-facts-cnt');if(el)el.textContent=aFacts.length;
-  const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=aFacts.length;
-  const sc=ge('nav-summ-cnt');if(sc)sc.textContent=aSumm.length;
   document.querySelectorAll('.pdt').forEach(t=>t.addEventListener('click',()=>{
     document.querySelectorAll('.pdt,.pdp').forEach(x=>x.classList.remove('active'));
     t.classList.add('active');
     ge(t.dataset.ptab)?.classList.add('active');
   }));
-  // TOC smooth scroll
-  document.querySelectorAll('.art-toc-item').forEach(a => {
-    a.addEventListener('click', function(e) {
-      const href = this.getAttribute('href');
-      const target = document.querySelector(href);
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
   if(typeof initMapApp==='function') initMapApp();
 }
 
@@ -2443,7 +2372,8 @@ async function unifiedInit(){
 // ─────────────────────────────────────────────
 // CONFIG
 // ─────────────────────────────────────────────
-const DATA_FILE = 'neighborhood_report.json';
+//const DATA_FILE = 'neighborhood_report.json';
+const ZIP_FILE = 'data.zip';
 
 const CAT_COLORS = {
   retail:     '#22d3a5',
@@ -2994,26 +2924,31 @@ window._map = map;
 }).addTo(map);
   }
   try {
-    const ZIP_FILE = 'data.zip';
+    //const resp = await fetch(DATA_FILE);
     const resp = await fetch(ZIP_FILE + '?_=' + Date.now());
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const zipData = await resp.arrayBuffer();
-
-    const zip = new JSZip();
-    const zipContent = await zip.loadAsync(zipData);
-
-    // Находим JSON-файл внутри архива
-    const jsonFileName = Object.keys(zipContent.files).find(
-      name => name.endsWith('.json')
-    );
-    if (!jsonFileName) throw new Error('JSON не найден в архиве');
-
-    const jsonString = await zipContent.files[jsonFileName].async('string');
-    DATA = JSON.parse(jsonString);
-    //console.log('Loaded from zip:', jsonFileName, Object.keys(DATA));
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);    
+	const zipData = await resp.arrayBuffer();
+	
+	const zip = new JSZip();
+	const zipContent = await zip.loadAsync(zipData);
+	
+	// 3. Находим JSON-файл внутри архива
+	const jsonFileName = Object.keys(zipContent.files).find(
+		name => name.endsWith('.json')
+	);
+	
+	if (!jsonFileName) throw new Error('JSON не найден в архиве');
+	
+	// 4. Читаем содержимое JSON
+	const jsonString = await zipContent.files[jsonFileName].async('string');
+	
+	DATA = JSON.parse(jsonString);
+	console.log(DATA)
+	//if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    //DATA = await resp.json();
   } catch (e) {
-    document.querySelector('.loading-sub').textContent = '⚠️ Не удалось загрузить data.zip. Положите файл рядом с HTML.';
-    console.error(e);
+    document.querySelector('.loading-sub').textContent = '⚠️ Не удалось загрузить ' + DATA_FILE + '. Положите файл рядом с HTML.';
+    console.log(e);
     return;
   }
 
@@ -3091,13 +3026,8 @@ function toggleAuto(){clearTimeout(autoTmr);if(document.getElementById('auto-chk
 
 async function loadAll(){
   const b=document.getElementById('rbtn');b.classList.add('spin');
-  // Используем fetchJsonFile который умеет читать и из zip
-  const factsD = await fetchJsonFile('facts_flat.json');
-  if(factsD) { aFacts=factsD; }
-  const summD = await fetchJsonFile('poi_summaries.json');
-  if(summD) { aSumm=summD; }
-  const progD = await fetchJsonFile('progress.json');
-  if(progD) { prog=progD; }
+  const jobs=[['facts_flat.json',d=>aFacts=d],['poi_summaries.json',d=>aSumm=d],['progress.json',d=>prog=d]];
+  for(const[f,cb]of jobs){try{const r=await fetch(f+'?_='+Date.now());if(r.ok)cb(await r.json());}catch(e){}}
   try{const r=await fetch('poi_enriched.csv?_='+Date.now());if(r.ok)csvP=parseCSV(await r.text());}catch(e){}
   try{const r=await fetch('pipeline.log?_='+Date.now());if(r.ok)logL=parseLog(await r.text());}catch(e){}
   renderAll();b.classList.remove('spin');
@@ -3610,8 +3540,11 @@ async function loadData() {
   // Грузим neighborhood_report для reportPois
   try {
     const r = await fetch('neighborhood_report.json?_='+Date.now());
+    //const r = await fetch('https://github.com/petrowladimir/petrowladimir.github.io/releases/download/v1/neighborhood_report.json?_='+Date.now());
     if(r.ok) { const d=await r.json(); reportPois=(d.poi_list||[]); }
-  } catch(e){}
+  } catch(e){
+  alert(e);
+  }
   updateStats();
   buildPersonas();
 }
@@ -3966,6 +3899,32 @@ function closeModal(e) {
 unifiedInit();
 </script>
 
-
+<script>
+// Animate score bars when article tab is shown
+function animateScoreBars() {
+  document.querySelectorAll('.art-score-fill').forEach(el => {
+    const w = el.style.width;
+    el.style.width = '0';
+    setTimeout(() => { el.style.width = w; }, 100);
+  });
+}
+// Hook into switchScreen
+const origSwitch = window.switchScreen;
+window.switchScreen = function(id) {
+  if (typeof origSwitch === 'function') origSwitch(id);
+  if (id === 'article') setTimeout(animateScoreBars, 300);
+};
+// Smooth scroll for TOC links
+document.querySelectorAll('.art-toc-item').forEach(a => {
+  a.addEventListener('click', function(e) {
+    const href = this.getAttribute('href');
+    const target = document.querySelector(href);
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
 </body>
 </html>
