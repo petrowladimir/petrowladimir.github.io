@@ -3518,9 +3518,12 @@ let activeSeg = null;
 async function loadData() {
   // Грузим neighborhood_report для reportPois
   try {
-    const r = await fetch('neighborhood_report.json?_='+Date.now());
+    //const r = await fetch('neighborhood_report.json?_='+Date.now());
+    const r = await fetch('https://github.com/petrowladimir/petrowladimir.github.io/releases/download/v1/neighborhood_report.json?_='+Date.now());
     if(r.ok) { const d=await r.json(); reportPois=(d.poi_list||[]); }
-  } catch(e){}
+  } catch(e){
+  alert(e);
+  }
   updateStats();
   buildPersonas();
 }
