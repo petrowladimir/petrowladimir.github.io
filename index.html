@@ -2238,10 +2238,10 @@ async function getZipContent() {
 
 async function fetchJsonFile(filename) {
   // Сначала пробуем как отдельный файл
-  try {
-    const r = await fetch(filename + '?_=' + Date.now());
-    if (r.ok) return await r.json();
-  } catch(e) {}
+  //try {
+  //  const r = await fetch(filename + '?_=' + Date.now());
+  //  if (r.ok) return await r.json();
+  //} catch(e) {}
   // Если не получилось — ищем в zip
   try {
     const zip = await getZipContent();
