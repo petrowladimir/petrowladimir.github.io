@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@300;400;500;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 
@@ -16,7 +15,7 @@
 :root{--nav-h:54px;--app-bg:#f0f2f5}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--app-bg);font-family:'Geologica',sans-serif;font-size:14px;min-height:100vh;overflow-x:hidden}
+body{background:var(--app-bg);font-family:'Geologica',sans-serif;font-size:16px;min-height:100vh;overflow-x:hidden}
 
 .app-nav{
   position:fixed;top:0;left:0;right:0;z-index:9999;
@@ -186,7 +185,7 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,.06);
 }
 .filter-label {
-  font-size: 12px;
+  font-size:14px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -223,19 +222,19 @@ body {
 #timeSlider::-webkit-slider-thumb:hover { transform: scale(1.2); }
 #timeVal {
   font-family: var(--font-head);
-  font-size: 24px;
+  font-size:15px;
   color: var(--accent);
   min-width: 72px;
 }
 .cat-filters { display: flex; gap: 6px; flex-wrap: wrap; }
 .cat-btn {
-  padding: 5px 13px;
+  padding:8px 14px;
   border-radius: 20px;
   border: 1.5px solid var(--border);
   background: var(--surface);
   color: var(--muted);
   font-family: var(--font-body);
-  font-size: 13px;
+  font-size:14px;
   font-weight: 500;
   cursor: pointer;
   transition: all .18s;
@@ -399,7 +398,7 @@ body {
 /* ── POI LIST ── */
 .poi-list { display: flex; flex-direction: column; gap: 5px; }
 .poi-item {
-  padding: 10px 12px;
+  padding: 13px 16px;
   border-radius: 9px;
   background: var(--bg);
   border: 1.5px solid var(--border);
@@ -962,7 +961,7 @@ select{padding-right:28px;background-image:url("data:image/svg+xml,%3Csvg xmlns=
 .dfacts{display:flex;flex-direction:column;gap:9px}
 .dfr{display:flex;gap:11px;align-items:flex-start;padding:11px 13px;background:var(--bg);border-radius:10px;border:1px solid var(--border)}
 .dfs{font-family:'Manrope',sans-serif;font-size:13px;font-weight:800;padding:2px 7px;border-radius:5px;flex-shrink:0}
-.dff{font-size:14px;font-weight:500;margin-bottom:4px}
+.dff{font-size:16px;font-weight:500;margin-bottom:4px}
 .dfq{font-size:13px;color:var(--text2);font-style:italic;margin-bottom:5px;line-height:1.5}
 .dftags{display:flex;gap:5px;flex-wrap:wrap}
 
@@ -996,11 +995,11 @@ select{padding-right:28px;background-image:url("data:image/svg+xml,%3Csvg xmlns=
 .anc.t3::before{background:linear-gradient(90deg,#dc2626,#f97316)}
 .anc.t2::before{background:linear-gradient(90deg,#f97316,#fbbf24)}
 .anc.t1::before{background:linear-gradient(90deg,#fbbf24,#84cc16)}
-.anc .cb{display:inline-flex;align-items:center;gap:4px;font-family:'Manrope',sans-serif;font-size:11px;font-weight:800;padding:2px 8px;border-radius:5px;margin-bottom:7px}
+.anc .cb{display:inline-flex;align-items:center;gap:4px;font-family:'Manrope',sans-serif;font-size:13px;font-weight:800;padding:4px 10px;border-radius:6px;margin-bottom:9px}
 .anc.t4 .cb{background:#f5f3ff;color:#7c3aed}.anc.t3 .cb{background:#fef2f2;color:#dc2626}
 .anc.t2 .cb{background:#fff7ed;color:#ea580c}.anc.t1 .cb{background:#fefce8;color:#ca8a04}
-.anc .cf{font-size:15px;font-weight:500;color:var(--text);line-height:1.45;margin-bottom:7px}
-.anc .cq{font-size:13px;color:var(--text2);font-style:italic;border-left:3px solid var(--border2);padding:2px 8px;margin-bottom:7px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.anc .cf{font-size:16px;font-weight:500;color:var(--text);line-height:1.45;margin-bottom:7px}
+.anc .cq{font-size:13px;color:var(--text2);font-style:italic;border-left:3px solid var(--border2);padding:2px 8px;margin-bottom:7px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .anc .cm{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .anc .cpoi{font-size:12px;font-weight:600;color:var(--accent)}
 .sig-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
@@ -1516,6 +1515,100 @@ body {
   .personas { grid-template-columns: repeat(3, 1fr); }
 }
 
+
+/* ═══ MOBILE ≤ 768px ═══ */
+@media (max-width: 768px) {
+  :root { --nav-h: 52px; }
+
+  /* Навбар — скрываем логотип, делаем табы крупнее */
+  .app-logo { display: none; }
+  .nav-tab { padding: 9px 12px; font-size: 13px; gap: 4px; }
+  .future-btn { display: none; }
+  .nav-tabs { gap: 1px; }
+
+  /* Карта — полный экран на мобиле */
+  #screen-map .filter-bar {
+    padding: 10px 12px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  #screen-map .filter-bar .filter-label { display: none; }
+  #screen-map .time-slider-wrap { flex: 1; min-width: 140px; }
+  #screen-map .cat-filters { width: 100%; overflow-x: auto; }
+
+  /* Сайдбар — уходит вниз */
+  #screen-map .map-sidebar-row {
+    flex-direction: column;
+  }
+  #screen-map .map-section {
+    height: 55vw;
+    min-height: 240px;
+    max-height: 360px;
+  }
+  #screen-map .sidebar {
+    width: 100%;
+    max-height: 45vh;
+    overflow-y: auto;
+  }
+  #screen-map #map {
+    position: relative !important;
+    top: 0 !important;
+    height: 100% !important;
+  }
+  #screen-map .side-panel {
+    position: relative !important;
+    top: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* Аналитика — одна колонка */
+  .an-grid { grid-template-columns: 1fr !important; }
+  .an-kpis { grid-template-columns: repeat(3, 1fr) !important; }
+  .sig-row { flex-direction: column; gap: 6px; }
+  .sig { min-width: 100% !important; }
+
+  /* Объекты — одна колонка */
+  .slist .scard { width: 100%; }
+  #slist { padding: 0 !important; }
+
+  /* Факты */
+  .fgrid .fc { flex-direction: column; }
+
+  /* POI список на карте */
+  .poi-item { padding: 12px 14px; }
+  .poi-item .pi-name { font-size:15px !important; }
+
+  /* Overlay детали */
+  .ovl .pod { margin: 0; border-radius: 18px 18px 0 0; max-height: 85vh; }
+
+  /* Анкоры секций — отступ для sticky nav */
+  .section, #screen-analytics .main,
+  #screen-summaries .main, #screen-facts .main {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  /* Scorecard — 2 колонки */
+  .scorecard-grid { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* Charts — стакаем вертикально */
+  .charts-row { flex-direction: column !important; }
+  .chart-card { min-width: 100% !important; }
+
+  /* zone rings */
+  .zone-rings { flex-direction: column; gap: 8px; }
+}
+
+/* ═══ SMALL MOBILE ≤ 480px ═══ */
+@media (max-width: 480px) {
+  .nav-tab .nt-cnt { display: none; }
+  .nav-tab { padding: 9px 10px; font-size: 12px; }
+  .an-kpis { grid-template-columns: repeat(2, 1fr) !important; }
+  .an-kpi .av { font-size: 18px !important; }
+  .anc .cf { font-size: 15px !important; }
+  .scorecard-item .si-val { font-size: 20px !important; }
+}
 </style>
 </head>
 <body>
@@ -1527,15 +1620,11 @@ body {
 </div>
 
 <nav class="app-nav">
-  <div class="app-logo"><div class="dot"></div>МОЙ·РАЙОН</div>
+  <div class="app-logo"><div class="dot"></div>РАЙОН·AI</div>
   <div class="nav-tabs">
-    <button class="nav-tab active" onclick="switchScreen('map')">🗺 Карта и дашборд</button>
-    <button class="nav-tab" onclick="switchScreen('guide')">🧭 Гид по профилю</button>
+    <button class="nav-tab active" onclick="switchScreen('map')">🗺 Карта</button>
     <button class="nav-tab" onclick="switchScreen('analytics')">
-      ✨ Аналитика фактов <span class="nt-cnt" id="nav-facts-cnt">—</span>
-    </button>
-    <button class="nav-tab" onclick="switchScreen('facts')">
-      🔍 Факты <span class="nt-cnt" id="nav-facts-cnt2">—</span>
+      ✨ Топ фактов <span class="nt-cnt" id="nav-facts-cnt">—</span>
     </button>
     <button class="nav-tab" onclick="switchScreen('summaries')">
       📋 Объекты <span class="nt-cnt" id="nav-summ-cnt">—</span>
@@ -1544,7 +1633,7 @@ body {
   </div>
   <div class="nav-right">
     <button class="future-btn" onclick="switchScreen('constructor')">
-      <span class="fb-dot"></span> 
+      <span class="fb-dot"></span> Конструктор
     </button>
   </div>
 </nav>
@@ -1649,17 +1738,350 @@ body {
 <!-- ANALYTICS -->
 <div class="app-screen" id="screen-analytics">
   <div style="background:#0f172a;padding:16px 28px;border-bottom:1px solid rgba(255,255,255,.08)">
-    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px">
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">Аналитика фактов</div>
-      <div style="font-size:12px;color:rgba(255,255,255,.3)">CIS-алгоритм · конкретные, редкие, неожиданные факты из реальных отзывов</div>
+    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      <div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">✨ Топ интересных фактов</div>
+        <div style="font-size:13px;color:rgba(255,255,255,.4);margin-top:2px">Отобрано алгоритмом из 20 000+ отзывов · только конкретное и неожиданное</div>
+      </div>
     </div>
   </div>
-  <div class="main" style="padding:18px 24px 60px;max-width:1440px;margin:0 auto">
+  <div class="main" style="padding:20px 28px 60px;max-width:1440px;margin:0 auto">
     <div id="an-content"></div>
   </div>
 </div>
 
 <!-- ARTICLE -->
+<div class="app-screen" id="screen-article">
+  <div class="tab-panel active" id="tab-article">
+<div class="article-wrap">
+
+  <!-- HERO -->
+  <div class="article-hero">
+    <div class="article-hero-label">Паспорт района · Москва · Богородское / Преображенское</div>
+    <div class="article-hero-title">Твой новый дом:<br>Богородское и Преображенское</div>
+    <div class="article-hero-sub">Всё, что ты хотел знать о районе — собрано из 45 000+ отзывов реальных жителей. Честно, с любовью и без прикрас.</div>
+  </div>
+
+  <!-- STATS -->
+  <div class="article-stats-row">
+    <div class="ast"><div class="ast-val">252</div><div class="ast-lbl">объекта в шаговой доступности</div></div>
+    <div class="ast"><div class="ast-val">4.33★</div><div class="ast-lbl">средний рейтинг всех объектов</div></div>
+    <div class="ast"><div class="ast-val">41</div><div class="ast-lbl">детский сад в 30 мин ходьбы</div></div>
+    <div class="ast"><div class="ast-val">45к+</div><div class="ast-lbl">отзывов изучено для статьи</div></div>
+  </div>
+
+  <!-- ── 1. ВВЕДЕНИЕ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#e8f0fe">🏘️</div>
+      <div class="article-section-title">Добро пожаловать домой</div>
+    </div>
+    <p class="article-lead">Богородское и Преображенское — один из тех уголков Москвы, где сохранился настоящий московский дух. Не стеклянные башни и торговые моллы, а живые улицы, Преображенский рынок с 90-летней историей, скверы с вековыми деревьями и соседская атмосфера. При этом — вся инфраструктура большого города в шаговой доступности.</p>
+    <p class="article-text">Читая тысячи отзывов жителей, складывается образ района, где всё необходимое семье с маленькими детьми — рядом. 82 магазина (ближайший в 2 минутах!), 41 детский сад, 26 школ, парки с сотнями площадок. Это не случайность: район формировался как полноценная жилая среда десятилетиями, и это ощущается буквально в каждом дворе.</p>
+    <div class="quote-block">«Переехала 3 года назад из другого региона. Помню с детства ходила на уличные рынки — там самые вкусные фрукты и овощи по низким ценам. Переехав в Москву, удивилась, что тут из рынков почти ничего. И вот — ЧУДО — Преображенский рынок! Это просто рынок из моего детства.»<div class="quote-source">— Жительница о Преображенском рынке</div></div>
+  </div>
+
+  <!-- ── 2. МАГАЗИНЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#f0faf6">🛒</div>
+      <div class="article-section-title">Магазины: выбор на любой вкус</div>
+    </div>
+    <p class="article-lead">82 торговые точки в шаговой доступности — одна из лучших концентраций в Москве. Самый ближний магазин — в 2 минутах ходьбы. Жители давно изучили сильные стороны каждого и готовы делиться секретами.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🥩</div>
+        <div class="insight-title">МясновЪ — за качественным мясом</div>
+        <div class="insight-text">Хорошие пельмени, советские сосиски, фарш из индейки, мягкий лаваш. <strong>Пирожки после 19:00 со скидкой 40%.</strong> Система талонов неудобная, но ради ассортимента терпят. Продолговатые колбасы нарезают — круглые нет.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🌿</div>
+        <div class="insight-title">ВкусВилл — для качества жизни</div>
+        <div class="insight-text"><strong>Полка «−40%»</strong> за 2 дня до срока. Молоко ровно 1 литр, не 800 мл жижи. Кофе-угол, доставка на дом. Осторожно: парковка у входа — штрафы от ГИБДД. Лучший ВкусВилл — на бульваре Рокоссовского.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🍕</div>
+        <div class="insight-title">EuroSpar — неожиданная находка</div>
+        <div class="insight-text">Огромный выбор готовой еды: салаты, мясо, пицца, суши, шашлык, плов. <strong>Подписка на кофе.</strong> Кафетерий с туалетом, небольшая парковка. Добраться: 2 остановки на трамвае от Преображенской или автобус 265 от Сокольников.</div>
+      </div>
+      <div class="insight-card purple">
+        <div class="insight-icon">🏪</div>
+        <div class="insight-title">Дружба — прямо над метро</div>
+        <div class="insight-text">ТЦ над станцией Черкизовская. Фудкорт с кухнями мира: узбекская, самаркандские ланчи, кафе «Му-му» на двух этажах. <strong>Бесплатная парковка</strong> на ~20 мест (всегда занята). Лифты есть, но навигация к ним неочевидна.</div>
+      </div>
+      <div class="insight-card green">
+        <div class="insight-icon">☀️</div>
+        <div class="insight-title">Ярче! и Дикси — для будних дней</div>
+        <div class="insight-text">«Ярче» открывается с 8:00 — удобно утром. <strong>Дикси работает 24/7</strong> — выручит поздно ночью. У «Ярче» кассиры сами складывают покупки в пакеты — приятная мелочь.</div>
+      </div>
+      <div class="insight-card red">
+        <div class="insight-icon">⚠️</div>
+        <div class="insight-title">Важные лайфхаки по магазинам</div>
+        <div class="insight-text">В Магнолии <strong>всегда проверяйте чек</strong> — бывают задвоенные позиции. В Перекрёстке и Супер Ленте цена на кассе может отличаться от ценника — вы вправе потребовать цену с ценника. В Магнит на 2-й Прогонной после ремонта всё стало заметно лучше.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Мяснов мой любимейший магазин. Покупаем пельмени царские, сосиски советские, хлеб, хинкали, фарш. Мы с женой часто покупаем пирожки после 19 часов со скидкой 40%. В новом помещении стало просторнее.»<div class="quote-source">— Постоянный покупатель МясновЪ</div></div>
+  </div>
+
+  <!-- ── 3. ПРЕОБРАЖЕНСКИЙ РЫНОК ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fef9ec">🧺</div>
+      <div class="article-section-title">Преображенский рынок — душа района</div>
+    </div>
+    <p class="article-lead">Основан в 1932 году. Расположен на территории старообрядческого монастыря — кирпичные стены и башни подлинные. Один из последних настоящих базаров Москвы, где можно найти фермерские продукты без глянца и понтов.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🍎</div>
+        <div class="insight-title">Что брать</div>
+        <div class="insight-text">Мясо и рыба — особенно говядина и форель. Сезонные ягоды, зелень, абхазские продукты. Сыры и соленья. Авокадо по 3 штуки за 100 ₽, манго за 50 ₽ — при удаче.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">💡</div>
+        <div class="insight-title">Как покупать правильно</div>
+        <div class="insight-text"><strong>Берите наличные</strong> — карты принимают не все (банкомат на территории есть). Сначала обойдите весь рынок — цены сильно различаются. Своего продавца ищите методом проб: найдёте — будете ходить годами. В будни людей мало — комфортнее.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🚗</div>
+        <div class="insight-title">Как добраться</div>
+        <div class="insight-text">Пешком от метро «Преображенская площадь». Есть парковка, но небольшая. Рядом остановки общественного транспорта. В будние дни значительно легче с местом.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Аутентичный рынок, которому почти 100 лет. Расположен на территории старообрядческого монастыря. За этими стенами можно найти молочку, мясо, овощи, антиквариат и одежду — по демократичным ценам без потери качества. Москвичи едут специально.»<div class="quote-source">— Житель района о Преображенском рынке</div></div>
+  </div>
+
+  <!-- ── 4. ДЕТСКИЕ САДЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fdf4ff">🧸</div>
+      <div class="article-section-title">Детские сады: выбор огромный</div>
+    </div>
+    <p class="article-lead">41 детский сад в радиусе 30 минут — исключительный показатель даже для Москвы. Ближайший в 6 минутах. Средний рейтинг 4.6★. Жители пишут о садах с искренней теплотой — это редкость.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🏊</div>
+        <div class="insight-title">Школа №1080, дошкольное отделение №4</div>
+        <div class="insight-text"><strong>Бассейн</strong> — редкость для муниципального сада. Дополнительные секции, логопеды. Дети ходят с удовольствием, воспитателей называют по именам с благодарностью.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🏡</div>
+        <div class="insight-title">Happy Nappy и «Островок»</div>
+        <div class="insight-text">Частные сады с маленькими группами. Берут с 1,5 лет. <strong>Индивидуальное питание при аллергии.</strong> Медсестра встречает утром. Закрытая охраняемая территория. Адаптация проходит мягко.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🌲</div>
+        <div class="insight-title">«Академическая Гимназия» в Сокольниках</div>
+        <div class="insight-text">У леса, деревянное экологичное здание. Закрытая территория с камерами. Медкабинет постоянно. <strong>Онлайн-трансляция праздников.</strong> Собственный пищеблок. Отличный психолог и логопед.</div>
+      </div>
+      <div class="insight-card purple">
+        <div class="insight-icon">⏰</div>
+        <div class="insight-title">TeddyLand</div>
+        <div class="insight-text">Работает <strong>до 20:00</strong> — удобно для тех, кто задерживается на работе. Маленькие группы, разнообразные занятия. Питание без молока при непереносимости.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Замечательнейший садик! Три этажа. Пандусы. Парковка для колясок под крышей. Огромные окна, светлые просторные группы. Прекрасные новенькие детские площадки. А главное — самые лучшие воспитатели 🥰»<div class="quote-source">— Мама о школе №1362, дошкольный корпус</div></div>
+  </div>
+
+  <!-- ── 5. ШКОЛЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fffbeb">🏫</div>
+      <div class="article-section-title">Школы: от районных до сильных</div>
+    </div>
+    <p class="article-lead">26 школ в округе. Ближайшая — в 3 минутах. Среди них есть обычные районные и настоящие образовательные жемчужины, которые знают по всей Москве.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🏆</div>
+        <div class="insight-title">Школа 1502 «Энергия» — для мотивированных</div>
+        <div class="insight-text">Конкурс ~5 человек на место в лицейский класс. <strong>Только 20 учеников в классе.</strong> В расписании обязательных: мультипликация, робототехника, IT, шахматы. Формат «пар», как в институте — готовит к вузу с 5 класса.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🎭</div>
+        <div class="insight-title">ЦО «Богородский» — самая семейная</div>
+        <div class="insight-text">Одна семья отдала сюда 4 сыновей — теперь внучки идут. После ремонта: красивое здание, современные классы, отличная спортплощадка. Доброжелательные педагоги, <strong>индивидуальный подход.</strong></div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🎓</div>
+        <div class="insight-title">Школа 1505 «Преображенская»</div>
+        <div class="insight-text">Сильная внешкольная жизнь — поездки, постановки, проекты. Ежегодный ремонт, новое оборудование, молодые учителя. <strong>Много бесплатных кружков.</strong></div>
+      </div>
+      <div class="insight-card purple">
+        <div class="insight-icon">🌟</div>
+        <div class="insight-title">Школа 362 — летний лагерь «Бригантина»</div>
+        <div class="insight-text">Летний лагерь при школе — один из лучших по отзывам. Активные вожатые, игры, соревнования, творчество. Новый корпус со временем — <strong>бассейн есть.</strong></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 6. МЕДИЦИНА ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fef2f2">🏥</div>
+      <div class="article-section-title">Медицина: хорошие новости после ремонтов</div>
+    </div>
+    <p class="article-lead">19 медицинских учреждений в округе. Несколько прошли капитальный ремонт и превратились в современные центры. Качество врачей варьируется — но у каждой поликлиники теперь есть конкретные плюсы, которые стоит знать.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">✨</div>
+        <div class="insight-title">КДЦ №2 — технологичный центр</div>
+        <div class="insight-text">После ремонта — современное оборудование, электронные направления без бумаги, мониторы очереди. <strong>Справку для замены прав — за 2 часа без записи (платно).</strong> Есть буфет, аптека с бесплатной выдачей.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">👶</div>
+        <div class="insight-title">Детская поликлиника №28 — лучшая в округе</div>
+        <div class="insight-text">Бизиборды, мультики, детский уголок. <strong>Отличные массажисты Галина и Елена</strong> — запись нарасхват. Кабинет здорового ребёнка. Дети уходят с наклейками и пазлами. Педиатр Кашигина М.В. — рекомендуют отдельно.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🔬</div>
+        <div class="insight-title">ЦМРТ на Стромынке, 11</div>
+        <div class="insight-text"><strong>МРТ до 22:15</strong> — для работающих. Запись в день обращения. Зона ожидания с чаем. Вышел — настроение хорошее, говорят пациенты. Адекватные цены.</div>
+      </div>
+      <div class="insight-card red">
+        <div class="insight-icon">📍</div>
+        <div class="insight-title">Поликлиника №64: лайфхак — найти вход</div>
+        <div class="insight-text">Спрятана за деревьями и хоккейной коробкой — без навигатора не найти. Зато внутри после ремонта хорошо. <strong>Бонус: экспресс-анализ на холестерин, сахар, ЭКГ — бесплатно на месте.</strong></div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Нам очень повезло с поликлиникой: с рождением дочери открылась новая поликлиника с современным оборудованием. Детки не боятся приходить сюда. Бизиборды, столики, мультики, уютное кафе. Ребёнок всегда уходит с подарком.»<div class="quote-source">— Мама о детской поликлинике №28</div></div>
+  </div>
+
+  <!-- ── 7. ПАРКИ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#f0fdf4">🌳</div>
+      <div class="article-section-title">Парки и прогулки: зелени больше, чем кажется</div>
+    </div>
+    <p class="article-lead">Для района с такой плотностью застройки зелени удивительно много. 9 парков и скверов, детские площадки в каждом дворе. И это не советское наследие — большинство парков прошли реконструкцию совсем недавно.</p>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">🛝</div>
+        <div class="insight-title">Алымовский сквер — история преображения</div>
+        <div class="insight-text">Раньше — заброшенный пустырь. Теперь — уютный сквер с велодорожками, клумбами, лавочками, <strong>большой горкой</strong> вдали от дороги. Площадки для занятий «Активного долголетия». Через дорогу — приятные кафе.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🦆</div>
+        <div class="insight-title">Черкизовский детский парк — реконструкция 2019</div>
+        <div class="insight-text">Фонтаны, беседки, спортивные и детские площадки, настольный теннис. <strong>Туалеты — теперь их хватает</strong> (раньше было проблемой). Набережная пруда. Идеально для детей.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">🚲</div>
+        <div class="insight-title">Северный Хапиловский сквер</div>
+        <div class="insight-text">Прогулочные дорожки, живописные клумбы. Детские площадки с современными стандартами безопасности. Умиротворяющая атмосфера — антидот городской суете.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Раньше это место было заброшенным и гуляли только местные с собаками. Сейчас это уютный сквер, который любим всеми местными. Разбили клумбы, создали места для отдыха, занятия спортом. Дорожки для прогулок и для велосипедистов.»<div class="quote-source">— Житель об Алымовском сквере</div></div>
+  </div>
+
+  <!-- ── 8. ДОСУГ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#faf5ff">🎨</div>
+      <div class="article-section-title">Кружки, секции и досуг для детей</div>
+    </div>
+    <p class="article-lead">Дворец творчества «Преображенский» — главная точка притяжения семей с детьми. Жители называют его именно так: «мы там практически живём».</p>
+
+    <div class="insights-grid">
+      <div class="insight-card purple">
+        <div class="insight-icon">🎭</div>
+        <div class="insight-title">Дворец творчества «Преображенский»</div>
+        <div class="insight-text">Танцы (современная хореография, эстрадный танец), рисование, туризм, образовательные программы. <strong>Бассейн 25 м, 5 дорожек.</strong> Семейные группы для плавания. Концертный зал. Кафе до 21:00. До 17 лет — бюджетные группы. Гардероб до 19:00.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🏋️</div>
+        <div class="insight-title">ТЦ «Янтарь» — спорт и еда</div>
+        <div class="insight-text">Фитнес-клуб, школа гимнастики, фудкорт с разными кухнями, рестораны. <strong>Бесплатная большая парковка.</strong> Рядом Черкизовский пруд. Удобно с коляской — всё приспособлено. Нет кинотеатра, но есть всё остальное.</div>
+      </div>
+      <div class="insight-card green">
+        <div class="insight-icon">⚽</div>
+        <div class="insight-title">Стадион «Спартак»</div>
+        <div class="insight-text">Много полей с искусственным покрытием, <strong>одно поле с подогревом.</strong> Раздевалки, туалет, кофе-автоматы, трибуны с крышей. Бесплатная парковка (в дни ЮФЛ пускают на машине). Рядом парк Сокольники.</div>
+      </div>
+    </div>
+
+    <div class="quote-block">«Если бы всё в нашей стране управлялось и было организовано так же, как во Дворце Творчества! Идеально чисто, великолепная территория, отличные концерты, высокий уровень педагогов. У меня двое детей — мы практически там живём.»<div class="quote-source">— Мама двоих детей</div></div>
+  </div>
+
+  <!-- ── 9. СЕРВИСЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#fffbeb">🏛️</div>
+      <div class="article-section-title">Сервисы и госуслуги: лайфхаки</div>
+    </div>
+
+    <div class="insights-grid">
+      <div class="insight-card green">
+        <div class="insight-icon">📋</div>
+        <div class="insight-title">МФЦ Преображенское — как найти</div>
+        <div class="insight-text">Найти сложно — нет указателей ни от метро, ни с дороги. <strong>Используйте навигатор.</strong> Первая дверь — не МФЦ, идите в следующую. Зато внутри: просторно, тихо, детская зона с ТВ, кулер, копир-автомат, терминал оплаты. Намного лучше МФЦ на Открытом шоссе.</div>
+      </div>
+      <div class="insight-card blue">
+        <div class="insight-icon">🧾</div>
+        <div class="insight-title">КДЦ: справки без очередей</div>
+        <div class="insight-text">Справку для водительского удостоверения — <strong>в платном отделении за 2 часа без записи.</strong> Электронные направления вместо бумажных. Аптека с бесплатной выдачей льготных лекарств на 1 этаже.</div>
+      </div>
+      <div class="insight-card yellow">
+        <div class="insight-icon">💳</div>
+        <div class="insight-title">Деньги и оплата</div>
+        <div class="insight-text">На Преображенском рынке <strong>берите наличные</strong> — карты не везде. Банкомат на территории рынка есть. Справка для бассейна — платное отделение КДЦ, около 500 ₽, другое здание.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── 10. ПЛЮСЫ И МИНУСЫ ── -->
+  <div class="article-section">
+    <div class="article-section-head">
+      <div class="article-section-icon" style="background:#f0f9ff">⚖️</div>
+      <div class="article-section-title">Честная картина района</div>
+    </div>
+    <p class="article-lead">Ни один район не идеален. Но зная о минусах заранее, к ним проще адаптироваться — а плюсы начинаешь ценить с первого дня.</p>
+
+    <div class="pro-con-grid">
+      <div class="pro-block">
+        <div class="pro-block-title">✅ Сильные стороны</div>
+        <div class="pc-item"><span class="pc-icon">🛒</span> Магазины буквально под каждым домом — в 2 минутах</div>
+        <div class="pc-item"><span class="pc-icon">🧺</span> Преображенский рынок — уникальный, живой, с душой</div>
+        <div class="pc-item"><span class="pc-icon">🧸</span> 41 детский сад — огромный выбор с хорошими рейтингами</div>
+        <div class="pc-item"><span class="pc-icon">🏫</span> Есть сильные школы, в т.ч. лицей с конкурсом</div>
+        <div class="pc-item"><span class="pc-icon">🌳</span> Обновлённые парки и скверы после реконструкции</div>
+        <div class="pc-item"><span class="pc-icon">🎨</span> Дворец Творчества — один из лучших в Москве</div>
+        <div class="pc-item"><span class="pc-icon">🏥</span> Обновлённые поликлиники с хорошим оборудованием</div>
+        <div class="pc-item"><span class="pc-icon">🚃</span> Трамвай, автобусы, метро — транспорт не проблема</div>
+      </div>
+      <div class="con-block">
+        <div class="con-block-title">🔶 Что учесть</div>
+        <div class="pc-item"><span class="pc-icon">🅿️</span> Парковка напряжённая — у большинства точек</div>
+        <div class="pc-item"><span class="pc-icon">🏛️</span> МФЦ сложно найти — нет указателей снаружи</div>
+        <div class="pc-item"><span class="pc-icon">💳</span> На рынке не везде принимают карты</div>
+        <div class="pc-item"><span class="pc-icon">🎬</span> Нет кинотеатра — ездить в соседние районы</div>
+        <div class="pc-item"><span class="pc-icon">🌃</span> Вечерний досуг для взрослых ограничен</div>
+        <div class="pc-item"><span class="pc-icon">👩‍⚕️</span> Качество врачей неоднородное — нужно искать своих</div>
+        <div class="pc-item"><span class="pc-icon">🚲</span> У Дворца Творчества кражи велосипедов — не оставлять без замка</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ИТОГ -->
+  <div class="summary-banner">
+    <div class="summary-banner-title">ЭТОТ РАЙОН СОЗДАН ДЛЯ СЕМЬИ</div>
+    <div class="summary-banner-text">82 магазина, 41 садик, 26 школ, обновлённые парки с сотнями площадок, Дворец Творчества с бассейном, живой Преображенский рынок и поликлиники после ремонта — всё в 30 минутах пешей прогулки. Богородское и Преображенское — это не просто адрес. Это сообщество реальных людей, которые живут здесь годами и называют его домом. А это, как известно, главный показатель.</div>
+  </div>
+
+</div><!-- /article-wrap -->
+</div><!-- /tab-article -->
+</div>
+
+<!-- FACTS -->
 <div class="app-screen" id="screen-facts">
   <div style="background:#0f172a;padding:16px 28px;border-bottom:1px solid rgba(255,255,255,.08)">
     <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px">
@@ -1689,9 +2111,11 @@ body {
 <!-- SUMMARIES -->
 <div class="app-screen" id="screen-summaries">
   <div style="background:#0f172a;padding:16px 28px;border-bottom:1px solid rgba(255,255,255,.08)">
-    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px">
-      <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">Объекты района</div>
-      <div style="font-size:12px;color:rgba(255,255,255,.3)">Обработанные POI с фактами, предупреждениями и отзывами</div>
+    <div style="max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      <div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:.05em;color:#fff">📋 Объекты района</div>
+        <div style="font-size:13px;color:rgba(255,255,255,.4);margin-top:2px">Кликни на объект → факты, предупреждения, отзывы, ссылка на Яндекс.Карты</div>
+      </div>
     </div>
   </div>
   <div class="main" style="padding:18px 24px 60px;max-width:1440px;margin:0 auto">
@@ -1707,542 +2131,6 @@ body {
 </div>
 
 <!-- CONSTRUCTOR -->
-<div class="app-screen" id="screen-article">
-  <div class="tab-panel active" id="tab-article">
-
-<style>
-/* ── ARTICLE EXTRA STYLES ── */
-.art-toc { background:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:22px 28px; margin:24px auto; max-width:860px; }
-.art-toc-title { font-size:11px; font-weight:700; letter-spacing:.15em; text-transform:uppercase; color:#94a3b8; margin-bottom:14px; }
-.art-toc-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:8px; }
-.art-toc-item { display:flex; align-items:center; gap:8px; padding:9px 13px; border-radius:10px; background:#f8fafc; border:1px solid #e2e8f0; cursor:pointer; transition:all .15s; text-decoration:none; color:#334155; font-size:13px; font-weight:500; }
-.art-toc-item:hover { background:#eff6ff; border-color:#93c5fd; color:#1d4ed8; }
-.art-toc-item .toc-icon { font-size:16px; flex-shrink:0; }
-
-.art-lifehack-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:14px; margin:20px 0; }
-.art-lh { background:#fff; border:1px solid #e2e8f0; border-radius:14px; padding:18px 20px; position:relative; overflow:hidden; }
-.art-lh::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; }
-.art-lh.lh-green::before { background:linear-gradient(90deg,#22d3a5,#4ade80); }
-.art-lh.lh-blue::before { background:linear-gradient(90deg,#60a5fa,#818cf8); }
-.art-lh.lh-orange::before { background:linear-gradient(90deg,#fb923c,#f59e0b); }
-.art-lh.lh-purple::before { background:linear-gradient(90deg,#a78bfa,#f472b6); }
-.art-lh.lh-red::before { background:linear-gradient(90deg,#f87171,#fb923c); }
-.art-lh-icon { font-size:28px; margin-bottom:10px; }
-.art-lh-title { font-size:14px; font-weight:700; color:#1e293b; margin-bottom:7px; line-height:1.3; }
-.art-lh-text { font-size:13px; color:#475569; line-height:1.6; }
-.art-lh-source { font-size:11px; color:#94a3b8; margin-top:8px; font-style:italic; }
-
-.art-section-anchor { padding-top:6px; }
-.art-rating-table { width:100%; border-collapse:collapse; margin:16px 0; border-radius:12px; overflow:hidden; }
-.art-rating-table th { background:#f1f5f9; padding:10px 16px; text-align:left; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:#64748b; }
-.art-rating-table td { padding:12px 16px; border-bottom:1px solid #f1f5f9; font-size:14px; color:#334155; }
-.art-rating-table tr:last-child td { border-bottom:none; }
-.art-rating-table tr:hover td { background:#f8fafc; }
-.art-star { color:#f59e0b; font-weight:700; }
-.art-badge { display:inline-block; padding:2px 9px; border-radius:8px; font-size:11px; font-weight:700; }
-.art-badge.best { background:#dcfce7; color:#15803d; }
-.art-badge.warn { background:#fef2f2; color:#b91c1c; }
-.art-badge.ok { background:#eff6ff; color:#1d4ed8; }
-
-.art-warn-box { background:#fef2f2; border:1px solid #fecaca; border-radius:12px; padding:16px 20px; margin:16px 0; }
-.art-warn-box-title { font-size:13px; font-weight:700; color:#b91c1c; margin-bottom:10px; display:flex; align-items:center; gap:6px; }
-.art-warn-item { font-size:13px; color:#7f1d1d; line-height:1.6; padding:4px 0; border-bottom:1px solid #fecaca; display:flex; gap:8px; }
-.art-warn-item:last-child { border-bottom:none; }
-
-.art-gem-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:12px; margin:16px 0; }
-.art-gem { background:linear-gradient(135deg,#fefce8,#fff); border:1px solid #fde68a; border-radius:12px; padding:16px; }
-.art-gem-icon { font-size:24px; margin-bottom:8px; }
-.art-gem-title { font-size:13px; font-weight:700; color:#78350f; margin-bottom:5px; }
-.art-gem-text { font-size:12px; color:#92400e; line-height:1.5; }
-
-.art-score-widget { background:#fff; border:1px solid #e2e8f0; border-radius:16px; padding:24px 28px; margin:20px 0; }
-.art-score-row { display:flex; align-items:center; gap:16px; margin-bottom:14px; }
-.art-score-row:last-child { margin-bottom:0; }
-.art-score-label { width:160px; font-size:13px; font-weight:600; color:#475569; flex-shrink:0; }
-.art-score-bar { flex:1; height:10px; background:#f1f5f9; border-radius:5px; overflow:hidden; }
-.art-score-fill { height:100%; border-radius:5px; transition:width 1s ease; }
-.art-score-val { width:50px; text-align:right; font-size:13px; font-weight:700; color:#1e293b; flex-shrink:0; }
-.art-score-note { width:80px; text-align:right; flex-shrink:0; }
-
-.art-stat-mini { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:10px; margin:16px 0; }
-.art-sm { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:14px 16px; text-align:center; }
-.art-sm-val { font-family:'Bebas Neue',sans-serif; font-size:30px; letter-spacing:.03em; color:#1e293b; line-height:1; }
-.art-sm-lbl { font-size:11px; color:#94a3b8; margin-top:4px; }
-
-.art-toggle-section { margin:10px 0; }
-.art-toggle-btn { display:flex; align-items:center; gap:8px; padding:10px 16px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; cursor:pointer; font-size:14px; font-weight:600; color:#334155; width:100%; transition:all .15s; }
-.art-toggle-btn:hover { background:#eff6ff; border-color:#93c5fd; }
-.art-toggle-btn .at-arrow { margin-left:auto; transition:transform .2s; }
-.art-toggle-btn.open .at-arrow { transform:rotate(180deg); }
-.art-toggle-content { display:none; padding:16px 0 6px; }
-.art-toggle-content.open { display:block; }
-
-.art-person-cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:10px; margin:14px 0; }
-.art-person { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:15px; display:flex; gap:12px; align-items:flex-start; }
-.art-person-avatar { width:36px; height:36px; border-radius:50%; background:linear-gradient(135deg,#60a5fa,#a78bfa); display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
-.art-person-name { font-size:13px; font-weight:700; color:#1e293b; margin-bottom:3px; }
-.art-person-role { font-size:12px; color:#64748b; margin-bottom:4px; }
-.art-person-fact { font-size:12px; color:#475569; font-style:italic; }
-</style>
-
-<div class="article-wrap">
-
-  <!-- HERO -->
-  <div class="article-hero">
-    <div class="article-hero-label">Паспорт района · Москва · Богородское / Преображенское</div>
-    <div class="article-hero-title">Твой новый дом:<br>Богородское и Преображенское</div>
-    <div class="article-hero-sub">Всё, что ты хотел знать о районе — собрано из 400 000+ отзывов реальных жителей. Честно, без прикрас и с конкретными лайфхаками.</div>
-  </div>
-
-  <!-- STATS -->
-  <div class="article-stats-row">
-    <div class="ast"><div class="ast-val">398</div><div class="ast-lbl">объектов изучено</div></div>
-    <div class="ast"><div class="ast-val">4.5★</div><div class="ast-lbl">средний рейтинг района</div></div>
-    <div class="ast"><div class="ast-val">61</div><div class="ast-lbl">объектов для детей</div></div>
-    <div class="ast"><div class="ast-val">1623</div><div class="ast-lbl">фактов из отзывов</div></div>
-  </div>
-
-  <!-- TOC -->
-  <div style="max-width:900px;margin:0 auto;padding:0 24px;">
-    <div class="art-toc">
-      <div class="art-toc-title">Содержание статьи</div>
-      <div class="art-toc-grid">
-        <a class="art-toc-item" href="#sec-intro"><span class="toc-icon">🏘️</span>Характер района</a>
-        <a class="art-toc-item" href="#sec-scores"><span class="toc-icon">📊</span>Рейтинги по категориям</a>
-        <a class="art-toc-item" href="#sec-kids"><span class="toc-icon">🧸</span>Детская инфраструктура</a>
-        <a class="art-toc-item" href="#sec-medicine"><span class="toc-icon">🏥</span>Медицина и здоровье</a>
-        <a class="art-toc-item" href="#sec-food"><span class="toc-icon">🍽️</span>Еда и магазины</a>
-        <a class="art-toc-item" href="#sec-sport"><span class="toc-icon">💪</span>Спорт и досуг</a>
-        <a class="art-toc-item" href="#sec-gems"><span class="toc-icon">💎</span>Скрытые жемчужины</a>
-        <a class="art-toc-item" href="#sec-lifehacks"><span class="toc-icon">💡</span>Лайфхаки жителей</a>
-        <a class="art-toc-item" href="#sec-honest"><span class="toc-icon">⚖️</span>Честно о минусах</a>
-        <a class="art-toc-item" href="#sec-verdict"><span class="toc-icon">✅</span>Итог</a>
-      </div>
-    </div>
-  </div>
-
-  <div style="max-width:900px;margin:0 auto;padding:0 24px;">
-
-  <!-- ── 1. ВВЕДЕНИЕ ── -->
-  <div class="article-section art-section-anchor" id="sec-intro">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#e8f0fe">🏘️</div>
-      <div class="article-section-title">Характер района</div>
-    </div>
-    <p class="article-lead">Богородское и Преображенское не вписываются в шаблон «спального московского района». Здесь нет пустоты и уныния спальника — зато есть Преображенский рынок 1932 года на территории старообрядческого монастыря, кофейни с латте-артом на кофе с собой, стоматологии с 5.0★ и 600 отзывами, кафе где готовит монах, и фитнес с кинотеатром прямо в зоне кардио.</p>
-    <p class="article-text">Из 398 изученных объектов средний рейтинг по всем категориям — 4.5★. Лидирует спорт и досуг (4.8★), что редкость для жилого района. Самый слабый сегмент — сервисы и банки (4.2★). Из 1623 фактов — несколько сотен предупреждений. Картина непростая, но честная.</p>
-    <div class="quote-block">«Переехала 3 года назад из другого региона. Помню с детства ходила на уличные рынки — там самые вкусные фрукты и овощи по низким ценам. Переехав в Москву, удивилась, что тут из рынков почти ничего. И вот — ЧУДО — Преображенский рынок!»<div class="quote-source">— Жительница района</div></div>
-  </div>
-
-  <!-- ── РЕЙТИНГИ ── -->
-  <div class="article-section art-section-anchor" id="sec-scores">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#f0f9ff">📊</div>
-      <div class="article-section-title">Рейтинги по категориям: что хорошо, что — так себе</div>
-    </div>
-    <p class="article-lead">Данные из 398 объектов, 1623 фактов. Это не ощущения — это агрегированные оценки от реальных людей.</p>
-
-    <div class="art-score-widget">
-      <div class="art-score-row">
-        <div class="art-score-label">💪 Спорт и досуг</div>
-        <div class="art-score-bar"><div class="art-score-fill" style="width:96%;background:linear-gradient(90deg,#22d3a5,#4ade80)"></div></div>
-        <div class="art-score-val">4.8★</div>
-        <div class="art-score-note"><span class="art-badge best">лучший</span></div>
-      </div>
-      <div class="art-score-row">
-        <div class="art-score-label">📌 Разное</div>
-        <div class="art-score-bar"><div class="art-score-fill" style="width:92%;background:linear-gradient(90deg,#60a5fa,#818cf8)"></div></div>
-        <div class="art-score-val">4.6★</div>
-        <div class="art-score-note"><span class="art-badge ok">хорошо</span></div>
-      </div>
-      <div class="art-score-row">
-        <div class="art-score-label">👶 Детям</div>
-        <div class="art-score-bar"><div class="art-score-fill" style="width:90%;background:linear-gradient(90deg,#a78bfa,#f472b6)"></div></div>
-        <div class="art-score-val">4.5★</div>
-        <div class="art-score-note"><span class="art-badge ok">хорошо</span></div>
-      </div>
-      <div class="art-score-row">
-        <div class="art-score-label">🏥 Медицина</div>
-        <div class="art-score-bar"><div class="art-score-fill" style="width:90%;background:linear-gradient(90deg,#f97316,#fbbf24)"></div></div>
-        <div class="art-score-val">4.5★</div>
-        <div class="art-score-note"><span class="art-badge ok">хорошо</span></div>
-      </div>
-      <div class="art-score-row">
-        <div class="art-score-label">🍽 Еда и магазины</div>
-        <div class="art-score-bar"><div class="art-score-fill" style="width:86%;background:linear-gradient(90deg,#fbbf24,#84cc16)"></div></div>
-        <div class="art-score-val">4.3★</div>
-        <div class="art-score-note"><span class="art-badge ok">средне</span></div>
-      </div>
-      <div class="art-score-row">
-        <div class="art-score-label">🏪 Сервисы и банки</div>
-        <div class="art-score-bar"><div class="art-score-fill" style="width:84%;background:linear-gradient(90deg,#f87171,#fb923c)"></div></div>
-        <div class="art-score-val">4.2★</div>
-        <div class="art-score-note"><span class="art-badge warn">слабее</span></div>
-      </div>
-    </div>
-
-    <div class="art-stat-mini">
-      <div class="art-sm"><div class="art-sm-val">38</div><div class="art-sm-lbl">объектов спорта и досуга</div></div>
-      <div class="art-sm"><div class="art-sm-val">55</div><div class="art-sm-lbl">мед. учреждений</div></div>
-      <div class="art-sm"><div class="art-sm-val">61</div><div class="art-sm-lbl">объектов для детей</div></div>
-      <div class="art-sm"><div class="art-sm-val">35</div><div class="art-sm-lbl">кафе и магазинов</div></div>
-      <div class="art-sm"><div class="art-sm-val">15</div><div class="art-sm-lbl">сервисов и банков</div></div>
-    </div>
-  </div>
-
-  <!-- ── ДЕТЯМ ── -->
-  <div class="article-section art-section-anchor" id="sec-kids">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#fdf4ff">🧸</div>
-      <div class="article-section-title">Детская инфраструктура: сильная сторона района</div>
-    </div>
-    <p class="article-lead">61 объект для детей, средний рейтинг 4.5★. Частные сады с занятиями с носителем языка, театральные студии, школы с обязательной робототехникой, летние бассейны на площадках. Выбор реальный.</p>
-
-    <div class="art-lifehack-grid">
-      <div class="art-lh lh-purple">
-        <div class="art-lh-icon">🎭</div>
-        <div class="art-lh-title">Театральная студия «Понарошку»</div>
-        <div class="art-lh-text">Занятия по воскресеньям. Дети преодолевают стеснение, учатся выступать и улучшают речь. Педагоги готовят к конкурсным выступлениям.</div>
-      </div>
-      <div class="art-lh lh-blue">
-        <div class="art-lh-icon">🤸</div>
-        <div class="art-lh-title">Студия J2s — воздушная гимнастика</div>
-        <div class="art-lh-text">Занятия на полотнах-гамаках, антигравити, детский кроссфит и йога для подростков. Мини-группы — тренер уделяет время каждому. В будни днём народу мало.</div>
-      </div>
-      <div class="art-lh lh-green">
-        <div class="art-lh-icon">🏫</div>
-        <div class="art-lh-title">Школа «Энергия» (корп. Бета)</div>
-        <div class="art-lh-text">Обязательные уроки: робототехника, мультипликация, IT, шахматы. В лицейских классах — 20 человек. Телефоны сдают на входе — и дети реально общаются.</div>
-      </div>
-      <div class="art-lh lh-orange">
-        <div class="art-lh-icon">🥋</div>
-        <div class="art-lh-title">Цюань Шу — боевые искусства с 5 лет</div>
-        <div class="art-lh-text">Тренировки 2.5 часа с дыхательными практиками и растяжкой. Дети от 5 лет бегут сами. Для продвинутых — межстилевые поединки с другими школами.</div>
-      </div>
-      <div class="art-lh lh-purple">
-        <div class="art-lh-icon">🌱</div>
-        <div class="art-lh-title">Happy Nappy — частный сад</div>
-        <div class="art-lh-text">В первый день воспитатели фотографируют ребёнка каждые полчаса. Занятия с нейропсихологом, логопедом и носителем английского. Летом — свой бассейн на площадке.</div>
-      </div>
-      <div class="art-lh lh-blue">
-        <div class="art-lh-icon">🏹</div>
-        <div class="art-lh-title">ОКЦ ВАО — стрельба из лука и ханг</div>
-        <div class="art-lh-text">Секция стрельбы из лука и арбалета, шахматный клуб с тренерами от Федерации шахмат Москвы, школа ханга. Летний лагерь «Страна чудес» — 20+ активностей, включая лошадей. Центр работает до 22:00.</div>
-      </div>
-    </div>
-
-    <div class="quote-block">«После каждого занятия дочь садилась в машину и начинала взахлёб рассказывать! Сперва они изучали королей, потом были и Битлз, и Шерлок Холмс...»<div class="quote-source">— Родитель об учителе английского Наталии Юрьевне Тушиной, школа №1797</div></div>
-
-    <div class="art-toggle-section">
-      <div class="art-toggle-btn" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
-        <span>🏊 Особые находки: детские бассейн и анализы без слёз</span>
-        <span class="at-arrow">▼</span>
-      </div>
-      <div class="art-toggle-content">
-        <div class="art-lifehack-grid">
-          <div class="art-lh lh-green">
-            <div class="art-lh-icon">🏊</div>
-            <div class="art-lh-title">Поликлиника №52 — бассейн внутри</div>
-            <div class="art-lh-text">В детской городской поликлинике №52 (фил. №1) есть бассейн для малышей с инструктором Галиной Сергеевной. 5.0★, 294 отзыва.</div>
-          </div>
-          <div class="art-lh lh-blue">
-            <div class="art-lh-icon">🎁</div>
-            <div class="art-lh-title">CMD — анализы без слёз, с шарами</div>
-            <div class="art-lh-text">После сдачи анализов детям дарят грамоты, раскраски и воздушные шары. Медсёстры умеют уговаривать детей без слёз. Результаты — раньше срока.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── МЕДИЦИНА ── -->
-  <div class="article-section art-section-anchor" id="sec-medicine">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#fff0f0">🏥</div>
-      <div class="article-section-title">Медицина и здоровье: знайте своих врачей</div>
-    </div>
-    <p class="article-lead">55 медицинских объектов, 4.5★ в среднем. Самый ценный вывод — конкретные имена врачей, к которым стоит записываться. Ниже — реальные находки, вытащенные из тысяч отзывов.</p>
-
-    <div class="art-person-cards">
-      <div class="art-person">
-        <div class="art-person-avatar">🦷</div>
-        <div>
-          <div class="art-person-name">Плотников Максим</div>
-          <div class="art-person-role">ОлДент — хирург-имплантолог</div>
-          <div class="art-person-fact">«Делает коронки с идеальным подбором цвета. Спасает зубы, которые другие предлагали удалить»</div>
-        </div>
-      </div>
-      <div class="art-person">
-        <div class="art-person-avatar">👶</div>
-        <div>
-          <div class="art-person-name">Падохина Евгения Владимировна</div>
-          <div class="art-person-role">Денталити — детский стоматолог</div>
-          <div class="art-person-fact">«Дарит детям сюрпризы, убирает страх зубного врача. Дочь теперь сама просится»</div>
-        </div>
-      </div>
-      <div class="art-person">
-        <div class="art-person-avatar">🔬</div>
-        <div>
-          <div class="art-person-name">Никифоров Сергей Петрович</div>
-          <div class="art-person-role">Дантист&amp;Док — хирург</div>
-          <div class="art-person-fact">«Делает операции под седацией, принимает с острой болью когда другие отказывают»</div>
-        </div>
-      </div>
-      <div class="art-person">
-        <div class="art-person-avatar">😬</div>
-        <div>
-          <div class="art-person-name">Левадная Татьяна Эрнестовна</div>
-          <div class="art-person-role">СТ — терапевт</div>
-          <div class="art-person-fact">«Пломбы держатся 5–7 лет, пациенты ходят к ней 10–15 лет подряд»</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="art-lifehack-grid" style="margin-top:16px">
-      <div class="art-lh lh-green">
-        <div class="art-lh-icon">⚡</div>
-        <div class="art-lh-title">ОлДент — имплант за один день</div>
-        <div class="art-lh-text">Удаление зуба и установка импланта в один визит. Принимают срочных пациентов в праздники, включая детей 4 лет. 5.0★, 586 отзывов.</div>
-      </div>
-      <div class="art-lh lh-blue">
-        <div class="art-lh-icon">🐾</div>
-        <div class="art-lh-title">Масвет — ветклиника с котом</div>
-        <div class="art-lh-text">УЗИ и анализы готовы за 15 минут. Дневной стационар. После процедур врачи сами звонят узнать как питомец. И да — в холле живёт кот Инокентий.</div>
-      </div>
-      <div class="art-lh lh-orange">
-        <div class="art-lh-icon">📋</div>
-        <div class="art-lh-title">Ситимед — справка за 10 минут</div>
-        <div class="art-lh-text">Справка для ГИБДД по предварительной онлайн-записи — ровно 10 минут. Форма для автошколы — 15 минут. Бонус: при плохом самочувствии бесплатно измерят давление и угостят чаем с конфетами.</div>
-      </div>
-      <div class="art-lh lh-purple">
-        <div class="art-lh-icon">🦷</div>
-        <div class="art-lh-title">Денталити — 3D-очки во время лечения</div>
-        <div class="art-lh-text">Можно наблюдать за своим лечением в 3D-очках в реальном времени прямо с кресла. Ретейнер после брекетов держится без дискомфорта уже 10 лет (Профидент).</div>
-      </div>
-    </div>
-
-    <div class="quote-block">«Я долго не мог найти клинику — меня не брали из-за диабета. А тут сделали оперативно три зуба.»<div class="quote-source">— Пациент о стоматологии «Профидент»</div></div>
-  </div>
-
-  <!-- ── ЕДА ── -->
-  <div class="article-section art-section-anchor" id="sec-food">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#f0faf6">🍽️</div>
-      <div class="article-section-title">Еда, кафе и магазины: 4.3★ и много нюансов</div>
-    </div>
-    <p class="article-lead">35 заведений, средний рейтинг 4.3★ — ниже других категорий. Но среди них есть настоящие находки. Главное — знать, куда и зачем идти.</p>
-
-    <table class="art-rating-table">
-      <tr><th>Заведение</th><th>Зачем идти</th><th>★</th><th>Мин</th></tr>
-      <tr><td><strong>True Cost</strong></td><td>Хинкали лучше грузинских, морской ёж, живая музыка именинникам</td><td class="art-star">5.0</td><td>14</td></tr>
-      <tr><td><strong>Монастырский дворик</strong></td><td>Выпечка монахов, терраса в цветах, доставка с оплатой по факту</td><td class="art-star">5.0</td><td>19</td></tr>
-      <tr><td><strong>Ашлянфу №1</strong></td><td>Аутентичная киргизская кухня, бозо, шоро-жарма — работает до полуночи</td><td class="art-star">5.0</td><td>22</td></tr>
-      <tr><td><strong>Манави</strong></td><td>Торт «Чёрный лес», батуты на летней веранде для детей, уникальный салат</td><td class="art-star">4.9</td><td>15</td></tr>
-      <tr><td><strong>ProfiTrolly</strong></td><td>Ребёнка можно оставить в «Тролли Кидс» (1000₽/час) рядом и спокойно поесть</td><td class="art-star">4.9</td><td>7</td></tr>
-      <tr><td><strong>Хинкали-Gали</strong></td><td>МК для детей по хинкали. В обед бесплатно суп и компот. Акция 15+5 — только в будни</td><td class="art-star">4.9</td><td>25</td></tr>
-      <tr><td><strong>Черкизовский завод</strong></td><td>Прямо из цеха, цены вдвое ниже. С детьми пропускают без очереди</td><td class="art-star">4.9</td><td>12</td></tr>
-    </table>
-
-    <div class="art-warn-box">
-      <div class="art-warn-box-title">⚠️ Заведения с тревожными отзывами</div>
-      <div class="art-warn-item"><span>🐀</span><span><strong>Дикси</strong> — отзывы о крысах в магазине</span></div>
-      <div class="art-warn-item"><span>🪲</span><span><strong>Юрта</strong> — жалобы на обнаруженного таракана</span></div>
-      <div class="art-warn-item"><span>🦠</span><span><strong>Грузинская кухня</strong> — несколько отзывов о тараканах и грязи</span></div>
-      <div class="art-warn-item"><span>🍰</span><span><strong>Добрынинский</strong> — торты с плесенью при свежей дате производства</span></div>
-      <div class="art-warn-item"><span>💸</span><span><strong>Манави</strong> — при заказе торта с собой скрытый «сладкий сбор» 1000–2000₽</span></div>
-    </div>
-
-    <div class="quote-block">«Горячие обеды готовит монах — круче чем в ресторане!»<div class="quote-source">— Гость «Монастырского дворика»</div></div>
-  </div>
-
-  <!-- ── СПОРТ ── -->
-  <div class="article-section art-section-anchor" id="sec-sport">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#f0fdf4">💪</div>
-      <div class="article-section-title">Спорт и досуг: лучшая категория района (4.8★)</div>
-    </div>
-    <p class="article-lead">38 объектов, средний рейтинг 4.8★ — реально сильно для жилого района. Есть Gold's Gym с кардио-кинотеатром и баскетболом на крыше, EMS-студия с 20-минутными тренировками с эффектом двухчасовых, и кунг-фу для детей от 5 лет.</p>
-
-    <div class="art-gem-grid">
-      <div class="art-gem">
-        <div class="art-gem-icon">🎬</div>
-        <div class="art-gem-title">Gold's Gym — кино во время кардио</div>
-        <div class="art-gem-text">Сайклинг-зал с кинотеатром. По словам клиентов — такого нигде больше нет. На крыше: баскетбол, бадминтон, теннис. Работает до 23:00.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">⚡</div>
-        <div class="art-gem-title">JustFit — 20 минут = 2 часа</div>
-        <div class="art-gem-text">EMS-тренировки: 20 минут дают эффект полноценной тренировки в зале. Всё выдают: форма, тапочки, полотенца. Работает при восстановлении после травм.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🎯</div>
-        <div class="art-gem-title">ОКЦ ВАО — стрельба из арбалета</div>
-        <div class="art-gem-text">Секция стрельбы из лука и арбалета для взрослых. Шахматный клуб с тренерами от Федерации шахмат Москвы. Всё это в районном культурном центре, открытом до 22:00.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🏓</div>
-        <div class="art-gem-title">Легенда — настольный теннис 24/7</div>
-        <div class="art-gem-text">Столы от Евгения Сталева, работает круглосуточно. Можно заказать еду из соседней чайханы. Есть бильярд.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🌊</div>
-        <div class="art-gem-title">Набережная Шитова — шашлык бесплатно</div>
-        <div class="art-gem-text">Бесплатные беседки для жарки шашлыка прямо на набережной с фонтанами и подсветкой. Бесплатный туалет. Предупреждение: ходят слухи о возможном сносе беседок.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🌿</div>
-        <div class="art-gem-title">Хапиловский сквер — история под ногами</div>
-        <div class="art-gem-text">На месте засыпанного в 1920-х пруда. Зимой можно кататься на лыжах по дорожкам. Закрытая собачья площадка, дикая яблоня с урожаем, который никто не собирает.</div>
-      </div>
-    </div>
-
-    <div class="quote-block">«Зал для сайклинга с кинотеатром — я такое вообще впервые вижу»<div class="quote-source">— Клиент Gold's Gym</div></div>
-  </div>
-
-  <!-- ── СКРЫТЫЕ ЖЕМЧУЖИНЫ ── -->
-  <div class="article-section art-section-anchor" id="sec-gems">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#fef9ec">💎</div>
-      <div class="article-section-title">Скрытые жемчужины: то, что знают только местные</div>
-    </div>
-    <p class="article-lead">Самые неожиданные факты из почти 1700 фактов — вещи, которые не найдёшь в путеводителе.</p>
-
-    <div class="art-gem-grid">
-      <div class="art-gem">
-        <div class="art-gem-icon">☕</div>
-        <div class="art-gem-title">МФЦ — кофе за ожидание</div>
-        <div class="art-gem-text">За ожидание более 15 минут в МФЦ дают бесплатный кофе. Ещё здесь за 20 минут проходят медобследование с результатами, и делают бесплатный ПЦР-тест.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">⚔️</div>
-        <div class="art-gem-title">Арт-кластер Восток — примерь латы</div>
-        <div class="art-gem-text">На занятиях реконструкторов можно примерить средневековое оружие и латы. Бесплатные спектакли. Временно не работает — следите за обновлениями.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🏛️</div>
-        <div class="art-gem-title">Горсуд — хинкальная и парковка</div>
-        <div class="art-gem-text">Если занесло в Московский горсуд — напротив здания очень вкусная и недорогая хинкальная. Бесплатная парковка через дорогу. Апелляции — в отдельном корпусе позади.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🍵</div>
-        <div class="art-gem-title">«Лёд и Пар» — квест для детей</div>
-        <div class="art-gem-text">Квест по галерее с призом при наличии соцкарты или карты школьника. Бамбл-кофе с гранатовым, вишнёвым соком. Каждое 9-е кофе бесплатно. Латте-арт даже на кофе с собой.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🐱</div>
-        <div class="art-gem-title">Ветклиника Масвет — кот на ресепшн</div>
-        <div class="art-gem-text">В холле живёт кот Инокентий, который встречает посетителей. Анализы за 15 минут. Дневной стационар с обратной связью от врачей.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🏛️</div>
-        <div class="art-gem-title">Парк Горка — стена плача и QR</div>
-        <div class="art-gem-text">В парке есть копия Иерусалимской Стены плача с записочками, арт-объект «Стела» Шелковского. Тренажёры с QR-кодами — сканируешь, смотришь видео с упражнением.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🧶</div>
-        <div class="art-gem-title">«Союзспецодежда» с кафе и клиникой</div>
-        <div class="art-gem-text">В магазине спецодежды неожиданно: кофе/чай во время примерки и ветеринарная клиника. Онлайн-примерка — заказал размер на сайте, приехал только за готовым.</div>
-      </div>
-      <div class="art-gem">
-        <div class="art-gem-icon">🎭</div>
-        <div class="art-gem-title">Храм — воскресная школа с радиокружком</div>
-        <div class="art-gem-text">При Храме Преображения в Богородском — воскресная школа с бесплатными кружками: технический, радио, ансамбль балалаек. Детская площадка за храмом.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── ЛАЙФХАКИ ── -->
-  <div class="article-section art-section-anchor" id="sec-lifehacks">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#fffbeb">💡</div>
-      <div class="article-section-title">Лайфхаки жителей: практические советы</div>
-    </div>
-    <p class="article-lead">Собранные из отзывов конкретные советы, которые экономят время и деньги — только то, что подтверждено несколькими источниками.</p>
-
-    <div class="art-lifehack-grid">
-      <div class="art-lh lh-green">
-        <div class="art-lh-icon">🥩</div>
-        <div class="art-lh-title">Мясокомбинат — лайфхак с детьми</div>
-        <div class="art-lh-text">На Черкизовском мясокомбинате охранник дозированно пропускает людей. <strong>С маленькими детьми — без очереди.</strong> В выходные очередь до 500 метров, в будни — комфортно. Перед Новым годом скидки до 99%.</div>
-      </div>
-      <div class="art-lh lh-blue">
-        <div class="art-lh-icon">💊</div>
-        <div class="art-lh-title">Аптека «Здоров.ру» — редкие лекарства</div>
-        <div class="art-lh-text">Часто есть препараты, которых нет в других аптеках. <strong>Интернет-заказы обслуживают вне очереди</strong> — 2–3 минуты. Бесплатное измерение давления. Цены ниже конкурентов.</div>
-      </div>
-      <div class="art-lh lh-orange">
-        <div class="art-lh-icon">🛒</div>
-        <div class="art-lh-title">Скидки по времени суток</div>
-        <div class="art-lh-text">МясновЪ — пирожки после 19:00 со <strong>скидкой 40%</strong>. Магнолия — ночью скидка 50% на салаты по карте. ВкусВилл — полка −40% за 2 дня до срока. Буханка — вечером скидки.</div>
-      </div>
-      <div class="art-lh lh-purple">
-        <div class="art-lh-icon">📑</div>
-        <div class="art-lh-title">Invitro — без «натощак»</div>
-        <div class="art-lh-text">Многие анализы здесь сдают без требования строго натощак — достаточно не есть 4 часа. Результаты приходят на почту уже следующим утром. Осторожно: в субботу забор крови заканчивается в 14:30, а не в 15:00.</div>
-      </div>
-      <div class="art-lh lh-green">
-        <div class="art-lh-icon">📚</div>
-        <div class="art-lh-title">Библиотека №107 — дешёвая печать</div>
-        <div class="art-lh-text">В библиотеке можно недорого распечатать документы прямо с почты или флешки. Есть детские кружки. Живые консультации при выборе книги.</div>
-      </div>
-      <div class="art-lh lh-red">
-        <div class="art-lh-icon">🏦</div>
-        <div class="art-lh-title">Банки — читайте мелкий шрифт</div>
-        <div class="art-lh-text">МКБ списывает 100₽/мес за скрытую страховку по карте. Блокировку счёта (МКБ, Уральский) снять можно только лично в офисе. Почта-банк: карта Пятёрочки даёт +2500 бонусных баллов в год.</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── ЧЕСТНО О МИНУСАХ ── -->
-  <div class="article-section art-section-anchor" id="sec-honest">
-    <div class="article-section-head">
-      <div class="article-section-icon" style="background:#f0f9ff">⚖️</div>
-      <div class="article-section-title">Честно о минусах</div>
-    </div>
-    <p class="article-lead">Из 1623 фактов несколько сотен — предупреждения. Вот самые значимые, чтобы знать заранее.</p>
-
-    <div class="pro-con-grid">
-      <div class="pro-block">
-        <div class="pro-block-title">✅ Что реально сильно</div>
-        <div class="pc-item"><span class="pc-icon">💪</span> Спорт и досуг — лучший рейтинг (4.8★), уникальные объекты</div>
-        <div class="pc-item"><span class="pc-icon">🦷</span> Стоматология — несколько клиник с 5.0★ и 500+ отзывами</div>
-        <div class="pc-item"><span class="pc-icon">🧸</span> 61 объект для детей с реальным разнообразием</div>
-        <div class="pc-item"><span class="pc-icon">🐾</span> Ветеринария высокого уровня, включая 24/7 приём</div>
-        <div class="pc-item"><span class="pc-icon">🍽️</span> Кухни мира в районе: грузинская, киргизская, монастырская</div>
-        <div class="pc-item"><span class="pc-icon">🏹</span> Уникальные секции: лук, арбалет, ханг, кунг-фу с 5 лет</div>
-      </div>
-      <div class="con-block">
-        <div class="con-block-title">🔶 Что учесть заранее</div>
-        <div class="pc-item"><span class="pc-icon">🏪</span> Сервисы и банки — слабый сегмент (4.2★), скрытые комиссии</div>
-        <div class="pc-item"><span class="pc-icon">🐀</span> Несколько заведений с жалобами на санитарию — изучайте заранее</div>
-        <div class="pc-item"><span class="pc-icon">🌃</span> Вечерний досуг для взрослых ограничен, ночной жизни нет</div>
-        <div class="pc-item"><span class="pc-icon">🅿️</span> Парковка напряжённая у большинства объектов</div>
-        <div class="pc-item"><span class="pc-icon">👩‍⚕️</span> Качество врачей в муниципалке неоднородное — искать конкретных</div>
-        <div class="pc-item"><span class="pc-icon">💳</span> На Преображенском рынке не везде принимают карты</div>
-      </div>
-    </div>
-
-    <div class="art-warn-box" style="margin-top:16px">
-      <div class="art-warn-box-title">🚨 Серьёзные инциденты в отзывах (единичные, но зафиксированные)</div>
-      <div class="art-warn-item"><span>⚠️</span><span><strong>Пятёрочка</strong> — в одном отзыве описан инцидент с применением физической силы к покупателю персоналом. WOW-рейтинг 10.</span></div>
-      <div class="art-warn-item"><span>⚠️</span><span><strong>VivaDent</strong> — по отзывам клиника предположительно передаёт данные клиентов другим организациям</span></div>
-      <div class="art-warn-item"><span>⚠️</span><span><strong>Ярче!</strong> — директор Людмила и продавец Ольга упоминаются в жалобах на грубость. WOW-рейтинг 9.</span></div>
-    </div>
-  </div>
-
-  <!-- ИТОГ -->
-  <div class="article-section art-section-anchor" id="sec-verdict">
-    <div class="summary-banner">
-      <div class="summary-banner-title">БОГОРОДСКОЕ И ПРЕОБРАЖЕНСКОЕ: ЧЕСТНЫЙ ИТОГ</div>
-      <div class="summary-banner-text" style="margin:0 auto;max-width:700px">Это район, где спорт работает лучше, чем в большинстве московских локаций (4.8★), стоматологи спасают зубы которые другие предлагали удалить, в ветклинике вас встретит кот, а в МФЦ дадут кофе если придётся подождать. Из 1623 фактов большинство — о том, что работает и помогает. Это честный показатель: здесь живут годами и остаются.</div>
-    </div>
-  </div>
-
-</div><!-- /article-wrap -->
-</div><!-- /tab-article -->
-</div>
-
-<!-- FACTS -->
 <div class="app-screen" id="screen-constructor">
   <div class="future-screen">
     <div class="future-icon">⚙️</div>
@@ -2298,39 +2186,23 @@ body {
 let aFacts=[], aSumm=[], prog={}, logL=[], csvP=[];
 let revCache={};
 
-function animateScoreBars() {
-  document.querySelectorAll('.art-score-fill').forEach(el => {
-    const w = el.style.width;
-    el.style.width = '0';
-    setTimeout(() => { el.style.width = w; }, 100);
-  });
-}
-
 function switchScreen(id) {
   document.querySelectorAll('.app-screen').forEach(s=>s.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(b=>b.classList.remove('active'));
   document.getElementById('screen-'+id)?.classList.add('active');
-  const order=['map','guide','analytics','facts','summaries','article','constructor'];
+  const order=['map','analytics','summaries','article','constructor'];
   const tabs=document.querySelectorAll('.nav-tab');
   const idx=order.indexOf(id);
   if(tabs[idx]) tabs[idx].classList.add('active');
   window.scrollTo(0,0);
   if(id==='analytics') rAnalytics();
-  if(id==='facts') rFacts();
   if(id==='summaries') rSumm();
-  if(id==='guide'){
-    updateGuideStats();
-    if(!reportPois.length) loadData();
-    else buildPersonas();
-  }
+
   if(id==='map') {
     switchMapTab('map');
     if(window._map) setTimeout(()=>window._map.invalidateSize(),80);
   }
-  if(id==='article') {
-    switchMapTab('article');
-    setTimeout(animateScoreBars, 300);
-  }
+  if(id==='article') switchMapTab('article');
 }
 
 function parseCSV(txt){
@@ -2348,55 +2220,14 @@ function nu(u){return(u||'').replace(/\/+$/,'').toLowerCase();}
 function emptyH(ic,tx){return`<div class="empty" style="grid-column:1/-1"><div class="ei">${ic}</div><p>${tx}</p></div>`;}
 function v(id){return(ge(id)||{value:''}).value||'';}
 
-// Кэш содержимого zip-архива (заполняется при первой загрузке)
-let _zipCache = null;
-
-async function getZipContent() {
-  if (_zipCache) return _zipCache;
-  try {
-    const resp = await fetch('data.zip?_=' + Date.now());
-    if (!resp.ok) return null;
-    const zipData = await resp.arrayBuffer();
-    const zip = new JSZip();
-    _zipCache = await zip.loadAsync(zipData);
-    return _zipCache;
-  } catch(e) { return null; }
-}
-
-async function fetchJsonFile(filename) {
-  // Сначала пробуем как отдельный файл
-  try {
-    const r = await fetch(filename + '?_=' + Date.now());
-    if (r.ok) return await r.json();
-  } catch(e) {}
-  // Если не получилось — ищем в zip
-  try {
-    const zip = await getZipContent();
-    if (!zip) return null;
-    const entry = Object.keys(zip.files).find(n => n === filename || n.endsWith('/' + filename));
-    if (!entry) return null;
-    const str = await zip.files[entry].async('string');
-    return JSON.parse(str);
-  } catch(e) { return null; }
-}
-
 async function loadAllData(){
-  const factsData = await fetchJsonFile('facts_flat.json');
-  if (factsData) {
-    aFacts = factsData;
-    const el=ge('nav-facts-cnt');if(el)el.textContent=factsData.length;
-    const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=factsData.length;
-  }
-
-  const summData = await fetchJsonFile('poi_summaries.json');
-  if (summData) {
-    aSumm = summData;
-    const sc=ge('nav-summ-cnt');if(sc)sc.textContent=summData.length;
-  }
-
-  const progData = await fetchJsonFile('progress.json');
-  if (progData) prog = progData;
-
+  const jobs=[
+    ['facts_flat.json',    d=>{aFacts=d;const el=ge('nav-facts-cnt');if(el)el.textContent=d.length;
+      const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=d.length;}],
+    ['poi_summaries.json', d=>{aSumm=d;const sc=ge('nav-summ-cnt');if(sc)sc.textContent=d.length;}],
+    ['progress.json',      d=>prog=d],
+  ];
+  for(const[f,cb]of jobs){try{const r=await fetch(f+'?_='+Date.now());if(r.ok)cb(await r.json());}catch(e){}}
   try{const r=await fetch('poi_enriched.csv?_='+Date.now());if(r.ok)csvP=parseCSV(await r.text());}catch(e){}
   try{const r=await fetch('pipeline.log?_='+Date.now());if(r.ok)logL=parseLog(await r.text());}catch(e){}
 }
@@ -2411,30 +2242,11 @@ function updateGuideStats(){
 async function unifiedInit(){
   await loadAllData();
   updateGuideStats();
-  // Рендерим факты и объекты сразу после загрузки данных
-  // (на случай если пользователь уже переключился на эти вкладки)
-  rFacts();
-  rSumm();
-  // Обновляем счётчики в навбаре
-  const el=ge('nav-facts-cnt');if(el)el.textContent=aFacts.length;
-  const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=aFacts.length;
-  const sc=ge('nav-summ-cnt');if(sc)sc.textContent=aSumm.length;
   document.querySelectorAll('.pdt').forEach(t=>t.addEventListener('click',()=>{
     document.querySelectorAll('.pdt,.pdp').forEach(x=>x.classList.remove('active'));
     t.classList.add('active');
     ge(t.dataset.ptab)?.classList.add('active');
   }));
-  // TOC smooth scroll
-  document.querySelectorAll('.art-toc-item').forEach(a => {
-    a.addEventListener('click', function(e) {
-      const href = this.getAttribute('href');
-      const target = document.querySelector(href);
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
   if(typeof initMapApp==='function') initMapApp();
 }
 
@@ -2994,25 +2806,11 @@ window._map = map;
 }).addTo(map);
   }
   try {
-    const ZIP_FILE = 'data.zip';
-    const resp = await fetch(ZIP_FILE + '?_=' + Date.now());
+    const resp = await fetch(DATA_FILE);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const zipData = await resp.arrayBuffer();
-
-    const zip = new JSZip();
-    const zipContent = await zip.loadAsync(zipData);
-
-    // Находим JSON-файл внутри архива
-    const jsonFileName = Object.keys(zipContent.files).find(
-      name => name.endsWith('.json')
-    );
-    if (!jsonFileName) throw new Error('JSON не найден в архиве');
-
-    const jsonString = await zipContent.files[jsonFileName].async('string');
-    DATA = JSON.parse(jsonString);
-    console.log('Loaded from zip:', jsonFileName, Object.keys(DATA));
+    DATA = await resp.json();
   } catch (e) {
-    document.querySelector('.loading-sub').textContent = '⚠️ Не удалось загрузить data.zip. Положите файл рядом с HTML.';
+    document.querySelector('.loading-sub').textContent = '⚠️ Не удалось загрузить ' + DATA_FILE + '. Положите файл рядом с HTML.';
     console.error(e);
     return;
   }
@@ -3091,13 +2889,8 @@ function toggleAuto(){clearTimeout(autoTmr);if(document.getElementById('auto-chk
 
 async function loadAll(){
   const b=document.getElementById('rbtn');b.classList.add('spin');
-  // Используем fetchJsonFile который умеет читать и из zip
-  const factsD = await fetchJsonFile('facts_flat.json');
-  if(factsD) { aFacts=factsD; }
-  const summD = await fetchJsonFile('poi_summaries.json');
-  if(summD) { aSumm=summD; }
-  const progD = await fetchJsonFile('progress.json');
-  if(progD) { prog=progD; }
+  const jobs=[['facts_flat.json',d=>aFacts=d],['poi_summaries.json',d=>aSumm=d],['progress.json',d=>prog=d]];
+  for(const[f,cb]of jobs){try{const r=await fetch(f+'?_='+Date.now());if(r.ok)cb(await r.json());}catch(e){}}
   try{const r=await fetch('poi_enriched.csv?_='+Date.now());if(r.ok)csvP=parseCSV(await r.text());}catch(e){}
   try{const r=await fetch('pipeline.log?_='+Date.now());if(r.ok)logL=parseLog(await r.text());}catch(e){}
   renderAll();b.classList.remove('spin');
@@ -3965,7 +3758,5 @@ function closeModal(e) {
 // ══ BOOT ══
 unifiedInit();
 </script>
-
-
 </body>
 </html>
