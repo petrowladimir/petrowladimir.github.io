@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@300;400;500;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 
@@ -1621,7 +1620,7 @@ body {
 </div>
 
 <nav class="app-nav">
-  <div class="app-logo"><div class="dot"></div>РАЙОН·AI</div>
+  <div class="app-logo"><div class="dot"></div>МОЙ·РАЙОН</div>
   <div class="nav-tabs">
     <button class="nav-tab active" onclick="switchScreen('map')">🗺 Карта</button>
     <button class="nav-tab" onclick="switchScreen('analytics')">
@@ -2221,55 +2220,14 @@ function nu(u){return(u||'').replace(/\/+$/,'').toLowerCase();}
 function emptyH(ic,tx){return`<div class="empty" style="grid-column:1/-1"><div class="ei">${ic}</div><p>${tx}</p></div>`;}
 function v(id){return(ge(id)||{value:''}).value||'';}
 
-// Кэш содержимого zip-архива (заполняется при первой загрузке)
-let _zipCache = null;
-
-async function getZipContent() {
-  if (_zipCache) return _zipCache;
-  try {
-    const resp = await fetch('data.zip?_=' + Date.now());
-    if (!resp.ok) return null;
-    const zipData = await resp.arrayBuffer();
-    const zip = new JSZip();
-    _zipCache = await zip.loadAsync(zipData);
-    return _zipCache;
-  } catch(e) { return null; }
-}
-
-async function fetchJsonFile(filename) {
-  // Сначала пробуем как отдельный файл
-  //try {
-  //  const r = await fetch(filename + '?_=' + Date.now());
-  //  if (r.ok) return await r.json();
-  //} catch(e) {}
-  // Если не получилось — ищем в zip
-  try {
-    const zip = await getZipContent();
-    if (!zip) return null;
-    const entry = Object.keys(zip.files).find(n => n === filename || n.endsWith('/' + filename));
-    if (!entry) return null;
-    const str = await zip.files[entry].async('string');
-    return JSON.parse(str);
-  } catch(e) { return null; }
-}
-
 async function loadAllData(){
-  const factsData = await fetchJsonFile('facts_flat.json');
-  if (factsData) {
-    aFacts = factsData;
-    const el=ge('nav-facts-cnt');if(el)el.textContent=factsData.length;
-    const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=factsData.length;
-  }
-
-  const summData = await fetchJsonFile('poi_summaries.json');
-  if (summData) {
-    aSumm = summData;
-    const sc=ge('nav-summ-cnt');if(sc)sc.textContent=summData.length;
-  }
-
-  const progData = await fetchJsonFile('progress.json');
-  if (progData) prog = progData;
-
+  const jobs=[
+    ['facts_flat.json',    d=>{aFacts=d;const el=ge('nav-facts-cnt');if(el)el.textContent=d.length;
+      const el2=ge('nav-facts-cnt2');if(el2)el2.textContent=d.length;}],
+    ['poi_summaries.json', d=>{aSumm=d;const sc=ge('nav-summ-cnt');if(sc)sc.textContent=d.length;}],
+    ['progress.json',      d=>prog=d],
+  ];
+  for(const[f,cb]of jobs){try{const r=await fetch(f+'?_='+Date.now());if(r.ok)cb(await r.json());}catch(e){}}
   try{const r=await fetch('poi_enriched.csv?_='+Date.now());if(r.ok)csvP=parseCSV(await r.text());}catch(e){}
   try{const r=await fetch('pipeline.log?_='+Date.now());if(r.ok)logL=parseLog(await r.text());}catch(e){}
 }
